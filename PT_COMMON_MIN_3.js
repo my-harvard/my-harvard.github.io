@@ -1,8 +1,8 @@
 function breakshit() {
     logMessage();
-    logError();
     setTimeout(function(){
             setTimeout(function() { 
+            logError();
             document.getElementById("loading_gif").style.visibility = "hidden";
             document.getElementById("error_message").style.visibility = "visible";
             setTimeout(function() { location.reload() }, 800)
