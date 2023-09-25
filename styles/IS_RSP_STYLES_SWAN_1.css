@@ -1,0 +1,280 @@
+
+
+
+.isGlyphSpan1, .isGlyphSpan2 {display:none !important;}
+
+.isGlyphIcon{
+    background:url(/cs/hrvihprd/cache_85915/IS_RSP_TOGGLE_ICONS_SPRITE_1.png);
+    top: -15px;
+    line-height: 0;
+    cursor: pointer;
+    float: right;
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.isGlyphSpanOpen { background-position: 0px 0px; }
+.isGlyphSpanClosed { background-position: -24px 0px; }
+
+
+@media only screen and (max-width: 767px) {
+    .isGlyphSpan2 {display:inline-block !important;}
+
+    .table.accordion-table th, .table.accordion-table td {
+	padding: 10px 4px;
+	line-height: 1.3;
+    }
+
+    .container table.table.accordion-table, 
+    .table.accordion-table thead, 
+    .table.accordion-table tbody, 
+    .table.accordion-table th, 
+    .table.accordion-table td,
+    .table.accordion-table tr
+    { display: block; }
+
+    .table.accordion-table td,
+    .table.accordion-table th {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+    }
+    .table.accordion-table thead { display: none; }
+
+    .table.accordion-table thead tr { 
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	position: relative;
+    }
+    
+    .table.accordion-table tr {
+	position: relative;
+    }
+    
+    .table.accordion-table td {
+	border: none !important;
+	border-bottom: 1px solid #eee !important; 
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	overflow: hidden;
+	padding: 0px 5px 10px 5px;
+    }
+
+    .two-columns.table.accordion-table td {
+	float: left;
+	width: 50%;
+	height: 46px;
+    }
+
+    
+    .table.accordion-table tr td:nth-child(1),
+    .table.accordion-table tr td:nth-child(2),
+    .table.accordion-table.table-striped tr td:nth-child(1),
+    .table.accordion-table.table-striped tr td:nth-child(2) { 
+	background-color: lightgrey; 
+    }      
+    
+    .accordion-table.table-striped > tbody > tr:nth-child(2n+1) > td,
+    .accordion-table.table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: transparent;
+    }
+    
+    .table.accordion-table tr td:first-child { font-weight: bold; }
+    .table.accordion-table td:first-child:before { color: #606060; font-weight: bold; }
+
+    .table.accordion-table td:before {
+	width: 70% !important;
+	text-transform: uppercase;
+	font-size: .75em;
+	font-weight: bold;
+	color: #606060;
+	overflow: hidden;
+	top: 5px;
+	left: 0;
+	padding: 0 2px 10px 0;
+	position: relative;
+	display: block;
+    }
+    .table.accordion-table td:before { content: attr(data-label); }
+    
+    .table.accordion-table tr.closed {
+	max-height: 45px !important;	
+    }
+    .table.accordion-table tr.open{
+	max-height: 400px !important;
+    }
+    .table.accordion-table tr.open{max-height: 1000px !important;}
+    .table.accordion-table tr.open90{max-height: 90px !important;}
+    .table.accordion-table tr.open135{max-height: 135px !important;}
+    .table.accordion-table tr.open180{max-height: 180px !important;}
+    .table.accordion-table tr.open225{max-height: 225px !important;}
+    .table.accordion-table tr.open270{max-height: 270px !important;}
+    .table.accordion-table tr.open315{max-height: 315px !important;}
+    .table.accordion-table tr.open360{max-height: 360px !important;}
+    .table.accordion-table tr.open405{max-height: 405px !important;}
+    .table.accordion-table tr.open450{max-height: 450px !important;}
+    .table.accordion-table tr.open495{max-height: 495px !important;}
+    .table.accordion-table tr.open540{max-height: 540px !important;}
+    .table.accordion-table tr.open585{max-height: 585px !important;}
+    .table.accordion-table tr.open1000{max-height: 1000px !important;}
+    .table.accordion-table tr {
+	
+	transition: max-height .5s linear 0s;
+	overflow: hidden;
+    }
+
+}
+
+@media only screen and (max-width : 568px) {
+}
+
+@media (max-width: 479px) {
+    
+    .table.accordion-table td {
+	width: 50%;
+	float: left;
+    }
+    
+    .two-columns.table.accordion-table td {
+	float: left;
+	width: 100%;
+    }
+    
+    .table.accordion-table.table-striped tr td:nth-child(2) { 
+	background-color: transparent;
+    }
+    
+    .isGlyphSpan2{display:none !important;}
+    .isGlyphSpan1{display:inline-block !important;}
+    
+    .hideBelow480{display:none !important; }
+
+}
+
+
+.container #lbHeader,
+.container #lbWorking,
+.container #lbContent,
+.container #lbWrapperInner {
+    width: 100% !important;
+}
+
+.container #lbContainer.IS_LB {
+    width: 90% !important;
+    margin: auto !important;
+    left: 5% !important;
+}
+
+.container #lbWrapper,
+.container #lbWrapperWarning {
+    width: 100% !important;
+}
+
+.container .IS_LB_CONTENT .cMain,
+.container .IS_LB_CONTENT2 .cMain {
+    width: 100% !important;
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    body .container {
+        min-width: 568px;
+        max-width: 900px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+
+    
+    .container #lbContainer.IS_LB {
+        width: 100% !important;
+        left: 0 !important;
+        margin-left: 0 !important;
+        top: 0px !important;
+    }
+
+    
+    .container .IS_LB_SHADOW {
+        box-shadow: none;
+        border-radius: 0em;
+    }
+
+    
+    .container .IS_LB_BG {
+        background-color: #FFFFFF;
+        opacity: 1;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .container-fluid #lbContainer,
+    .container-fluid #lbHeader,
+        
+    .container-fluid #lbContent,
+    .container-fluid #lbWrapperInner {
+        width: 100% !important;
+        max-width: 960px;
+    }
+
+    .container-fluid #lbContainer.IS_LB {
+
+    }
+
+    .container-fluid #lbWrapper,
+    .container-fluid #lbWrapperWarning {
+        width: 100% !important;
+    }
+
+    .container-fluid .IS_LB_CONTENT .cMain,
+    .container-fluid .IS_LB_CONTENT2 .cMain {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    body .container-fluid {
+        min-width: 568px;
+        max-width: 900px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container-fluid {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+
+    
+    .container-fluid #lbContainer.IS_LB {
+        width: 100% !important;
+        left: 0 !important;
+        margin-left: 0 !important;
+        top: 0px !important;
+    }
+
+    
+    .container-fluid .IS_LB_SHADOW {
+        box-shadow: none;
+        border-radius: 0em;
+    }
+
+    
+    .container-fluid .IS_LB_BG {
+        background-color: #FFFFFF;
+        opacity: 1;
+    }
+}

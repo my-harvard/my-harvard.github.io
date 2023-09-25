@@ -1,0 +1,175 @@
+
+
+
+IS_CO_LangSelector {}
+
+.IS_CO_LangSelector_dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.IS_CO_LangSelector_Container {
+    position: relative;
+    display: inline-block;
+	margin-top: -2px;
+	margin-right: -5px;
+}
+
+li.IS_CO_LangSelector_Item {
+    width: 100%;
+    
+    cursor: pointer; 
+}
+
+.IS_CO_LangSelector_content {
+    display: none;  
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+    min-width: 160px;
+    border-top:2px solid #C8102E;
+}
+
+.IS_CO_LangSelector_content ul {
+    margin: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.IS_CO_LangSelector_content ul li {
+    color: black;
+    padding:20px;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+}
+
+.IS_CO_LangSelector_content ul li:hover {
+    background-color: #E0E1E1;
+}
+
+
+
+.IS_CO_LangSelector_Open .IS_CO_LangSelector_content {
+    display: block;
+	z-index: 900;
+}
+
+.IS_CO_LangSelector_Container:hover .IS_CO_LangSelector_dropbtn,
+.IS_CO_LangSelector_Open .IS_CO_LangSelector_dropbtn {
+    background-color: #C8102E;
+	z-index: 900;
+}
+.IS_CO_LangSelector_Container:hover, 
+.IS_CO_LangSelector_Open {
+    z-index: 900;
+}
+
+.IS_CO_LangSelector_Selected {
+	float: right;
+    height: 10px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.IS_CO_LangSelector_NotSelected {
+	display:none;
+}
+
+
+
+.IS_CO_LangSelector_Container {
+   
+}
+
+.IS_CO_LangSelector_Container:hover .IS_CO_LangSelector_dropbtn, 
+.IS_CO_LangSelector_Open .IS_CO_LangSelector_dropbtn {
+    background-color: #2c3e50;
+    z-index: 900;
+}
+
+.IS_CO_LangSelector_content ul li:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+.IS_CO_LangSelector_content {
+    display: none;  
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+    min-width: 160px;
+    border-top:2px solid #2c3e50;
+}
+
+.IS_CO_LangSelector_dropbtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.IS_CO_LangSelector_GlobeIcon {
+	display: none;
+}
+
+.IS_CO_LangSelector_ArrowIcon {
+	display:none;
+}
+
+.IS_CO_LangSelector_Container:hover .IS_CO_LangSelector_GlobeIcon {
+	display: inline-block;
+}
+
+.IS_CO_LangSelector_Container:hover .IS_CO_LangSelector_ArrowIcon {
+ 	display: inline-block;
+}
+
+.IS_CO_LangSelector_Container:hover .IS_CO_LangSelector_GlobeIconBlue {
+ 	display:none;
+}
+
+.IS_CO_LangSelector_Container:hover .IS_CO_LangSelector_ArrowIconBlue {
+ 	display:none;
+}
+
+
+
+
+
+
+
+
+#IS_CO_LANG_HDRBAR_Select {
+    width: 110px; 
+	background: url() no-repeat scroll 78px center transparent; 
+    border: none;
+	-webkit-appearance:none;
+    -moz-appearance: none;
+	 
+}
+#IS_CO_LANG_HDRBAR_Select.select::-ms-expand {
+    display: none;
+}
+
+@media only screen and (max-width:991px) {
+	#IS_CO_LANG_HDRBAR_Select {
+    width: 110px; 
+	    background: url() no-repeat scroll 100px center transparent !important;
+	    border: none;
+		-webkit-appearance:none;
+	    -moz-appearance: none;
+		color: #005a8b; 
+	}
+
+}
+#IS_CO_LANG_HDRBAR_Select {
+	color: #005a8b; 
+}

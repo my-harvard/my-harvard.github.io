@@ -1,0 +1,4164 @@
+
+
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.container,
+.container-fluid {
+  margin: 0;
+}
+.container article,
+.container aside,
+.container details,
+.container figcaption,
+.container figure,
+.container footer,
+.container header,
+.container hgroup,
+.container main,
+.container nav,
+.container section,
+.container summary,
+.container-fluid article,
+.container-fluid aside,
+.container-fluid details,
+.container-fluid figcaption,
+.container-fluid figure,
+.container-fluid footer,
+.container-fluid header,
+.container-fluid hgroup,
+.container-fluid main,
+.container-fluid nav,
+.container-fluid section,
+.container-fluid summary {
+  display: block;
+}
+.container audio,
+.container canvas,
+.container progress,
+.container video,
+.container-fluid audio,
+.container-fluid canvas,
+.container-fluid progress,
+.container-fluid video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.container audio:not([controls]),
+.container-fluid audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.container [hidden],
+.container template,
+.container-fluid [hidden],
+.container-fluid template {
+  display: none;
+}
+.container a:active,
+.container a:hover,
+.container-fluid a:active,
+.container-fluid a:hover {
+  outline: 0;
+}
+.container abbr[title],
+.container-fluid abbr[title] {
+  border-bottom: 1px dotted;
+}
+.container b,
+.container strong,
+.container-fluid b,
+.container-fluid strong {
+  font-weight: bold;
+}
+.container dfn,
+.container-fluid dfn {
+  font-style: italic;
+}
+.container h1,
+.container-fluid h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.container mark,
+.container-fluid mark {
+  background: #ff0;
+  color: #000;
+}
+.container small,
+.container-fluid small {
+  font-size: 80%;
+}
+.container sub,
+.container sup,
+.container-fluid sub,
+.container-fluid sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.container up,
+.container-fluid up {
+  top: -0.5em;
+}
+.container sub,
+.container-fluid sub {
+  bottom: -0.25em;
+}
+.container img,
+.container-fluid img {
+  border: 0;
+}
+.container svg:not(:root),
+.container-fluid svg:not(:root) {
+  overflow: hidden;
+}
+.container figure,
+.container-fluid figure {
+  margin: 1em 40px;
+}
+.container hr,
+.container-fluid hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+.container pre,
+.container-fluid pre {
+  overflow: auto;
+}
+.container code,
+.container kbd,
+.container pre,
+.container samp,
+.container-fluid code,
+.container-fluid kbd,
+.container-fluid pre,
+.container-fluid samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.container button,
+.container-fluid button {
+  overflow: visible;
+}
+.container button,
+.container select,
+.container-fluid button,
+.container-fluid select {
+  text-transform: none;
+}
+.container button,
+html .container input[type="button"],
+.container input[type="reset"],
+.container input[type="submit"],
+.container-fluid button,
+html .container-fluid input[type="button"],
+.container-fluid input[type="reset"],
+.container-fluid input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+.container button[disabled],
+html .container input[disabled],
+.container-fluid button[disabled],
+html .container-fluid input[disabled] {
+  cursor: default;
+}
+.container button::-moz-focus-inner,
+.container input::-moz-focus-inner,
+.container-fluid button::-moz-focus-inner,
+.container-fluid input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.container input,
+.container-fluid input {
+  line-height: normal;
+}
+.container input[type="checkbox"],
+.container input[type="radio"],
+.container-fluid input[type="checkbox"],
+.container-fluid input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+.container input[type="number"]::-webkit-inner-spin-button,
+.container input[type="number"]::-webkit-outer-spin-button,
+.container-fluid input[type="number"]::-webkit-inner-spin-button,
+.container-fluid input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+.container input[type="search"],
+.container-fluid input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.container input[type="search"]::-webkit-search-cancel-button,
+.container input[type="search"]::-webkit-search-decoration,
+.container-fluid input[type="search"]::-webkit-search-cancel-button,
+.container-fluid input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.container fieldset,
+.container-fluid fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+.container legend,
+.container-fluid legend {
+  border: 0;
+  padding: 0;
+}
+.container textarea,
+.container-fluid textarea {
+  overflow: auto;
+}
+.container optgroup,
+.container-fluid optgroup {
+  font-weight: bold;
+}
+.container table,
+.container-fluid table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container td,
+.container th,
+.container-fluid td,
+.container-fluid th {
+  padding: 0;
+}
+.container *,
+.container-fluid * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container *:before,
+.container *:after,
+.container-fluid *:before,
+.container-fluid *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.container,
+.container-fluid {
+  
+  
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+
+.container figure,
+.container-fluid figure {
+  margin: 0;
+}
+.container img,
+.container-fluid img {
+  vertical-align: middle;
+}
+.container .img-responsive,
+.container-fluid .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container .img-rounded,
+.container-fluid .img-rounded {
+  border-radius: 6px;
+}
+.container .img-thumbnail,
+.container-fluid .img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.container .img-circle,
+.container-fluid .img-circle {
+  border-radius: 50%;
+}
+.container hr,
+.container-fluid hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+.container .sr-only,
+.container-fluid .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+.col-xs-11 {
+  width: 91.66666667%;
+}
+.col-xs-10 {
+  width: 83.33333333%;
+}
+.col-xs-9 {
+  width: 75%;
+}
+.col-xs-8 {
+  width: 66.66666667%;
+}
+.col-xs-7 {
+  width: 58.33333333%;
+}
+.col-xs-6 {
+  width: 50%;
+}
+.col-xs-5 {
+  width: 41.66666667%;
+}
+.col-xs-4 {
+  width: 33.33333333%;
+}
+.col-xs-3 {
+  width: 25%;
+}
+.col-xs-2 {
+  width: 16.66666667%;
+}
+.col-xs-1 {
+  width: 8.33333333%;
+}
+.col-xs-pull-12 {
+  right: 100%;
+}
+.col-xs-pull-11 {
+  right: 91.66666667%;
+}
+.col-xs-pull-10 {
+  right: 83.33333333%;
+}
+.col-xs-pull-9 {
+  right: 75%;
+}
+.col-xs-pull-8 {
+  right: 66.66666667%;
+}
+.col-xs-pull-7 {
+  right: 58.33333333%;
+}
+.col-xs-pull-6 {
+  right: 50%;
+}
+.col-xs-pull-5 {
+  right: 41.66666667%;
+}
+.col-xs-pull-4 {
+  right: 33.33333333%;
+}
+.col-xs-pull-3 {
+  right: 25%;
+}
+.col-xs-pull-2 {
+  right: 16.66666667%;
+}
+.col-xs-pull-1 {
+  right: 8.33333333%;
+}
+.col-xs-pull-0 {
+  right: 0%;
+}
+.col-xs-push-12 {
+  left: 100%;
+}
+.col-xs-push-11 {
+  left: 91.66666667%;
+}
+.col-xs-push-10 {
+  left: 83.33333333%;
+}
+.col-xs-push-9 {
+  left: 75%;
+}
+.col-xs-push-8 {
+  left: 66.66666667%;
+}
+.col-xs-push-7 {
+  left: 58.33333333%;
+}
+.col-xs-push-6 {
+  left: 50%;
+}
+.col-xs-push-5 {
+  left: 41.66666667%;
+}
+.col-xs-push-4 {
+  left: 33.33333333%;
+}
+.col-xs-push-3 {
+  left: 25%;
+}
+.col-xs-push-2 {
+  left: 16.66666667%;
+}
+.col-xs-push-1 {
+  left: 8.33333333%;
+}
+.col-xs-push-0 {
+  left: 0%;
+}
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+.container table,
+.container-fluid table {
+  max-width: 100%;
+  background-color: transparent;
+}
+.container th,
+.container-fluid th {
+  text-align: left;
+}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+.table .table {
+  background-color: #ffffff;
+}
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+.table-bordered {
+  border: 1px solid #dddddd;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #dddddd;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: #f5f5f5;
+}
+.container table col[class*="col-"],
+.container-fluid table col[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-column;
+}
+.container table td[class*="col-"],
+.container table th[class*="col-"],
+.container-fluid table td[class*="col-"],
+.container-fluid table th[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-cell;
+}
+.table > thead > tr > td.active,
+.table > tbody > tr > td.active,
+.table > tfoot > tr > td.active,
+.table > thead > tr > th.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > tbody > tr.active > td,
+.table > tfoot > tr.active > td,
+.table > thead > tr.active > th,
+.table > tbody > tr.active > th,
+.table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover,
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
+.table > thead > tr > td.success,
+.table > tbody > tr > td.success,
+.table > tfoot > tr > td.success,
+.table > thead > tr > th.success,
+.table > tbody > tr > th.success,
+.table > tfoot > tr > th.success,
+.table > thead > tr.success > td,
+.table > tbody > tr.success > td,
+.table > tfoot > tr.success > td,
+.table > thead > tr.success > th,
+.table > tbody > tr.success > th,
+.table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover,
+.table-hover > tbody > tr.success:hover > td,
+.table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+.table > thead > tr > td.info,
+.table > tbody > tr > td.info,
+.table > tfoot > tr > td.info,
+.table > thead > tr > th.info,
+.table > tbody > tr > th.info,
+.table > tfoot > tr > th.info,
+.table > thead > tr.info > td,
+.table > tbody > tr.info > td,
+.table > tfoot > tr.info > td,
+.table > thead > tr.info > th,
+.table > tbody > tr.info > th,
+.table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+.table-hover > tbody > tr > td.info:hover,
+.table-hover > tbody > tr > th.info:hover,
+.table-hover > tbody > tr.info:hover > td,
+.table-hover > tbody > tr.info:hover > th {
+  background-color: #c4e3f3;
+}
+.table > thead > tr > td.warning,
+.table > tbody > tr > td.warning,
+.table > tfoot > tr > td.warning,
+.table > thead > tr > th.warning,
+.table > tbody > tr > th.warning,
+.table > tfoot > tr > th.warning,
+.table > thead > tr.warning > td,
+.table > tbody > tr.warning > td,
+.table > tfoot > tr.warning > td,
+.table > thead > tr.warning > th,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr.warning > th {
+  background-color: #fcf8e3;
+}
+.table-hover > tbody > tr > td.warning:hover,
+.table-hover > tbody > tr > th.warning:hover,
+.table-hover > tbody > tr.warning:hover > td,
+.table-hover > tbody > tr.warning:hover > th {
+  background-color: #faf2cc;
+}
+.table > thead > tr > td.danger,
+.table > tbody > tr > td.danger,
+.table > tfoot > tr > td.danger,
+.table > thead > tr > th.danger,
+.table > tbody > tr > th.danger,
+.table > tfoot > tr > th.danger,
+.table > thead > tr.danger > td,
+.table > tbody > tr.danger > td,
+.table > tfoot > tr.danger > td,
+.table > thead > tr.danger > th,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+}
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover,
+.table-hover > tbody > tr.danger:hover > td,
+.table-hover > tbody > tr.danger:hover > th {
+  background-color: #ebcccc;
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+
+  display: "" !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.affix {
+  position: fixed;
+}
+@-ms-viewport {
+  width: device-width;
+}
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+.visible-print {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (min-width: 768px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+  .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+  .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+  .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+  .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+  .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+  .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+  .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+  .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+  .col-sm-pull-0 {
+    right: 0%;
+  }
+  .col-sm-push-12 {
+    left: 100%;
+  }
+  .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+  .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+  .col-sm-push-9 {
+    left: 75%;
+  }
+  .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+  .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+  .col-sm-push-6 {
+    left: 50%;
+  }
+  .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+  .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+  .col-sm-push-3 {
+    left: 25%;
+  }
+  .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+  .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+  .col-sm-push-0 {
+    left: 0%;
+  }
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+  .col-md-pull-12 {
+    right: 100%;
+  }
+  .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  .col-md-pull-9 {
+    right: 75%;
+  }
+  .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+  .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+  .col-md-pull-6 {
+    right: 50%;
+  }
+  .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+  .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+  .col-md-pull-3 {
+    right: 25%;
+  }
+  .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+  .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+  .col-md-pull-0 {
+    right: 0%;
+  }
+  .col-md-push-12 {
+    left: 100%;
+  }
+  .col-md-push-11 {
+    left: 91.66666667%;
+  }
+  .col-md-push-10 {
+    left: 83.33333333%;
+  }
+  .col-md-push-9 {
+    left: 75%;
+  }
+  .col-md-push-8 {
+    left: 66.66666667%;
+  }
+  .col-md-push-7 {
+    left: 58.33333333%;
+  }
+  .col-md-push-6 {
+    left: 50%;
+  }
+  .col-md-push-5 {
+    left: 41.66666667%;
+  }
+  .col-md-push-4 {
+    left: 33.33333333%;
+  }
+  .col-md-push-3 {
+    left: 25%;
+  }
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+  .col-md-push-1 {
+    left: 8.33333333%;
+  }
+  .col-md-push-0 {
+    left: 0%;
+  }
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+  .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+  .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+  .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+  .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+  .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+  .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+  .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+  .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+  .col-lg-pull-0 {
+    right: 0%;
+  }
+  .col-lg-push-12 {
+    left: 100%;
+  }
+  .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+  .col-lg-push-10 {
+    left: 83.33333333%;
+  }
+  .col-lg-push-9 {
+    left: 75%;
+  }
+  .col-lg-push-8 {
+    left: 66.66666667%;
+  }
+  .col-lg-push-7 {
+    left: 58.33333333%;
+  }
+  .col-lg-push-6 {
+    left: 50%;
+  }
+  .col-lg-push-5 {
+    left: 41.66666667%;
+  }
+  .col-lg-push-4 {
+    left: 33.33333333%;
+  }
+  .col-lg-push-3 {
+    left: 25%;
+  }
+  .col-lg-push-2 {
+    left: 16.66666667%;
+  }
+  .col-lg-push-1 {
+    left: 8.33333333%;
+  }
+  .col-lg-push-0 {
+    left: 0%;
+  }
+  .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (max-width: 767px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #dddddd;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  .table-responsive > .table-bordered {
+    border: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+  table.visible-xs {
+    display: table;
+  }
+  tr.visible-xs {
+    display: table-row !important;
+  }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm {
+    display: block !important;
+  }
+  table.visible-sm {
+    display: table;
+  }
+  tr.visible-sm {
+    display: table-row !important;
+  }
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md {
+    display: block !important;
+  }
+  table.visible-md {
+    display: table;
+  }
+  tr.visible-md {
+    display: table-row !important;
+  }
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block !important;
+  }
+  table.visible-lg {
+    display: table;
+  }
+  tr.visible-lg {
+    display: table-row !important;
+  }
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+@media print {
+  .visible-print {
+    display: block !important;
+  }
+  table.visible-print {
+    display: table;
+  }
+  tr.visible-print {
+    display: table-row !important;
+  }
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important;
+  }
+}
+@media print {
+  .hidden-print {
+    display: none !important;
+  }
+}
+
+
+#IS_CO_BB_LIGHTBOX_RSP_CSS{}
+
+
+
+.container-fluid #lbContainer:not(.iAutoSize),
+.container-fluid #lbContainer:not(.iAutoSize) #lbHeader,
+.container-fluid #lbContainer:not(.iAutoSize) #lbWorking,
+.container-fluid #lbContainer:not(.iAutoSize) #lbContent,
+.container-fluid #lbContainer:not(.iAutoSize) #lbWrapper,
+.container-fluid #lbContainer:not(.iAutoSize) #lbWrapperInner
+{}
+
+.container-fluid #lbContainer:not(.iAutoSize) #lbWrapper,
+.container-fluid #lbContainer:not(.iAutoSize) #lbWrapperInner
+{
+    width: 100% !important;
+}
+
+
+
+.container-fluid #lbContainerWarning:not(.iAutoSize) #lbWrapperWarning {
+    width: 100% !important;
+}
+
+
+.container-fluid #lbContainer,
+.container-fluid #lbHeader,
+.container-fluid #lbWorking,
+.container-fluid #lbContent,
+.container-fluid #lbWrapperInner
+{}
+
+
+
+.container-fluid #lbContainer.IS_LB
+{}
+
+.container-fluid #lbWrapper,
+.container-fluid #lbWrapperWarning
+{width:100% !important;}
+
+.container-fluid .IS_LB_CONTENT .cMain,
+.container-fluid .IS_LB_CONTENT2 .cMain
+{width:100% !important;}
+
+
+@media only screen and (min-width : 1024px) {
+    body .container-fluid {
+        min-width: 568px;
+        max-width: 900px;
+        width: 100%;
+    }
+}
+@media (max-width: 1023px) {
+    .container-fluid {width: 100%;}
+}
+
+@media (min-width: 991px) {
+    
+    .container-fluid #lbContainer:not(.iAutoSize),
+    .container-fluid #lbContainer:not(.iAutoSize) #lbHeader,
+    .container-fluid #lbContainer:not(.iAutoSize) #lbWorking,
+    .container-fluid #lbContainer:not(.iAutoSize) #lbContent,
+    .container-fluid #lbContainer:not(.iAutoSize) #lbWrapper,
+    .container-fluid #lbContainer:not(.iAutoSize) #lbWrapperInner
+    {}
+
+    .container-fluid.iRSPComponentLoading #lbContainer:not(.iAutoSize) #lbWrapper,
+    .container-fluid.iRSPComponentLoading #lbContainer:not(.iAutoSize) #lbWrapperInner
+    {width:100% !important;}
+}
+
+
+@media only screen and (max-width : 991px) {
+    
+        
+        .container-fluid #lbContainer.IS_LB
+        {width:100% !important;left:0 !important;margin-left:0 !important;top:0 !important;}
+
+        
+        .container-fluid .IS_LB_SHADOW
+        {box-shadow: none;border-radius: 0em;}
+
+        
+        .container-fluid .IS_LB_BG
+        {background-color: #FFFFFF;opacity: 1;}
+
+        
+        
+        #lbContent.IS_LB_OVERFLOW_HIDE_XY {overflow:visible;}
+    }
+
+.IS_CO_BB_MAIN_RSP_CSS_BEGIN {}
+
+
+
+
+
+.iDisplayBlock {display:block !important;}
+
+@media only screen and (min-width:992px) {
+
+	ul.headerNavUL {width: auto;float:right;}
+
+	
+	.megaMenuFavorites {
+		left: inherit !important;
+		top: 80px !important;
+		float: right;
+	}
+
+	
+	#IS_BB_HEADER .isRspToggleMenuIcon {display: none;}
+	#IS_BB_HEADER .isRspToggleMenuIconX {display: none;}
+
+	
+	
+	.IS_MP_FLYOUT_TAB_CONTAINER {background-color:transparent !important;}
+
+    .IS_BB_LINKS_MENU_RSPV,
+	.IS_BB_MEGA_MENU_RSPV {display:none !important;}
+}
+
+
+
+@media only screen and (max-width:991px) {
+	.megaSubMenuListItem {background-color: #ffffff;}
+	.megaSubMenuListItem li:hover,
+	.megaSubMenu li:hover {background-color: #e4e4e4 !important;}
+}
+@media only screen and (max-width:991px) {
+
+	
+	body.PSPAGE:not(.container-fluid) #IS_BB_HEADER .isRspToggleMenuIcon, body.PSPAGE:not(.container-fluid) #IS_BB_HEADER .isRspToggleMenuIconX{display: none;}
+	body.PSPAGE:not(.container-fluid) .IS_BB_LINKS_MENU_RSPV, body.PSPAGE:not(.container-fluid) .IS_BB_MEGA_MENU_RSPV{display: none !important;}
+	body.PSPAGE:not(.container-fluid) .IS_BB_LINKS_MENU_DESKTOP, body.PSPAGE:not(.container-fluid) .IS_BB_MEGA_MENU_DESKTOP{display: inline-block !important;width:auto;}
+	body.PSPAGE:not(.container-fluid) #MENU_ID_FAVORITES, body.PSPAGE:not(.container-fluid) .IS_BB_MEGA_MENU_RSPV {font-size: inherit;font-weight: inherit;}
+	body.PSPAGE:not(.container-fluid) #ptcol1 {margin-top: 0;}
+	body.PSPAGE:not(.container-fluid) .headerNav {width: auto;}
+	
+
+	
+	.IS_BB_LINKS_MENU_DESKTOP,
+	.IS_BB_MEGA_MENU_DESKTOP {display:none !important;}
+
+	
+	#MENU_ID_FAVORITES,	.IS_BB_MEGA_MENU_RSPV {font-size: 16px;font-weight: 700;}
+
+	
+	#IS_MSS_TABS_PAGELET.ivzPTPAGELET {width:auto !important;}
+
+	
+
+	
+	.container-fluid .headerNav,
+	.container-fluid .headerSearch,
+	.container-fluid #IS_BB_HEADER_MENU
+	{display:none;}
+
+
+	
+	.IS_BB_LINKS_MENU_RSPV {cursor:pointer;}
+	.container-fluid.openHeader .headerNav li {float: left;padding:10px 5px;}
+	.container-fluid.openHeader .headerNav ul.headerNav {float:right;}
+	.container-fluid.openHeader .headerNav {top: -20px;display: block;float: left;position: relative;right: -100%;padding: 0 10px;width:100%;height:auto;}
+	.container-fluid.openHeader .headerNav h5 {}
+	.container-fluid.openHeader ul.headerNavUL {width: 100%;float:left;}
+	
+	.container-fluid.openHeader .headerNavUL.IS_BB_RSPV_HEADER_LINK_OPEN {}
+	.container-fluid.openHeader .headerNavUL {;margin:0px;width:100%;}
+	.container-fluid.openHeader .IS_BB_RSPV_HEADER_LINK {display:none;}
+	.container-fluid.openHeader ul.IS_BB_RSPV_HEADER_LINK_OPEN .IS_BB_RSPV_HEADER_LINK {display:block;clear:both;}
+	
+	.container-fluid.openHeader ul.headerNavUL.IS_BB_RSPV_HEADER_LINK_OPEN li span, 
+	.container-fluid.openHeader ul.headerNavUL li span
+	{width:23px;height:23px;display:inline-block;} 
+	.container-fluid.openHeader ul.headerNavUL.IS_BB_RSPV_HEADER_LINK_OPEN li span {background: url(/cs/hrvihprd/cache_85915/IS_CO_BB_UP_ARROW_1.PNG) no-repeat scroll center center transparent;}
+	.container-fluid.openHeader ul.headerNavUL li span {background: url(/cs/hrvihprd/cache_85915/IS_CO_BB_DOWN_ARROW_1.PNG) no-repeat scroll center center transparent;}
+	
+	.container-fluid.openHeader .headerSearch {top: -10px;height:45px;padding: 0 10px;display: block;float: left;position: relative;right: -100%;width:100%;}
+	.container-fluid.openHeader .headerSearch #is_sr_criteria {right: 0;width: 100%;padding:0;position:relative;padding: 0 20px !important;}
+	.container-fluid.openHeader .is_sr_input {width:100%;}
+	.container-fluid.openHeader .headerSearch #is_sr_exec_btn {right:10px;}
+
+	
+	.container-fluid.openHeader #IS_BB_HEADER_MENU {display: block;float: left;position: relative;padding: 0 10px;right: -100%;width:100%;height:auto !important;}
+
+	
+	.megaMenu {width: 100%;}
+	.megaMenu li {width: 100%;}
+	.megaMenu ul {width:100% !important;display:block;}
+	.megaMenu li.megaMenuSelected {float:left;clear:both;color:#FFFFFF;background-color: #005a8b !important;}
+	.megaMenu li.megaMenuItem.IS_BB_MEGA_MENU_RSPV:hover {background-color: #2c3e50 !important;color:#FFFFFF;}
+	
+	
+	.container-fluid.openHeader .megaMenuFavorites {clear:both;position:relative;top:unset !important;left:unset !important;}
+	.container-fluid.openHeader #SUBMENU_ID_FAVORITES {height:auto;width: auto;}
+	
+	.container-fluid.openHeader .megaMenuFavorites li.megaMenuSelected:hover {background-color: #FFFFFF ;color:#FFFFFF;}
+	.container-fluid.openHeader .megaMenuFavorites li:hover {float:left;clear:both;color:#FFFFFF;background-color: #FFFFFF !important;}
+	.container-fluid.openHeader .megaMenuFavorites .megaMenuSelected{ background-color: #FFFFFF !important;}
+    #MENU_ID_FAVORITES, .IS_BB_MEGA_MENU_RSPV {
+        font-size: 14px; 
+        color: #005A8B;
+        border-bottom: 1px solid #E1E1E1;
+        padding: 14px 20px;
+
+    }
+	.megaMenuFavorites { top:0 !important;	}
+    .container-fluid.openHeader .megaMenuFavorites li:hover:before ,
+	.container-fluid.openHeader .megaMenuFavorites li.megaMenuSelected:hover:before{
+        background: url(/cs/hrvihprd/cache_85915/IS_CO_HEART_CLOSED_1.PNG) no-repeat scroll center rgba(0, 0, 0, 0) !important;
+    }
+    .container-fluid.openHeader .megaMenuFavorites li:hover{    background-color: #ffffff; }
+	.container-fluid.openHeader .megaMenuFavorites li.megaMenuSelected { background-color:#FFFFFF; }
+	
+	.container-fluid.openHeader .megaMenuFavorites li {width: 100%;}
+	.container-fluid.openHeader .megaMenuFavorites .megaSubMenu li div {clear:both;}
+	.container-fluid.openHeader .megaSubMenuListItem li, .megaSubMenu li {width:100% !important;}
+	.container-fluid.openHeader .megaMenuFavorites li:hover:before {background: url(/cs/hrvihprd/cache_85915/IS_CO_BB_HEART_SMALL_WHITE_1.png) no-repeat scroll center center rgba(0, 0, 0, 0);}
+	.container-fluid.openHeader .megaMenuFavorites li.megaMenuSelected:hover:before {background: url(/cs/hrvihprd/cache_85915/IS_CO_BB_HEART_SMALL_WHITE_1.png) no-repeat scroll center center rgba(0, 0, 0, 0);}
+	.container-fluid.openHeader .megaSubMenu.openHeader {display: inline-block;top:-5px;}	
+	.container-fluid.openHeader .megaMenuFavorites li {width: 100%;}
+
+
+	
+	
+	
+	
+	.container-fluid .IS_BB_HEADER_CLASS {float: left;left: 0;position: relative;transition: left 0.9s ease-in-out 0s;width: 100%;}
+	.container-fluid.openHeader .IS_BB_HEADER_CLASS {left: -100%;height:80px;}
+	
+
+	
+	.container-fluid.openHeader .IS_BB_HEADER_CLASS,
+	.container-fluid.openHeader .IS_BB_RESP_HEAD
+	{height:80px;}
+
+	.container-fluid #IS_BB_RESP_WRAP {}
+
+	
+	.container-fluid .wrapper,
+	.container-fluid .IS_BB_RESP_HEAD
+	{float: left;left: 0;position: relative;transition: left 0.9s ease-in-out 0s;width: 100%;}
+
+	
+	
+
+	.container-fluid.openHeader .wrapper
+	{left: -100%;}
+	
+    
+
+	
+	#ptcol1 {float:none;}
+
+	.container-fluid #PTSF_GLOBAL_SEARCH #win0divPAGECONTAINER.ps_pagecontainer {margin:0 20px;}
+	.container-fluid #PTSF_GLOBAL_SEARCH table {width:auto !important;}
+	.container-fluid #PTSF_GLOBAL_SEARCH td {width:auto !important;display:block;}
+	.container-fluid #PTSF_GLOBAL_SEARCH div {width:auto !important;}
+	.container-fluid #PTSF_GLOBAL_SEARCH span {width:auto !important;}
+
+	.container-fluid #win0divPTUS_PAGING_WRK_PTUS_GROUP_BOX td {display:table-cell;}
+
+	.container-fluid #win0divPTUS_PAGING_WRK_PTUS_GROUP_BOX {margin:20px 0;}	
+
+	.container-fluid img[id*="relatedActionsImg"] {display:none;}
+
+	.container-fluid #win0divPTSF_GSRCH_INP_PTUS_LABEL,
+	.container-fluid #win0divPTSF_GSRCH_INP_PTSF_SRCH_KEY
+	{display:inline-block;float:right;}
+
+	.PTPAGENAVLINK, .PTPAGENAVLINK:link, .PTPAGENAVLINK:visited {vertical-align: baseline !important;}
+
+	.container-fluid #win0divPTSF_GSRCH_INP_PTSF_SRCH_KEY {float:left;}
+	
+	.container-fluid #win0divPTUS_FTREE_WRK_PTUS_FACETGROUPBOX,
+	.container-fluid #win0divPTSF_GSRCH_INP_PTUS_GROUP_BOX,
+	.container-fluid #win0divPTUS_PAGING_WRK_PTUS_GROUP_BOX,
+	.container-fluid #ACE_PTSF_GSRCH_INP_PTUS_GROUP_BOX
+	{float:left;}
+
+
+	
+	#Header_Container {width: 100%;}
+
+	
+	.IS_BB_HEADER_CONTAINER{}
+
+	
+	#IS_BB_HEADER .isRspToggleMenuIcon {width: 36px;height: 30px;background: url(/cs/hrvihprd/cache_85915/IS_RSP_MENUICONCLOSED_BLUE_1.png) no-repeat scroll left top transparent;right: 20px;top: 20px;}
+	#IS_BB_HEADER .isRspToggleMenuIconX	{width: 36px;height: 30px;background: url(/cs/hrvihprd/cache_85915/IS_RSP_MENUICONCLOSED_BLUE_1.png) no-repeat scroll left top transparent;right: -50px;top: 20px;}
+	#IS_BB_HEADER .isRspToggleMenuIcon, 
+	#IS_BB_HEADER .isRspToggleMenuIconX {cursor: pointer;float: right;font-size: 0;position: absolute;}
+
+	
+	.bb_header {width: auto;}
+
+	
+	.logo {margin-left:20px;}
+
+	
+	#IS_BB_HEADER .isRspToggleMenuIcon {display: block;}
+	#IS_BB_HEADER .isRspToggleMenuIconX {display: block;}
+
+	.container-fluid.openHeader #IS_BB_MENU_ROW
+	{}
+
+
+	
+    
+    
+
+	
+	.footer {width:100%;}
+
+	
+
+	
+	.IS_NEWS_LB .IS_NEWS_TOPSTORY_TITLE {width:auto;}
+	.IS_NEWS_DETAIL {clear:left;width:auto;}
+
+	
+	.IS_NEWS_LB .IS_AT_BOX {margin:0 10px 10px 10px;}
+	.IS_NEWS_LB {float:left;width:100% !important;margin-top: 0 !important;}
+
+	
+	#lbContainer.IS_LB_TRANS {top:0px !important;}
+
+	#lbHeader.IS_LB_HEADER {width:auto !important;}
+
+	.IS_LB_WRAPPER_INNER .IS_LB_HEADER {left:0 !important;}
+
+	
+	.is_bb_LinkContainer {
+		width: 100%;
+	}
+	.is_bb_LinkColumn {
+		width: 100%;
+	}
+
+	
+	.is_bb_LinkContainer ul {
+	    padding-bottom: 0;
+	}
+	
+
+	#ptcol2 { left: 0 !important;margin: 0 20px !important;width:auto !important;}
+	#lbContentMain a[id^="EDIT"]:after {color:#FFFFFF;}
+
+	
+	.container-fluid.iLightboxOpen #ptbr_header_container,
+	.container-fluid.iLightboxOpen #wrapper.wrapper
+	{display:none;}
+	
+
+	.container-fluid.iLightboxOpen #lbFrame {display:none !important;}
+
+	.IS_BB_LINKS_MENU_RSPV, .IS_BB_MEGA_MENU_RSPV{
+		display: inline-block !important;
+	}
+
+	
+	#lbContentMain video {
+		width: 100%;
+	}
+
+	
+    .container-fluid #ptifrmcontent {
+        float: left;
+        left: 0;
+        position: relative;
+        transition: left 0.9s ease-in-out 0s;
+    }
+    .container-fluid.openHeader #ptifrmcontent {
+        left: -100%;
+    }
+	
+}
+
+.IS_CO_BB_MAIN_RSP_CSS_END {}
+
+.IS_CO_BB_PSCOMP_RSP_CSS{}
+
+#IS_RSP_PS_COMPONENTS_CSS{height:100%;}
+
+
+.container-fluid.iRSPComponent #lbContainer th[id="thCO_ADDR_SMRY$0#5"] table {margin:auto !important;}
+
+.container-fluid.iRSPComponent #lbContainer #l1CO_ADDR_SMRY\$0 {display:none;}
+
+.container-fluid.iRSPComponent #lbContainer div#divgbrCO_ADDR_SMRY\$0 {height:auto !important;}
+
+.container-fluid.iRSPComponent #lbContainer .mrktGBL.pageW3EB_BRTH_ADPT_EVT label.PSRADIOBUTTON {margin:10px;display:inline-block;}
+
+.container-fluid.iRSPComponent #lbContainer .blueHeader, #content-bg .blueHeader {padding-top:5px;}
+
+#content-bg .PSLEVEL1GRIDCOLUMNHDRTXT {padding:0 3px;}
+
+#content-bg .IS_NEWS_CONTAINER {padding-top:17px;}
+.sidebar {padding-top:17px;}
+.footerLinkBar {height:45px;}
+.container-fluid.iRSPComponent #lbContainer .PSPAGECONTAINER {width:auto;}
+
+
+
+
+
+
+.container-fluid.iRSPComponent #lbContainer #tdgbrCO_ADDR_SMRY\$0 td:first-child,
+.container-fluid.iRSPComponent #lbContainer #tdgbrPERSONAL_PHONE\$0 td:first-child,
+.container-fluid.iRSPComponent #lbContainer #tdgbrEMERGENCY_CNTCT\$0 td:first-child,
+.container-fluid.iRSPComponent #lbContainer #tdgbrEMAIL\$0 td:first-child,
+.container-fluid.iRSPComponent #lbContainer #tdgbrDIVERS_ETHNIC\$0 td:first-child
+{}
+
+
+
+
+@media only screen and (min-width:992px) {
+    .IS_RSP_LABEL, .IS_RSP_ICON	{display:none;}
+
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row, 
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row, 
+    .container-fluid .flyoutTable tr.accordion-row,
+    .container-fluid .teamSummary tr.accordion-row,
+    .container-fluid .mss-accordion tr.accordion-row
+    {height:auto !important;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer div#divgbrSINGLE_SELECT_GRID\$0,
+    .container-fluid.iRSPComponent #lbContainer table#tdgbrSINGLE_SELECT_GRID\$0,
+    .container-fluid.iRSPComponent #lbContainer div#divgbrMULTI_SELECT_GRID\$0,
+    .container-fluid.iRSPComponent #lbContainer table#tdgbrMULTI_SELECT_GRID\$0
+    {width:100% !important;}
+
+}
+
+
+
+@media only screen and (max-width:991px)
+{
+    .container-fluid.iRSPComponentLoading #lbContainer div#lbContentMain {visibility:hidden;}
+    .container-fluid.iRSPComponent #lbContainerWarning #win_iPopdivSEARCHBELOW {clear:both;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer div,
+    .container-fluid.iRSPComponent #lbContainer table,
+    .container-fluid.iRSPComponent #lbContainer th,
+    .container-fluid.iRSPComponent #lbContainer td,
+    .container-fluid.iRSPComponent #lbContainerWarning table,
+    .container-fluid.iRSPComponent #lbContainerWarning th,
+    .container-fluid.iRSPComponent #lbContainerWarning td,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL2GRIDODDROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL2GRIDEVENROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data,
+    .container-fluid .flyoutTable,
+    .container-fluid .flyoutTable div,
+    .container-fluid .flyoutTable td,
+    .container-fluid .teamSummary,
+    .container-fluid .teamSummary div,
+    .container-fluid .teamSummary td,
+    .container-fluid .mss-accordion,
+    .container-fluid .mss-accordion div,
+    .container-fluid .mss-accordion td
+    {height:auto !important;empty-cells:hide;float:left;text-align:left;overflow:visible !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER span.PAPAGETITLE,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER span.PALEVEL0PRIMARY
+    {padding:0px 0px ! important;display:block;white-space:normal;}
+
+    
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head a.PSSRCHRESULTSODDROW,
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head a.PSSRCHRESULTSEVENROW
+    {
+        padding: 10px 0 5px 15px !important;
+    }
+    td.PSSRCHRESULTSODDROW.accordion-data,
+    td.PSSRCHRESULTSEVENROW.accordion-data
+    {
+        padding: 5px 0 5px 15px !important;
+    }
+    span[id^=RESULT2]
+    {
+        padding-left:15px !important;
+    }
+    
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span:nth-child(5)
+    {
+        padding: 10px 0 10px 10px !important;
+    }
+    
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span:nth-child(3)
+    {
+        padding: 20px 10px 10px 10px !important;
+    }
+
+
+
+
+    
+    
+    .compSSR_SSENRL_EDIT td.PSLEVEL1GRIDEVENROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSSR_SSENRL_EDIT td.PSLEVEL1GRIDODDROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSSR_SSENRL_SWAP td.PSLEVEL1GRIDEVENROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSSR_SSENRL_SWAP td.PSLEVEL1GRIDODDROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSSR_SSENRL_DROP td.PSLEVEL1GRIDEVENROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSSR_SSENRL_DROP td.PSLEVEL1GRIDODDROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSS_FACULTY td.PSLEVEL1GRIDODDROW.PSGRIDFIRSTCOLUMN special-accordion-head, 
+    .compSS_FACULTY td.PSLEVEL1GRIDEVENROW.PSGRIDFIRSTCOLUMN.special-accordion-head 
+    {
+        border-left: 1px solid #dad9d7 !important;
+        border-right: 1px solid #dad9d7 !important;
+
+    }
+
+
+
+    
+    .container-fluid.iRSPComponent #lbContainer table td .PSLEVEL1GRIDODDROW,
+    .container-fluid.iRSPComponent #lbContainer table td .PSLEVEL1GRIDEVENROW,
+    .container-fluid.iRSPComponent #lbContainer table td .PSLEVEL2GRIDODDROW,
+    .container-fluid.iRSPComponent #lbContainer table td .PSLEVEL2GRIDEVENROW,
+    .container-fluid.iRSPComponent #lbContainerWarning table td .PSSRCHRESULTSODDROW,
+    .container-fluid.iRSPComponent #lbContainerWarning table td .PSSRCHRESULTSEVENROW
+    {background:none !important;
+        
+    }
+
+    
+    
+    .container-fluid.iRSPComponent #lbContainer table .hidden-accordion-row,
+    .container-fluid.iRSPComponent #lbContainer table .hidden-accordion-cell,
+    .container-fluid.iRSPComponent #lbContainerWarning table .hidden-accordion-row,
+    .container-fluid.iRSPComponent #lbContainerWarning table .hidden-accordion-cell,
+    .container-fluid .flyoutTable .hidden-accordion-row,
+    .container-fluid .teamSummary .hidden-accordion-row,
+    .container-fluid .mss-accordion .hidden-accordion-row
+    {display:none !important;height:0 !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDWBO,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRID
+    {border:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer .PORTLET-MSG-ALERT,
+    .container-fluid.iRSPComponent #lbContainer .PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer .PAEXAMPLE,
+    .container-fluid.iRSPComponent #lbContainer .PORTLET-MSG-SUCCESS,
+    .container-fluid.iRSPComponent #lbContainer .PAHEADERTOOLBARTEXTSMALL,
+    .container-fluid.iRSPComponent #lbContainer .PT_MCFADDITIONALINSTRUCTIONS
+    {display:inline-block;white-space:normal;}
+
+    .container-fluid.iRSPComponent #lbContainer #DERIVED_ADDRESS_EXAMPLE_DATE_TEXT.PAEXAMPLE{margin:0;display:block;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect td:nth-child(2),
+    .container-fluid .flyoutTable tr.accordion-row-closed td:nth-child(1),
+    .container-fluid .teamSummary tr.accordion-row-closed td:nth-child(1),
+    .container-fluid .mss-accordion tr.accordion-row-closed td:nth-child(1)
+    {box-sizing:border-box;cursor:pointer;background:url(/cs/hrvihprd/cache_85915/IS_RSP_CHEVRON_DOWN_1.png) no-repeat right center #f0f0f0 !important;border-top:1px solid #DAD9D7 !important;border-left:1px solid #DAD9D7 !important;border-right:1px solid #DAD9D7 !important;}
+
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect td:nth-child(2),
+    .container-fluid .flyoutTable tr.accordion-row-open td:nth-child(1),
+    .container-fluid .teamSummary tr.accordion-row-open td:nth-child(1),
+    .container-fluid .mss-accordion tr.accordion-row-open td:nth-child(1)
+    {box-sizing:border-box;cursor:pointer;background:url(/cs/hrvihprd/cache_85915/IS_RSP_CHEVRON_UP_1.png) no-repeat right center #f0f0f0 !important;border-top:1px solid #DAD9D7 !important;border-left:1px solid #DAD9D7 !important;border-right:1px solid #DAD9D7 !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed:first-child td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed:first-child td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect:first-child td:nth-child(2),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open:first-child td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open:first-child td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect:first-child td:nth-child(2),
+    .container-fluid .flyoutTable tr.accordion-row-closed:first-child td:nth-child(1),
+    .container-fluid .flyoutTable tr.accordion-row-open:first-child td:nth-child(1),
+    .container-fluid .teamSummary tr.accordion-row-closed:first-child td:nth-child(1),
+    .container-fluid .teamSummary tr.accordion-row-open:first-child td:nth-child(1),
+    .container-fluid .mss-accordion tr.accordion-row-closed:first-child td:nth-child(1),
+    .container-fluid .mss-accordion tr.accordion-row-open:first-child td:nth-child(1)
+    {border-top:none !important;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row td:nth-child(1),
+    {border:1px solid #DAD9D7 !important;border-bottom:none !important;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect td:nth-child(n+3),
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect td:nth-child(n+3),
+    .container-fluid .flyoutTable tr.accordion-row-open td:nth-child(n+2),
+    .container-fluid .flyoutTable tr.accordion-row-closed td:nth-child(n+2),
+    .container-fluid .teamSummary tr.accordion-row-open td:nth-child(n+2),
+    .container-fluid .teamSummary tr.accordion-row-closed td:nth-child(n+2),
+    .container-fluid .mss-accordion tr.accordion-row-open td:nth-child(n+2),
+    .container-fluid .mss-accordion tr.accordion-row-closed td:nth-child(n+2)
+    {border-left:1px solid #DAD9D7 !important;border-right:1px solid #DAD9D7 !important;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open:last-child td:last-child,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open:last-child td:last-child,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect:last-child td:last-child,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row:last-child td:last-child,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row:last-child td:last-child,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row td:last-child,
+    .container-fluid .flyoutTable tr.accordion-row-open:last-child td:last-child,
+    .container-fluid .teamSummary tr.accordion-row-open:last-child td:last-child,
+    .container-fluid .mss-accordion tr.accordion-row-open:last-child td:last-child
+    {border-bottom:1px solid #DAD9D7 !important;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td table td.accordion-head div span,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td table td.accordion-data div span
+    {border-bottom:none !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDWBO table:first-child td table:first-child td:last-child
+    {border-bottom:1px solid #dad9d7;}
+
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row td:last-child
+    {border-bottom:1px solid #DAD9D7 !important;box-sizing:border-box;}
+
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open:first-child td:first-child,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open:first-child td:first-child,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect:first-child td:first-child,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row:first-child td:first-child,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row:first-child td:first-child
+    {border-top:none !important;box-sizing:border-box;}
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id*="DEP_BENEF_WRK"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divlblDEP_BEN_BIRTHDATE"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divDEP_BEN_BIRTHDATE"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divDEP_BEN_SAME_PHONE_EMPL"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id*="DERIVED_W3EB_FMT"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divDERIVED_ADDR_ADDRESSLONG"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divlblDERIVED_ADDR_ADDRESSLONG"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divlblDERIVED_ADDR_DESCR"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divDERIVED_ADDR_DESCR"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divPERSONAL_PHONE_PHONE"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divlblPERSONAL_PHONE_PHONE"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divPERSONAL_PHONE_PHONE_TYPE"]
+    {border-left:1px solid #DAD9D7 !important;border-right:1px solid #DAD9D7 !important;}
+
+
+    .PSLEVEL1SCROLLAREABODY, .PSLEVEL1SCROLLAREABODYWBO, .PSLEVEL2SCROLLAREABODY, .PSLEVEL2SCROLLAREABODYWBO, .PSLEVEL3SCROLLAREABODY, .PSLEVEL3SCROLLAREABODYWBO
+    {border-color:#DAD9D7;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table[id="l1PERSONAL_PHONE$0"],
+    .container-fluid.iRSPComponent #lbContainer table[id="l1EMERGENCY_CNTCT$0"],
+    .container-fluid.iRSPComponent #lbContainer table[id="l1PY_IC_DED_VW$0"]
+    {display:none;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning .PSSRCHRESULTSODDROW,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSSRCHRESULTSEVENROW,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row
+    {box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.PSLEFTCORNER,
+    .container-fluid.iRSPComponent #lbContainer table.PSRIGHTCORNER
+    {background-image:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSLONGEDITBOX,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSLONGEDITBOX,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSLONGEDITBOX
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSLONGEDITBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSLONGEDITBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSLONGEDITBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSLONGEDITBOX
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSLONGEDITBOX
+    {padding-left:10px !important;border-left:none !important;border-right:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer label.PSCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer label.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSLONGEDITLABEL,
+    .container-fluid.iRSPComponent #lbContainer span.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSLONGEDITLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning span.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PABOLDTEXT
+    {vertical-align:middle;padding:10px 0 0 5px;white-space:normal;width:auto !important;max-width:200px;display:inline-block;color:#999999;}
+
+    .container-fluid.iRSPComponent #lbContainer PSEDITBOXLABEL.IS_RSP_LABEL {padding:0 5px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer label.PSCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer label.PSDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSLONGEDITLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSRADIOBUTTON,
+    .container-fluid.iRSPComponent #lbContainer label.PSSRCHCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer label.PSSRCHDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSSRCHEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PT_MCFCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer label.PSPSMALLTEXT,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSLONGEDITLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSRADIOBUTTON,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSSRCHCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSSRCHDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSSRCHEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PT_MCFCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSPSMALLTEXT
+    {color:#999999;padding:10px 0 0 5px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer label#DERIVED_ADDRESS_EFFDT_LBL,
+    .container-fluid.iRSPComponent #lbContainer #win10divHRS_WRK_START_DT span,
+    .container-fluid.iRSPComponent #lbContainer #win10divHRS_WRK_END_DT span,
+    .container-fluid.iRSPComponent #lbContainer #win10divDERIVED_HR_ACTION_DT_SS span,
+    .container-fluid.iRSPComponent #lbContainer #DEP_BEN_BIRTHDATE_LBL,
+    .container-fluid.iRSPComponent #lbContainer #DERIVED_HR_EFFDT_LBL\$0,
+    .container-fluid.iRSPComponent #lbContainer #PY_IC_DED_VW_DEDUCTION_END_DT_LBL\$0
+    {display:block;}
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer input.IS_DATE,
+    .container-fluid.iRSPComponent #lbContainerWarning input.IS_DATE
+    {display:inline-block !important;}
+
+    
+    
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE td,
+    table.PSLEVEL1GRIDWBO table:first-child td table:first-child td
+    {border-left:1px solid #dad9d7;border-right:1px solid #dad9d7;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDWBO table:first-child td table:first-child td table td.accordion-head,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDWBO table:first-child td table:first-child td table td.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td table td.accordion-head,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td table td.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table table.PSGROUPBOXLABEL td,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table td,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td
+    {border-left:none !important;border-right:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO > table#ACE_DERIVED_W3EB_GRPB_LABEL2 tr:last-child td:last-child
+    {border-left:none;border-right:none;}
+
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSLONGEDITBOX
+    {padding-left:20px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id*="DEP_BENEF_WRK"] td
+    {padding-left:20px;border-left:1px solid #dad9d7;border-right:1px solid #dad9d7;}
+
+    .container-fluid.iRSPComponent #lbContainer #win10divEP_BTN_LINK_WRK_EP_HTMLITEM\$1 div {padding:5px;}
+
+
+    
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divPERSONAL_PHONE_PHONE_TYPE"] span,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id*="DEP_BEN"] span,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id*="DERIVED_W3EB_FMT_NATIONAL_ID"] span,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divDERIVED_ADDR_DESCR"] span,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divDERIVED_ADDR_ADDRESSLONG"] span,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divPERSONAL_PHONE_PHONE"] span
+    {padding-left:20px !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divDERIVED_W3EB_DESCR50"] {margin:0 !important;}
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divDERIVED_W3EB_DESCR50"] span.PSEDITBOX_DISPONLY {display:none;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divDERIVED_NAME_NAME_DEFAULT_FMT"],
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divW3EB_HLTHBON_VW_EXTENSION$0"],
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divW3EB_VCNTCT_VW_EXTENSION$0"]
+    {display:none;}
+
+    .container-fluid.iRSPComponent #lbContainer div[id="win10divPERSONAL_PHONE_PHONE"] span
+    {border-bottom:1px solid #DAD9D7 !important;}
+
+    
+
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOX,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL1,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL1WBO,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL2,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL2WBO,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL3,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL3WBO,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPDIVIDERBODY,
+    .container-fluid.iRSPComponent #lbContainer .PSGROUPBOX,
+    .container-fluid.iRSPComponent #lbContainer .PSGROUPBOXWBO
+    {}
+
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL1GRIDLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL2GRIDLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL3GRIDLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL1GRIDLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL2GRIDLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL3GRIDLABEL
+    {background-color:#005a8b;}
+
+    
+    #PAGECONTAINER {padding:5px;}
+    
+
+    
+    #win_iPopdivCOUNTRY_TBL_COUNTRY {float:left;}
+
+    .container-fluid.iRSPComponent #lbContainer a[name="#ICAdvSearch"],
+    .container-fluid.iRSPComponent #lbContainerWarning a[name="#ICAdvSearch"]
+    {margin:10px 0 0 10px;display:block;}
+
+    .container-fluid.iRSPComponent #lbContainer th,
+    .container-fluid.iRSPComponent #lbContainerWarning th,
+    .container-fluid.iRSPComponent #lbContainer td,
+    .container-fluid.iRSPComponent #lbContainerWarning td,
+    .container-fluid .flyoutTable td,
+    .container-fluid .teamSummary td,
+    .container-fluid .mss-accordion td
+    {width:100% !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #comp_isEssComp {margin:0 10px !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #comp_iPSComp {
+        margin: 0 !important;
+        padding: 0 10px !important;
+        width: 100% !important;
+    }
+
+    #lbContentMain #comp_iPSComp #win10divPAGECONTAINER {
+        margin: 0;
+    }
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer table,
+    .container-fluid .flyoutTable,
+    .container-fluid .teamSummary,
+    .container-fluid .mss-accordion
+    {width:100% !important;text-align:left;}
+
+    .container-fluid.iRSPComponent #lbContainer div,
+    .container-fluid .flyoutTable div,
+    .container-fluid .teamSummary div,
+    .container-fluid .mss-accordion div
+    {width:100% !important;text-align:left;word-wrap: break-word !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table td a:before,
+    .container-fluid.iRSPComponent #lbContainer table td:before,
+    .container-fluid.iRSPComponent #lbContainer table div:before,
+    .container-fluid.iRSPComponent #lbContainerWarning table td:before,
+    .container-fluid.iRSPComponent #lbContainerWarning table td a:before,
+    .container-fluid.iRSPComponent #lbContainerWarning table div:before,
+    .container-fluid .flyoutTable td:before,
+    .container-fluid .teamSummary td:before,
+    .container-fluid .mss-accordion td:before
+    {font-size:8pt;padding:0;top:8px;left:8px;color:#999999;content:attr(data-label);border-style:none;font-family:Arial, sans-serif;text-transform:uppercase;font-weight:bold;overflow:hidden;position:relative;display:block;}
+
+    .container-fluid.iRSPComponent #lbContainer #tdgbrCO_ADDR_SMRY\$0 td:first-child,
+    .container-fluid.iRSPComponent #lbContainer #tdgbrPERSONAL_PHONE\$0 td:first-child,
+    .container-fluid.iRSPComponent #lbContainer #tdgbrEMERGENCY_CNTCT\$0 td:first-child,
+    .container-fluid.iRSPComponent #lbContainer #tdgbrEMAIL\$0 td:first-child,
+    .container-fluid.iRSPComponent #lbContainer #tdgbrDIVERS_ETHNIC\$0 td:first-child
+    {padding-left:0px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER td.PSLEVEL1GRIDLABEL
+    {padding:12 !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #win_iPopdivSEARCHBELOW span,
+    .container-fluid.iRSPComponent #lbContainerWarning #win_iPopdivSEARCHBELOW span {
+        width:auto !important;
+    }
+
+    
+    .container-fluid.iRSPComponent #lbContainer span,
+    .container-fluid.iRSPComponent #lbContainerWarning span
+    {width:100% !important;border-collapse:separate;empty-cells:hide;display:inline-block;padding:5px;}
+
+
+
+    .container-fluid.iRSPComponent #lbContainer a span,
+    .container-fluid.iRSPComponent #lbContainerWarning a span
+    {padding:0;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer div[id="win10divHR_LBL_WRK_HTMLAREA"] div
+    {width:100% !important;border-collapse:separate;empty-cells:hide;display:block;padding:5px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.accordion-head div,
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head div
+    {padding:10px 0 5px 5px;}
+
+    .container-fluid .flyoutTable td.accordion-head div,
+    .container-fluid .flyoutTable td.accordion-data div,
+    .container-fluid .teamSummary td.accordion-head div,
+    .container-fluid .teamSummary td.accordion-data div,
+    .container-fluid .mss-accordion td.accordion-head div,
+    .container-fluid .mss-accordion td.accordion-data div
+    {padding:10px 0 8px 15px}
+
+    .flyoutTable td {padding:0px;}
+
+    
+    .container-fluid .flyoutTable tr {background-color:#FFFFFF;height:54px;}
+    .container-fluid .teamSummary tr {background-color:#FFFFFF;height:60px;}
+    .container-fluid .mss-accordion tr {background-color:#FFFFFF;height:60px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPDIVIDER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PAGRIDHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLABELLEVEL1 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLABELLEVEL2 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLABELLEVEL3 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSGROUPBOXLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL1GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL2GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL3GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSSRCHRESULTSHDR .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL1SCROLLAREAHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL2SCROLLAREAHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL3SCROLLAREAHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGROUPDIVIDER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGRIDHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGROUPBOXLABELLEVEL1 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGROUPBOXLABELLEVEL2 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGROUPBOXLABELLEVEL3 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSGROUPBOXLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL1GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL2GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL3GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSSRCHRESULTSHDR .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL1SCROLLAREAHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL2SCROLLAREAHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL3SCROLLAREAHEADER .PSRIGHTCORNER
+    {
+        padding:12px;
+        background-color:#005a8b;
+        background-image:none !important;
+        color:#ffffff;
+        font-family:Arial,sans-serif;
+        font-size:14px;
+        font-weight:700;
+        height:14px;
+        line-height:14px;
+        white-space:nowrap;
+        width:10%;
+    }
+
+    
+    .container-fluid.iRSPComponent #lbContainer label.PSRADIOBUTTON {position:relative;top:-3px;}
+    .container-fluid.iRSPComponent #lbContainer input[type="radio"] {margin:10px 5px 0;height:20px;width:20px;}
+
+    .container-fluid.iRSPComponent #lbContainer hr.PSSRCHTITLE,
+    .container-fluid.iRSPComponent lbContainerWarning hr.PSSRCHTITLE
+    {width:100% !important;}
+
+    
+    .IS_DESKTOP_LABEL, .IS_DESKTOP_ICON	{display:none !important;}
+    .IS_RSP_ICON {display:inline-block;}
+    
+    #main-bg.iHideBodyContent {display:none !important;}
+    #lbFrame.iHideLBFrame {display:none !important;}
+    #lbBg.iHideLBBG {display:none !important;}
+    .container-fluid.iRSPComponent #lbContainer3 {display:none !important;}
+    html.iFixScrollbars {overflow-x:hidden;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #tdgbrW3EB_EVNT_STEPS\$0 {width:100% !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #win10divDERIVED_W3EB_INFO1 div {margin:10px 5px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer .mrktGBL span.STRONG, .container-fluid.iRSPComponent #lbContainer .mrktGBL span.PSTEXT,
+    .container-fluid.iRSPComponent #lbContainerWarning .mrktGBL span.STRONG,
+    .container-fluid.iRSPComponent #lbContainerWarning .mrktGBL span.PSTEXT
+    {display:block;margin:10px 0px;}
+
+    .container-fluid.iRSPComponent #lbContainer .mrktGBL label.PSRADIOBUTTON,	.container-fluid.iRSPComponent #lbContainerWarning .mrktGBL label.PSRADIOBUTTON
+    {margin:10px;display:inline-block;}
+    
+    .container-fluid.iRSPComponent #lbContainer #win10divDERIVED_W3EB_INFO3 {margin:5px 0;font-size:12px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer div[id*="win10divPSACTIVITYGUIDE_ACTIVITYNAME"] td.PSGROUPBOXWBO
+    {display:none;}
+
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer #win10divPSACTIVITYGUIDE_ACTIVITYNAME\$9\$ {display:none;}
+    
+
+    * {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    *:before, *:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer input[type="text"],
+    .container-fluid.iRSPComponent #lbContainer input[type="password"],
+    .container-fluid.iRSPComponent #lbContainer input[type="checkbox"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="text"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="password"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="checkbox"]
+    {height:32px;vertical-align:middle;}
+
+    .container-fluid.iRSPComponent #lbContainer select,
+    .container-fluid.iRSPComponent #lbContainerWarning select
+    {}
+
+    .container-fluid.iRSPComponent #lbContainer input[type="checkbox"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="checkbox"]
+    {width:36px;}
+
+    .container-fluid.iRSPComponent #lbContainer input[type='text'],
+    .container-fluid.iRSPComponent #lbContainer input[type='password'],
+    .container-fluid.iRSPComponent #lbContainer select,
+    .container-fluid.iRSPComponent #lbContainer textarea,
+    .container-fluid.iRSPComponent #lbContainerWarning input[type='text'],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type='password'],
+    .container-fluid.iRSPComponent #lbContainerWarning select,
+    .container-fluid.iRSPComponent #lbContainerWarning textarea
+    {margin:5px 10px;font-size: 14px;width:85% !important;min-width:200px !important;display:block;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer img[title="Collapse section"],
+    .container-fluid.iRSPComponent #lbContainer img[title="Expand section"]
+    {}
+
+    .container-fluid.iRSPComponent #lbContainerWarning div[id="win10divDERIVED_ADDRESS_SELF_SERVE"] {height:40px;}
+
+
+    #lbContainerWarning #Left.PSPUSHBUTTON,
+    #lbContainerWarning #Left.PSPUSHBUTTONTB,
+    #lbContainerWarning #Left.PSPUSHBUTTONDISABLED,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBABORT,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBADD,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBADDMODE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBAPPLY,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBCANCEL,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBCLEAR,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBCONTINUE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBCORRECTMODE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBDELETE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBIGNORE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBLOOKUP,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBNEXTINLIST,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBNEXTINWORKLIST,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBNEXTTAB,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBNO,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBOK,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBPOPUP,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBPREVIEW,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBPREVINLIST,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBPREVINWORKLIST,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBPREVTAB,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBREFRESH,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBREFRESH2,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBRETRY,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBRETURN,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBSAVE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBSEARCH,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBSENDNOTIFY,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBSPELLCHECK,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBUPDATEALLMODE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBUPDATEMODE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBVIEWWORKLIST,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBYES,
+    #lbContainerWarning #Left.PSPUSHBUTTONRETURN
+    {background-image:none !important;height:40px;padding-left:0;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer a[id*="delete"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EDIT"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="DELETE"],
+    .container-fluid.iRSPComponent #lbContainer input[type="button"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="button"],
+    .container-fluid.iRSPComponent #lbContainer input[type="button"]:disabled,
+    .container-fluid.iRSPComponent #lbContainer input[type="button"]:disabled:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_NOTIFY_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_PRINTABLE_LINK"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RETURN_DOC_LNK"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RATING_DTL_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_OVER_RATING_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_CALC_RATING_PB"]
+    {display:inline-block !important;vertical-align:middle;color:#FFFFFF !important;margin:5px;height:35px !important;padding:7px 14px !important;width:auto !important;border-radius:8px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer div[id="win10divHR_LINK_WRK_ADD_PB"] {top:0;}
+    #lbContainer .PAGROUPBOX, #lbContainer .PAGROUPBOXLEVEL1, #lbContainer .PAGROUPBOXLEVEL1WBO, #lbContainer .PAGROUPBOXLEVEL2, #lbContainer .PAGROUPBOXLEVEL2WBO, #lbContainer .PAGROUPBOXLEVEL3, #lbContainer .PAGROUPBOXLEVEL3WBO, #lbContainer .PAGROUPDIVIDERBODY, #lbContainer .PSGROUPBOX, #lbContainer .PSGROUPBOXWBO, #lbContainer .PSSRCHGROUPBOXWBO
+    {padding:0px;}
+
+
+    
+    .container-fluid.iRSPComponent #lbContainer a[id*="delete"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EDIT"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="DELETE"],
+    .container-fluid.iRSPComponent #lbContainer input[type="button"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="button"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_NOTIFY_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_PRINTABLE_LINK"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RETURN_DOC_LNK"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RATING_DTL_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_OVER_RATING_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_CALC_RATING_PB"]
+    {background:url(/cs/hrvihprd/cache_85915/IS_RSP_BLUE_BUTTON_BACKGROUND_1.png) repeat-x transparent;background-position:0 0 !important;}
+
+    .container-fluid.iRSPComponent #lbContainer input[type="button"]:disabled,
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="button"]:disabled
+    {color:#888888 !important;background:url(/cs/hrvihprd/cache_85915/IS_RSP_GREY_BUTTON_BACKGROUND_1.png) repeat-x transparent !important;background-position:0 0 !important;}
+
+    .container-fluid.iRSPComponent #lbContainer a[id*="DELETE"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EDIT"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="DELETE"]:hover,
+    .container-fluid.iRSPComponent #lbContainer input[type="button"]:hover,
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="button"]:hover,
+    .container-fluid.iRSPComponent #lbContainer input[type="button"]:disabled:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_NOTIFY_PB"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_PRINTABLE_LINK"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RETURN_DOC_LNK"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RATING_DTL_PB"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_OVER_RATING_PB"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_CALC_RATING_PB"]:hover
+    {background-position:0 -35px !important;}
+
+    
+    
+    
+    .container-fluid.iRSPComponent #lbContainer a[id*="DELETE"]:after {text-align:center;margin:0;color:#ffffff;content:" ";display:block;height:21px;line-height:21px;text-decoration:none;vertical-align:middle;}
+    
+    
+
+    .container-fluid.iRSPComponent #lbContainer a[id*="delete"] {height:35px !important;width:68px !important;display:block;font:bold 12px/21px Arial,sans-serif;height:21px;margin:10px 8px;text-decoration:none;}
+    #HR_CP_MENTOR\$delete\$0\$\$0 {margin:10px 0;}
+    .container-fluid.iRSPComponent #lbContainer div#win10divDERIVED_ADDRESS_OK_PB\$23\$, .container-fluid.iRSPComponent #lbContainer div#win10divDERIVED_ADDRESS_CANCEL_PB\$24\$ {width:auto !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTON,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTB,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONDISABLED,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBABORT,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBADD,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBADDMODE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBAPPLY,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBCANCEL,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBCLEAR,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBCONTINUE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBCORRECTMODE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBDELETE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBIGNORE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBLOOKUP,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBNEXTINLIST,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBNEXTINWORKLIST,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBNEXTTAB,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBNO,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBOK,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBPOPUP,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBPREVIEW,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBPREVINLIST,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBPREVINWORKLIST,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBPREVTAB,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBREFRESH,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBREFRESH2,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBRETRY,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBRETURN,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBSAVE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBSEARCH,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBSENDNOTIFY,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBSPELLCHECK,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBUPDATEALLMODE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBUPDATEMODE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBVIEWWORKLIST,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBYES,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONRETURN
+    {height:auto;margin:0;}
+
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_NOTIFY_PB"]:after,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_PRINTABLE_LINK"]:after,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RETURN_DOC_LNK"]:after
+    {margin:0;}
+
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTON span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTB span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONDISABLED span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTON span:hover,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBABORT span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBADD span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBADDMODE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBAPPLY span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBCANCEL span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBCLEAR span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBCONTINUE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBCORRECTMODE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBDELETE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBIGNORE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBLOOKUP span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBNEXTINLIST span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBNEXTINWORKLIST span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBNEXTTAB span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBNO span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBOK span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBPOPUP span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBPREVIEW span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBPREVINLIST span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBPREVINWORKLIST span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBPREVTAB span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBREFRESH span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBREFRESH2 span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBRETRY span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBRETURN span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBSAVE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBSEARCH span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBSENDNOTIFY span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBSPELLCHECK span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBUPDATEALLMODE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBUPDATEMODE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBVIEWWORKLIST span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBYES span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONRETURN span
+    {margin-left:0;}
+    
+
+    .container-fluid.iRSPComponent #lbContainerWarning {overflow:visible;}
+    .container-fluid.iRSPComponent #lbContainerWarning {left:0 !important;top:0 !important;}
+    #lbWrapperInnerWarning {left:0;}
+
+    
+    .container-fluid.iRSPComponent #lbWrapperInner #lbHeader,
+    .container-fluid.iRSPComponent #lbWrapperInnerWarning #lbHeaderWarning
+    {}
+
+    .container-fluid.iRSPComponent #lbWrapperInner #lbHeader,
+    .container-fluid.iRSPComponent #lbWrapperInnerWarning #lbHeaderWarning
+    {color:#ffffff;height:44px;left:0;outline:medium none;padding:0;position:relative;top:0;}
+
+    .container-fluid.iRSPComponent #lbContainer #lbCloseWindowButtonWarning,
+    .container-fluid.iRSPComponent #lbContainerWarning #lbCloseWindowButtonWarning
+        
+        
+    {float:right !important;left:-5px !important;}
+
+    .container-fluid.iRSPComponent .IS_LB_WRAPPER_INNER #lbHeaderWarning
+    {background:none no-repeat scroll right center #000000;color:#ffffff;left:0;outline:medium none;padding:0;position:relative;top:0;display:block;position:relative !important;}
+
+    .container-fluid.iRSPComponent #win_iPopdivSEARCHADV table.PSPAGECONTAINER td
+    {width:100%;float:left;}
+
+    .container-fluid.iRSPComponent #win_iPopdivSEARCHADV table.PSPAGECONTAINER {width:90%;float:left;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB:first-child table {300px !important;display:block;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning #msgTitle {color:#0084ce;font-family:Arial;font-size:20px !important;font-style:normal;font-weight:400;line-height:28px;margin:10px;white-space:nowrap;width:100%;}
+
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER span,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER div
+    {width:auto !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER img[title="Zoom - Development Documents"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER img[title="Zoom - My Compensation Activities"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER img[title="Zoom - Select Year End Form"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER img[title^="Zoom"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER img[title="Zoom - Degrees"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a[id^="SINGLE_SELECT_GRID"]
+    {display:none;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td img[src*="PT_PREVIOUSROW"],
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td img[src*="PT_NEXTROW"],
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE span,
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE span.PSSRCHRESULTSHYPERLINKD
+    {float:left !important;width:auto !important;color:#ffffff;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE span.PSSRCHRESULTSHYPERLINK a.PSSRCHRESULTSHYPERLINK:link
+    {color:#FFFFFF !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span:nth-child(1)
+    {padding:10px 0 10px 10px;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span:nth-child(3)
+    {padding-top:12px;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span:nth-child(5)
+    {padding:6px 0;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span.PSSRCHRESULTSHYPERLINK
+    {padding:2px 0;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td {line-height:0;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td img[src*="PT_PREVIOUSROW"],
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td img[src*="PT_NEXTROW"]
+    {margin:0 5px;width:24px !important;}
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td img[src*="PT_PREVIOUSROW"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td img[src*="PT_NEXTROW"]
+    {width:24px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td span.PSHEADERHYPERLINKD,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$htop\$0,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td span.PSGRIDCOUNTER,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$hend\$0
+    {}
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer textarea.PSLONGEDITBOX {height:100px;}
+
+
+    
+    .container-fluid.iRSPComponent #lbContainer div#win10div\$ICField0 span.PATRANSACTIONTITLE {display:none;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer .PORTLET-MSG-INFO, .container-fluid.iRSPComponent #lbContainer .PABOLDBLUETEXT {color:#0084ce;}
+    .container-fluid.iRSPComponent #lbContainer .PORTLET-MSG-INFO:hover, .container-fluid.iRSPComponent #lbContainer .PABOLDBLUETEXT:hover {color:#2a6496;}
+    .container-fluid.iRSPComponent #lbContainer span#HRS_APPL_WRK_HRS_PAGE_TITLE {margin:20px 0 0 5px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer .PATRANSACTIONTITLE {height:auto;color:#0084ce;display:inline-block;font-family:Arial;font-size:20px !important;font-style:normal;font-weight:400;width:100%;}
+
+
+    
+    .container-fluid.iRSPComponent #lbContainer h1.PSSRCHTITLE,
+    .container-fluid.iRSPComponent #lbContainerWarning h1.PSSRCHACTION
+    {}
+
+    .container-fluid.iRSPComponent #lbContainer span.PSSRCHSUBTITLE,
+    .container-fluid.iRSPComponent #lbContainerWarning span.PSSRCHSUBTITLE,
+    .container-fluid.iRSPComponent #lbContainer h2.PSSRCHSUBTITLE,
+    .container-fluid.iRSPComponent #lbContainerWarning h2.PSSRCHSUBTITLE
+    {color:#0084ce;}
+
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer table#ACE_HRS_APP_APL_DRV_HRS_PROFILE_SEQ tr:nth-child(5){position:relative;left:0;top:0;}
+    .container-fluid.iRSPComponent #lbContainer table#ACE_HRS_APP_APL_DRV_HRS_PROFILE_SEQ tr:nth-child(6){position:relative;left:20px;top:10px;}
+    .container-fluid.iRSPComponent #lbContainer table#ACE_HRS_APP_APL_DRV_HRS_PROFILE_SEQ tr:nth-child(6) td{width:auto !important;float:left;}
+
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_FRST_LIST span,
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_LST_PREV span,
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_LST_NEXT span,
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_LAST_LIST span
+    {width:auto !important;position:relative;top:-20px;left:20px;}
+
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_ARM_SEP\$83\$ img,
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_ARM_SEP\$87\$ img,
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_ARM_SEP\$89\$ img
+    {width:20px;height:20px;position:relative;top:-20px;left:20px;}
+
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_ARM_SEP img {width:20px;height:20px;}
+
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_ARM_SEP\$85\$ img
+    {height:20px;position:relative;top:-20px;left:20px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #win10divEP_BTN_LINK_WRK_EP_PAGETITLE1 span.PAPAGETITLE {margin:30px 0 0;}
+    
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_ADD_PARTIC"] img {width:30px;height:30px;}
+
+    
+    .PAGROUPBOX, .PAGROUPBOXLEVEL1, .PAGROUPBOXLEVEL1WBO, .PAGROUPBOXLEVEL2, .PAGROUPBOXLEVEL2WBO, .PAGROUPBOXLEVEL3, .PAGROUPBOXLEVEL3WBO, .PAGROUPDIVIDERBODY, .PSGROUPBOX, .PSGROUPBOXWBO, .PSSRCHGROUPBOXWBO
+    {border-color:#dad9d7;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #win10divHR_LBL_WRK_EMPLOYEE_INFO_LBL table table.PSGROUPBOX span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer #win10divHR_LBL_WRK_STATUS_LBL table table.PSGROUPBOX span.PSEDITBOX_DISPONLY
+    {padding-left:20px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #win10divHR_LBL_WRK_EMPLOYEE_INFO_LBL table table.PSGROUPBOX,
+    .container-fluid.iRSPComponent #lbContainer #win10divHR_LBL_WRK_STATUS_LBL table table.PSGROUPBOX
+    {border:1px solid #DAD9D7 !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row .accordion-data div
+    {box-sizing:border-box;padding:5px !important;width:100% !important;height:auto !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed.shiftInEffect .accordion-data div
+    {padding:5px;box-sizing:border-box;}
+
+    
+    #lbContainer #win10divPSPAGECONTAINER table tr{}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr,
+    .container-fluid.iRSPComponent #lbContainerWarning tr,
+    .container-fluid .flyoutTable tr,
+    .container-fluid .teamSummary tr,
+    .container-fluid .mss-accordion tr
+    {box-sizing:border-box;-webkit-transition-property:height;transition-property:height;-webkit-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease-in-out;-webkit-transition-delay:0s;transition-timing-function:ease-in-out;transition-delay:0s;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed.shiftInEffect .accordion-data,
+    .container-fluid .flyoutTable tr.accordion-row-open .accordion-data,
+    .container-fluid .flyoutTable tr.accordion-row-closed .accordion-data,
+    .container-fluid .teamSummary tr.accordion-row-open .accordion-data,
+    .container-fluid .teamSummary tr.accordion-row-closed .accordion-data,
+    .container-fluid .mss-accordion tr.accordion-row-open .accordion-data,
+    .container-fluid .mss-accordion tr.accordion-row-closed .accordion-data
+    {box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.accordion-head,
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head,
+    .container-fluid .flyoutTable td.accordion-data,
+    .container-fluid .flyoutTable td.accordion-head,
+    .container-fluid .teamSummary td.accordion-data,
+    .container-fluid .teamSummary td.accordion-head,
+    .container-fluid .mss-accordion td.accordion-data,
+    .container-fluid .mss-accordion td.accordion-head
+    {width:100% !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed.shiftInEffect .accordion-data,
+    .container-fluid .flyoutTable tr.accordion-row-open .accordion-data,
+    .container-fluid .flyoutTable tr.accordion-row-closed .accordion-data,
+    .container-fluid .teamSummary tr.accordion-row-open .accordion-data,
+    .container-fluid .teamSummary tr.accordion-row-closed .accordion-data,
+    .container-fluid .mss-accordion tr.accordion-row-open .accordion-data,
+    .container-fluid .mss-accordion tr.accordion-row-closed .accordion-data
+    {padding:5px 0;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open,
+    .container-fluid .flyoutTable tr.accordion-row-closed,
+    .container-fluid .flyoutTable tr.accordion-row-open,
+    .container-fluid .teamSummary tr.accordion-row-closed,
+    .container-fluid .teamSummary tr.accordion-row-open,
+    .container-fluid .mss-accordion tr.accordion-row-closed,
+    .container-fluid .mss-accordion tr.accordion-row-open
+    {box-sizing:border-box;overflow:hidden !important;display:block !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open,
+    .container-fluid .flyoutTable tr.accordion-row-open,
+    .container-fluid .flyoutTable tr.accordion-row-open,
+    .container-fluid .teamSummary tr.accordion-row-open,
+    .container-fluid .teamSummary tr.accordion-row-open,
+    .container-fluid .mss-accordion tr.accordion-row-open,
+    .container-fluid .mss-accordion tr.accordion-row-open,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed,
+    .container-fluid .flyoutTable tr.accordion-row-closed,
+    .container-fluid .teamSummary tr.accordion-row-closed,
+    .container-fluid .mss-accordion tr.accordion-row-closed
+    {box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbHeader,
+    .container-fluid.iRSPComponent #lbWrapper,
+    .container-fluid.iRSPComponent #lbWorking,
+    .container-fluid.iRSPComponent #lbContent,
+    .container-fluid.iRSPComponent #lbContainer,
+    .container-fluid.iRSPComponent #lbContainer1,
+    .container-fluid.iRSPComponent #lbWrapperInner,
+    .container-fluid.iRSPComponent #lbHeaderWarning,
+    .container-fluid.iRSPComponent #lbWrapperWarning,
+    .container-fluid.iRSPComponent #lbWorkingWarning,
+    .container-fluid.iRSPComponent #lbContentWarning,
+    .container-fluid.iRSPComponent #lbContainerWarning,
+    .container-fluid.iRSPComponent #lbWrapperInnerWarning
+    {width:100% !important;padding:0 !important;margin:0px !important;overflow:visible;}
+
+    .container-fluid.iRSPComponent #win10divPSPAGECONTAINER
+    {width:100% !important;padding:0 !important;margin:0px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer .IS_LB_HEADER,
+    .container-fluid.iRSPComponent #lbContainerWarning .IS_LB_HEADER
+    {width:100% !important;padding:0 !important;margin:0px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #PAGECONTAINER,
+    .container-fluid.iRSPComponent #lbContainer .PAGECONTAINER,
+    .container-fluid.iRSPComponent #lbContainerWarning #PAGECONTAINER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGECONTAINER
+    {width:100% !important;padding:0 !important;margin:0 !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PABACKGROUNDINVISIBLE td div input,
+    .container-fluid.iRSPComponent #lbContainer table.PABACKGROUNDINVISIBLE td div label,
+    .container-fluid.iRSPComponent #lbContainer table.PABACKGROUNDINVISIBLE td div select,
+    .container-fluid.iRSPComponent #lbContainer table.PABACKGROUNDINVISIBLE td div a.PSPUSHBUTTON span input[disabled="disabled"]
+    {}
+
+    .container-fluid.iRSPComponent #lbContainer #comp_isEssComp {width:100% !important;padding:0 10px !important;margin:0px !important;}
+
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainerWarning div#win_iPopdivSEARCHRESULT
+    {}
+
+    .container-fluid.iRSPComponent #lbContainerWarning #lbContentWarning {padding:0 10px !important;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning form br{line-height:0 !important;}
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer .PSSRCHRESULTSTITLE,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSSRCHRESULTSTITLE
+    {background-color:#005a8b;color:#FFFFFF;font-family:Arial,sans-serif;font-size:9pt;font-style:normal;font-weight:normal;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head a.PSSRCHRESULTSODDROW,
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head a.PSSRCHRESULTSEVENROW
+    {padding:22px 0 15px 15px;width:auto !important;display:inline-block !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data:hover,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data:hover
+    {padding:22px 0 15px 15px;text-decoration:none;color:#3c3c3c;}
+
+
+    .container-fluid.iRSPComponent #lbContainerWarning table td a:before,
+    .container-fluid.iRSPComponent #lbContainerWarning table td:before
+    {padding:0;top:-8px;left:-8px;}
+    
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td,
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td
+    {float:none !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td:nth-child(1)
+    {width:30px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td:nth-child(2),
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td:nth-child(2)
+    {width:auto !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td:nth-child(3),
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td:nth-child(3)
+    {width:30px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td span,
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td span
+    {padding:5px 0;}
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td input[type="radio"],
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td input[type="checkbox"]
+    {margin:5px;}
+
+    .container-fluid.iRSPComponent #lbContainer div#PSTAB table td {float:none;}
+    .container-fluid.iRSPComponent #lbContainer div#PSTAB table {width:auto !important;}
+    .container-fluid.iRSPComponent #lbContainer div#PSTAB table td img.PSBOTTOMLINE {display:none;}
+    .container-fluid.iRSPComponent #lbContainer div#PSTAB #selected a span, #PSTABNBO #selected a span {}
+    .container-fluid.iRSPComponent #lbContainer div#PSTAB #selected a span,
+    .container-fluid.iRSPComponent #lbContainer div#PTGRIDTAB #selected a span,
+    .container-fluid.iRSPComponent #lbContainer div#PSTABNBO #selected a span,
+    .container-fluid.iRSPComponent #lbContainer div#PTGRIDTABNBO #selected a span
+    {    -moz-user-select:none;
+        color:#FFFFFF;
+        cursor:default;
+        font-family:Arial,sans-serif;
+        font-style:normal;
+        font-weight:bold;
+        text-decoration:none;}
+
+    .container-fluid.iRSPComponent #lbContainer .PSCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer .PSDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSLONGEDITLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSRADIOBUTTON,
+    .container-fluid.iRSPComponent #lbContainer .PSSRCHCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer .PSSRCHDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSSRCHEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PT_MCFCHECKBOX
+    {color:#999999;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB a,
+    .container-fluid.iRSPComponent #lbContainer #PSTABNBO a,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTAB a,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTABNBO a
+    {background-position:0 0 !important;background:url(/cs/hrvihprd/cache_85915/IS_RSP_BLUE_BUTTON_BACKGROUND_1.png) repeat-x transparent !important;border-bottom:none !important;border-top-left-radius:8px;border-top-right-radius:8px;}
+
+    
+    
+    .container-fluid.iRSPComponent #lbContainer a img[src*="PT_PROMPT_LOOKUP"],
+    .container-fluid.iRSPComponent #lbContainer a img[src*="PT_PROMPT_LOOKUP"],
+    .container-fluid.iRSPComponent #lbContainer a img[src*="PT_PROMPT_LOOKUP"],
+    .container-fluid.iRSPComponent #lbContainer a img[src*="PT_PROMPT_LOOKUP"]
+    {margin:5px;padding:5px;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB a:hover,
+    .container-fluid.iRSPComponent #lbContainer #PSTABNBO a:hover,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTAB a:hover,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTABNBO a:hover
+    {background-position:0 -35px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB #selected a span,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTAB #selected a span,
+    .container-fluid.iRSPComponent #lbContainer #PSTABNBO #selected a span,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTABNBO #selected a span
+    {padding:10px;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB a span,
+    #PSTABNBO a span
+    {background-image:none !important;color:#FFFFFF;padding:10px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB #selected a,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTAB #selected a,
+    .container-fluid.iRSPComponent #lbContainer #PSTABNBO #selected a,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTABNBO #selected a
+    {border-bottom:0 solid #809eba !important;background-position:0 -35px !important;}
+
+    .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {background-color:#FFFFFF !important;}
+
+    .container-fluid.iRSPComponent #lbContainer div[id="win10divPY_IC_PI_LST_VWGP$0"] table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td:first-child
+    {color:#005a8b !important;}
+
+    .container-fluid.iRSPComponent #lbContainer img[src*="PT_PIXEL_1"]{display:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer a[id*="PY_IC_PI_LST_VW$hpers"],
+    .container-fluid.iRSPComponent #lbContainer a[id*="PY_IC_PI_LST_VW$hfind"],
+    .container-fluid.iRSPComponent #lbContainer a[id*="PY_IC_PI_LST_VW$hexcel"],
+    .container-fluid.iRSPComponent #lbContainer a[id*="PY_IC_PI_LST_VW$hmodal"]
+    {display:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td span.PSHEADERHYPERLINKD,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$htop\$0,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$hdown\$0,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$hup\$0,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td img[src*="PT_PREVIOUSROW"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td  span.PSGRIDCOUNTER,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td img[src*="PT_NEXTROW"],
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$hend\$0
+    {float:left;margin: 0 3px;}
+
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$hend\$0,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$htop\$0
+    {padding-top:5px;}
+
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$htop\$0,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td span.PSHEADERHYPERLINKD
+    {clear:left;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td img + span.PSHEADERHYPERLINKD
+    {clear:none;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td  span.PSGRIDCOUNTER
+    {}
+
+    .container-fluid.iRSPComponent #lbContainer a[id*="PY_IC_PI_LST_VW$hviewall"] {float:left;margin-bottom: 10px !important;}
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a.PSLEVEL1GRIDLABEL:link,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a.PSLEVEL1GRIDLABEL:visited,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a.PSLEVEL1GRIDLABEL:active,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER .PSHEADERHYPERLINKD,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a[id*="hexcel"]
+    {background-color:#005a8b;color:#ffffff;display:inline-block;font-size:12px;font-weight:400;height:12px;line-height:12px;margin:1px;vertical-align:middle;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a[id*="hexcel"] img
+    {width:24px;position:relative;top:-8px;}
+}
+
+.IS_CO_BB_PSCOMP_RSP_CSS{}
+
+
+.container #lbHeader,
+.container #lbWorking,
+.container #lbContent,
+.container #lbWrapperInner {
+    width: 100% !important;
+}
+
+.container #lbContainer.IS_LB {
+    width: 90% !important;
+    margin: auto !important;
+    left: 5% !important;
+}
+
+.container #lbWrapper,
+.container #lbWrapperWarning {
+    width: 100% !important;
+}
+
+.container .IS_LB_CONTENT .cMain,
+.container .IS_LB_CONTENT2 .cMain {
+    width: 100% !important;
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    body .container {
+        min-width: 568px;
+        max-width: 900px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+
+    
+    .container #lbContainer.IS_LB {
+        width: 100% !important;
+        left: 0 !important;
+        margin-left: 0 !important;
+        top: 0px !important;
+    }
+
+    
+    .container .IS_LB_SHADOW {
+        box-shadow: none;
+        border-radius: 0em;
+    }
+
+    
+    .container .IS_LB_BG {
+        background-color: #FFFFFF;
+        opacity: 1;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .container-fluid #lbContainer,
+    .container-fluid #lbHeader,
+        
+    .container-fluid #lbContent,
+    .container-fluid #lbWrapperInner {
+        width: 100% !important;
+        max-width: 960px;
+    }
+
+    .container-fluid #lbContainer.IS_LB {
+
+    }
+
+    .container-fluid #lbWrapper,
+    .container-fluid #lbWrapperWarning {
+        width: 100% !important;
+    }
+
+    .container-fluid .IS_LB_CONTENT .cMain,
+    .container-fluid .IS_LB_CONTENT2 .cMain {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    body .container-fluid {
+        min-width: 568px;
+        max-width: 900px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container-fluid {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+
+    
+    .container-fluid #lbContainer.IS_LB {
+        width: 100% !important;
+        left: 0 !important;
+        margin-left: 0 !important;
+        top: 0px !important;
+    }
+
+    
+    .container-fluid .IS_LB_SHADOW {
+        box-shadow: none;
+        border-radius: 0em;
+    }
+
+    
+    .container-fluid .IS_LB_BG {
+        background-color: #FFFFFF;
+        opacity: 1;
+    }
+}
+
+#IS_FSA_RSP_CSS_BEGIN {}
+
+
+#lbContentMain .compSS_FACULTY #win0divDERIVED_SSTSNAV_ {display: none !important;}
+#lbContentMain .compSS_FACULTY #ACE_DERIVED_SSTSNAV_ { display: none !important; }
+
+#lbContentMain .compSS_FACULTY #DERIVED_AA2_SSR_VIEW_WKLY_SCHD { display: none !important; }
+
+#lbContentMain .compSS_FACULTY a[id*="ASSIGNMENTS"],
+#lbContentMain .compSS_FACULTY a[id*="GRADEBOOK"],
+#lbContentMain .compSS_FACULTY div[id*="divDERIVED_REGFRM1_SSR_FERPA_GROUPBOX"]{
+    visibility: hidden;
+}
+
+#lbContentMain .compSS_FACULTY div#win10divDERIVED_SSS_FCT_GROUP5 {
+    margin-top: 10px;
+}
+
+#lbContentMain #win0divDERIVED_SSTSNAV_SSS_FOOTER_LINKS {
+    display: none;
+}
+
+
+
+
+@media all and (max-width: 992px) {
+
+    
+    .isEdBody #IS_NEWS_CONTAINER.is_news_container {
+        width: 100%;
+    }
+
+    
+    .isEdPglt .isFSA_AdviseesRdWrp { width: 98%;}
+
+    .isFSA_AdviseesRdWrp > select#IS_FSA_RdSearchFltr {
+        display: block;
+        width: 98%;
+        margin: 0 0 5px 0;
+    }
+
+    .isEdPglt .isFSA_AdviseesRdWrp #IS_FSA_RdSearchTxt { width: 98% }
+    .isEdPglt #IS_FSA_RdSearchBtn,
+    .isEdPglt #IS_FSA_RdSearchAdvSwitch {
+        width: 48%;
+        margin: 5px 3px 0 0;
+        text-align: center;
+    }
+
+    
+    #IS_FSA_SchWrp { width: 100% !important;}
+    .isFltrs { display:none; }
+
+    #IS_FSA_SchWrp .isFSA_SchHdrWrp a {
+        width: 48%;
+        margin: 5px 2% 5px 0;
+        float: left;
+        display: block;
+    }
+
+    #IS_FSA_SchWrp .isFSA_SchCrsWrp {
+        width: 98%;
+        margin-left: 0%;
+        border: none;
+        position: relative;
+        top: 5px;
+    }
+    #IS_FSA_SchWrp .isFSA_SchCrsWrp div:nth-child(1),
+    #IS_FSA_SchWrp .isFSA_SchCrsWrp div:nth-child(2){
+        width: 100%;
+    }
+    #IS_FSA_SchWrp .isFSA_SchCrsWrp div:nth-child(1) {border-bottom: none;}
+    #IS_FSA_SchWrp .isFSA_SchCrsWrp div:nth-child(2) {border-left: none;}
+
+    #IS_FSA_SchWrp .isFSA_SchCrsWrp > div {
+        float: left;
+        height: 100%;
+        vertical-align: top;
+        clear: left;
+        border: 1px solid #c0c0c0;
+    }
+
+    
+    #IS_FSA_SearchResultWrp.isFSA_AdvWrp.isFSA_DSP_ADV {
+        width: 100%;
+        min-width: 0;
+    }
+    #IS_FSA_SearchResultWrp.isFSA_AdvWrp.isFSA_DSP_ADV .isFSA_Advisee {
+        margin: 0px 5px 10px 5px;
+    }
+    #IS_FSA_SearchResultWrp.isFSA_AdvWrp.isFSA_DSP_ADV .isFSA_ViewWrp {
+        display: none;
+    }
+
+    
+    #lbContentMain .isFSA_PrfWrp {width: 100%;}
+    #lbContentMain .isFSA_PrfGuide { width: 24%;}
+    #lbContentMain .isFSA_PrfMain {
+        width: 70%;
+        float: right;
+    }
+    #lbContentMain .isFSA_PrfPhotoWrp {
+        width: 20%;
+        padding-left: 0;
+    }
+
+    
+    .isFSA_PrfMain .isSSS_FullW > div.isSSS_Advs {
+        margin: 0;
+        width: 100%;
+    }
+    .isFSA_PrfMain .isSSS_FullW > div.isSSS_Advs:nth-child(2n) {
+        margin: 10px 0 0 0;
+    }
+    #IS_ED_FSA_ADVISING_NETWORKWrp .isSSS_ViewWrp,
+    #IS_ED_FSA_ADVISING_NETWORKWrp div.isSSS_EmailLinks {
+        display: none;
+    }
+    .IS_ED_FSA_ADVISING_NETWORKWrp .isSSS_Advs {
+        width: 100%;
+    }
+    #IS_ED_FSA_ADVISING_NETWORKWrp .isSSS_AdvsEmail {
+        max-width: 260px;
+    }
+
+    
+    
+    #lbContentMain .compSS_FACULTY div[id="win10div$ICField3"],
+    #lbContentMain .compSS_FACULTY div[id="win10div$ICField5"],
+    #lbContentMain .compSS_FACULTY div[id="win10div$ICField$8$"],
+    #lbContentMain .compSS_FACULTY div[id="win10div$ICField9"],
+    #lbContentMain .compSS_FACULTY div[id="win10div$ICField11"]{
+        margin-top: -30px;
+        margin-left: 20px;
+    }
+    .container-fluid #lbContentMain .compSS_FACULTY .PSLEVEL1GRIDLABEL span,
+    .container-fluid #lbContentMain .compSS_CLASS_ROSTER .PSLEVEL1GRIDLABEL span{
+        width: auto !important;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+    .container-fluid #lbContentMain .compSS_FACULTY .PSLEVEL1GRIDLABEL span.PTPREVROW_D1,
+    .container-fluid #lbContentMain .compSS_FACULTY .PSLEVEL1GRIDLABEL span.PTNEXTROW_D1,
+    .container-fluid #lbContentMain .compSS_CLASS_ROSTER .PSLEVEL1GRIDLABEL span.PTPREVROW_D1,
+    .container-fluid #lbContentMain .compSS_CLASS_ROSTER .PSLEVEL1GRIDLABEL span.PTNEXTROW_D1{
+        margin-top: -11px;
+    }
+    #lbContentMain .compSS_FACULTY div[id*="win10divINSTR_CLASS_VWGP"] {
+        line-height: 30px;
+        color: #005a8b;
+    }
+
+    #lbContentMain .compSS_FACULTY table[id="ACE_DERIVED_SSS_FCT_"] { display:none}
+
+    
+    #lbContentMain .compSS_CLASS_ROSTER span[id*="DERIVED_SR_RSTR_SSR_ENRL_STATUS_WK_LBL"]{
+        width: auto !important;
+        margin-right: 1px;
+    }
+    #lbContentMain .compSS_CLASS_ROSTER div[id*="win10divCLASS_ROSTER_VWGP"] td.PSGRIDNAVIGATOR {
+        line-height: 10px;
+        color: #005a8b;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    #lbContentMain .isFSA_PrfMain {
+        width: 100%;
+        float: right;
+    }
+    #lbContentMain .isFSA_PrfHdr > a {
+        width: 35px;
+        height: 35px;
+        overflow: hidden;
+        min-width: 35px;
+        top: 2px;
+    }
+    #lbContentMain .isFSA_PrfHdr > a:before {
+        content: ' ';
+        background: transparent url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) no-repeat scroll -332px -556px;
+        display: inline-block;
+        height: 25px;
+        vertical-align: middle;
+        width: 35px;
+    }
+    #lbContentMain .isFSA_PrfHdr > a.isFSA_PrfHdrNext:before {
+        background: transparent url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) no-repeat scroll -332px -516px;
+    }
+    #lbContentMain .isFSA_PrfHdrNext {
+        float: right;
+        margin: 0 0px 0 0;
+    }
+    #lbContentMain .isFSA_PrfHdr > a > span {
+        display: none;
+    }
+    #lbContentMain .isFSA_PrfHdr h2 {
+        min-width: 10%;
+        padding: 0 5px;
+    }
+    #lbContentMain .isFSA_PrflFixTop > h2 {
+        display: block;
+        width: 100%;
+    }
+    #lbContentMain .isFSA_PrflFixTop > h3 {
+        display: block;
+        width: 100%;
+        text-align: left;
+        float: none;
+    }
+
+    #lbContentMain .isFSA_PrfPhotoWrp {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 100%;
+        padding: 10px 0 0;
+        float: left;
+    }
+
+    #lbContentMain .isFSA_PrfPhotoWrp img {
+        width: 100%;
+        height: 100%;
+    }
+    #lbContentMain .isFSA_PrfGuide {
+        width: auto;
+        margin: 11px 0 0 0;
+        text-align: right;
+        float: right;
+    }
+    #lbContentMain .isFSA_PrfGuide > h3 {display: none;}
+    #lbContentMain .isFSA_PrfGuide > a {
+        background-color: #f3f3f1;
+        border-left: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        display: inline-block;
+        font-size: 0 !important;
+        height: 40px;
+        margin: 0 0 5px;
+        overflow: hidden;
+        padding: 0 !important;
+        vertical-align: top;
+        width: 40px;
+        position: relative;
+        float: left;
+    }
+    #lbContentMain .isFSA_PrfGuide > a:hover {
+        background-color: #005a8b;
+    }
+    #lbContentMain .isFSA_PrfGuide > a.selected {
+        background-color: #005a8b;
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    #lbContentMain .isFSA_PrfGuide > a > span {
+        background: url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) no-repeat scroll -132px -383px transparent;
+        background-position: 5px -157px;
+        background-size: 300px 400px;
+        height: 30px;
+        left: 50%;
+        margin-left: -15px;
+        position: absolute;
+        top: 4px;
+        width: 30px;
+    }
+    #lbContentMain .isFSA_PrfGuide > a.selected > span,
+    #lbContentMain .isFSA_PrfGuide > a:hover > span {
+        background-position: -65px -189px;
+    }
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_GRADE_HISTORYLnk > span { background-position: -97px -157px; }
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_GRADE_HISTORYLnk.selected > span,
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_GRADE_HISTORYLnk:hover > span {
+        background-position: -66px -221px;
+    }
+
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_ADVISING_NETWORKLnk > span { background-position: -31px -189px; }
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_ADVISING_NETWORKLnk.selected > span,
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_ADVISING_NETWORKLnk:hover > span {
+        background-position: -32px -221px;
+    }
+
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_ADVISING_NOTESLnk > span {
+        background: url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) no-repeat scroll -513px -683px transparent; }
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_ADVISING_NOTESLnk.selected > span,
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_ADVISING_NOTESLnk:hover > span {
+        background-position: -475px -683px;
+    }
+
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_SHOPPING_CARTLnk > span {
+        background: url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) no-repeat scroll -400px -682px transparent;}
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_SHOPPING_CARTLnk.selected > span,
+    #lbContentMain .isFSA_PrfGuide > a#IS_ED_FSA_SHOPPING_CARTLnk:hover > span {
+        background-position: -320px -682px ;
+    }
+
+
+
+    #lbContentMain .isFSA_PrfMainWrp .isSSS_PersInfTop > h5 {
+        width: 100%;
+        padding: 0;
+        float: left;
+    }
+    #lbContentMain .isFSA_PrfMain .isSSS_FullW > div {
+        width: 100%;
+    }
+
+    
+    .container-fluid.isEdBody .isFSA_PrfMainWrp tr.accordion-row-open td:nth-child(1) {
+        background: white url() no-repeat scroll 97% center !important;
+    }
+    .container-fluid.isEdBody .isFSA_PrfMainWrp tr.accordion-row-closed td:nth-child(1) {
+        background: transparent url() no-repeat scroll 97% center !important;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) {}
+
+
+
+
+@media only screen and (max-width: 320px) {
+    #IS_ED_FSA_ADVISING_NETWORKWrp .isSSS_AdvsType,
+    #IS_ED_FSA_ADVISING_NETWORKWrp .isSSS_AdvsEmail,
+    #IS_ED_FSA_ADVISING_NETWORKWrp .isSSS_AdvsPhone {
+        width: 39%;
+    }
+}
+
+
+
+
+.isFSA_AdvCounter > a {display: none;}
+
+@media only screen and (max-width: 992px) {
+    #IS_FSA_AdvResultsPlaceholder, .isFSA_LBWrp {
+        font-size: 140%;
+    }
+
+    .isFSA_AdvWrp {
+        min-width: auto !important;
+        width: 100%;
+        padding: 0;
+    }
+    .isFSA_AdvSearchWrp {
+        border: medium none;
+        margin: 0;
+        padding: 20px 20px 60px;
+    }
+
+    .isFSA_AdvSearchWrp > select {
+        display: block;
+        margin: 0 0 10px;
+        width: 100%;
+    }
+    #IS_FSA_ADV_SearchTxt {
+        border: 1px solid #cccccc;
+        margin: 0 0 10px;
+        width: 100%;
+    }
+    .isFSA_AdvSearchWrp #IS_FSA_ClearSearchInput {
+        top: 86px;
+        right: 28px;
+    }
+    .isFSA_AdvSearchWrp > a, #IS_FSA_ADV_SearchBtn {
+        width: 50%;
+        margin: 0;
+        float: left;
+        text-align: center;
+    }
+    #IS_FSA_ADV_SearchBtn {
+        border-right: 1px solid white;
+    }
+
+    .isFSA_AdvErrorMsg {
+        padding: 10px;
+    }
+    .error .isFSA_AdvSearchWrp {
+        padding: 20px;
+    }
+
+    .isFSA_AdvSearchWrp .isFSA_SearchSuggest {
+        margin: -10px 0;
+        width: 87.5%;
+    }
+    .isFSA_SearchSuggest > ul:first-child {
+        border-top: medium none;
+    }
+    .isFSA_SearchSuggest > ul {
+        border-left: medium none;
+        border-top: 1px solid #ccc;
+        display: block;
+        margin: 0 4%;
+        padding: 10px;
+        width: 92%;
+    }
+    .isFSA_SearchSuggest > a {
+        height: 30px;
+    }
+    .isFSA_SearchSuggest > a > span {
+        top:10px;
+    }
+
+    a#IS_FSA_ADV_AdvSearchClrBtn1, a#IS_FSA_ADV_AdvSearchBtn, a#IS_FSA_ADV_AdvSearchSmpBtn1 {
+        background: transparent url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) no-repeat scroll 11px 11px;
+        border-left: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        border-top: none;
+        border-right: none;
+        color: transparent;
+        float: right;
+        height: 40px;
+        margin: 0!important;
+        padding: 0;
+        text-indent: 100%;
+        text-overflow: clip;
+        width: 40px;
+        position: relative;
+        z-index: 2;
+    }
+    a#IS_FSA_ADV_AdvSearchClrBtn1 span, a#IS_FSA_ADV_AdvSearchBtn span, a#IS_FSA_ADV_AdvSearchSmpBtn1 span {
+        display: none;
+    }
+    a#IS_FSA_ADV_AdvSearchBtn {
+        background-position: -570px -756px;
+    }
+    a#IS_FSA_ADV_AdvSearchClrBtn1 {
+        background-position: -32px -84px;
+    }
+    a#IS_FSA_ADV_AdvSearchSmpBtn1 {
+        background-position: -248px -756px;
+    }
+    .isFSA_AdvAdvHalf {
+        margin: 0;
+    }
+    .isFSA_AdvAdvDDLHalf > span, .isFSA_AdvAdvDDLHalf > label {
+        text-align: center;
+    }
+    .isFSA_AdvAdvWrp > h2 {
+        border-bottom: 1px solid #ccc;
+        display: inline-block;
+        height: 40px;
+        margin: 0;
+        padding: 8px 0 0 10px;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+    .isFSA_AdvTopWrp {
+        margin: 0;
+        width: 100%;
+    }
+    .isFSA_AdvAdvWrp {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .isFSA_AdvTopWrp > div {
+        padding: 20px 20px 0;
+        width: 100%;
+    }
+    .isFSA_AdvTopWrp span, .isFSA_AdvTopWrp label {
+        display: block;
+    }
+    .isFSA_AdvTopWrp input {
+        width: 100%;
+    }
+    .isFSA_AdvTopWrp {
+        padding: 0 0 20px 0 !important;
+    }
+    .isFSA_AdvAdvHalf > div, .isFSA_AdvAdvCollapse > div > div {
+        width: 100%;
+        border: none;
+    }
+    #IS_FSA_ADV_AdvCusWrp span, #IS_FSA_ADV_AdvCusWrp label {
+        display: block;
+        width: 100%;
+    }
+    .isFSA_AdvAdvHalf select {
+        width: 100%;
+        margin: 0;
+    }
+    .isS2_MultiDDl, .isFSA_AdvAdvCollapse .isS2_MultiDDl {
+        width: 100%;
+        margin: 0;
+    }
+    .isFSA_AdvAdvHalf input {
+        width: 100%;
+    }
+    #IS_FSA_ADV_AdvCusWrp div.isFSA_AdvAdvCollapse > a > span, IS_FSA_ADV_AdvCusWrp div.isFSA_AdvAdvCollapse > a > label {
+        width: 30px;
+        display: inline-block;
+    }
+    .isFSA_AdvTopWrp span, .isFSA_AdvTopWrp label {
+        width: 100%;
+    }
+    .isS2_MultiDDl select {
+        width: 92%;
+    }
+    .isS2_MultiDDl button {
+        width: 8%;
+    }
+    .isS2_MultiDDl > div {
+        font-size: 0.7em;
+        line-height: 25px;
+        padding: 0 35px 0 5px;
+    }
+    .isS2_MultiDDl div button {
+        font-size: 1.4em;
+        line-height: 25px;
+        padding: 0 10px 3px;
+    }
+    div.isFSA_AdvAdvCollapse {
+        width: 98%;
+    }
+    .isFSA_AdvAdvDDLHalf {
+        width: 100%;
+    }
+    #IS_FSA_ADV_AdvCusWrp .isFSA_AdvAdvDDLHalf > span, #IS_FSA_ADV_AdvCusWrp .isFSA_AdvAdvDDLHalf > label {
+        display: inline-block;
+        width: 10%;
+    }
+    #IS_FSA_AdvSTRT_TM_DEC, #IS_FSA_AdvEND_TM_DEC {
+        background-position: 96% 10px;
+        display: inline-block;
+        width: 45%;
+    }
+    a#IS_FSA_ADV_AdvSearchSmpBtn1, a#IS_FSA_ADV_AdvSearchSmpBtn {
+        margin: 5px 10px 20px 10px;
+    }
+    .isFSA_AdvAdvWrp > a {
+        margin: 5px 0 0 2%;
+        padding: 5px 1%;
+    }
+    .error.isFSA_AdvAdv .isFSA_AdvErrorMsg {
+        font-size: 0.8em;
+        left: 10px;
+        top: 34px;
+    }
+
+    .isFSA_AdvResult .isFSA_AdvSearchWrp > select, .isFSA_AdvResult #IS_FSA_ADV_SearchTxt, .isFSA_AdvResult #IS_FSA_AdvClearSearchInput, .isFSA_AdvResult .isFSA_AdvSearchWrp > a, .isFSA_AdvResult .isFSA_AdvSort, .isFSA_AdvResult .isFSA_AdvExtras, .isFSA_AdvResult .isFSA_AdvResultsHead, .isFSA_AdvResult .isFSA_ViewWrp {
+        display: none;
+    }
+    .isFSA_AdvResult .isFSA_AdvSearchWrp {
+        margin: 0;
+        min-width: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .isFSA_AdvResult .isFSA_AdvResultsBody,
+    .isFSA_DSP_ADV.isFSA_SrBoxView div#IS_FSA_ADV_ResultsPlaceholder {
+        display: flex;
+        padding-top: 30px;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        justify-content: space-evenly;
+    }
+
+    .isFSA_AdvResult .isFSA_AdvCounter {
+        border: 1px solid #ccc;
+        float: none;
+        font-size: 0.9em;
+        line-height: 40px;
+        height: 40px;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 0 0 0 10px;
+        text-align: left;
+        white-space: normal;
+        width: 100%;
+    }
+    .isFSA_AdvCounter > a {
+        background: transparent url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) no-repeat scroll 11px 11px;
+        border-left: 1px solid #ccc;
+        display: inline-block;
+        float: right;
+        height: 40px;
+        overflow: hidden;
+        text-decoration: none;
+        text-indent: 100%;
+        width: 40px;
+    }
+
+    .isFSA_AdvCounter .isFSA_AdvRSPViewWrp {
+        display: inline-block;
+        height: 40px;
+        width: 80px;
+    }
+    .isFSA_AdvCounter .isFSA_AdvRSPViewWrp a {
+        background: url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) repeat scroll 7px -62px transparent;
+        -moz-box-shadow: 1px 1px 1px #ccc;
+        -webkit-box-shadow: 1px 1px 1px #ccc;
+        box-shadow: 1px 1px 1px #ccc;
+        display: inline-block;
+        height: 40px;
+        margin: 5px;
+        width: 40px;
+        text-decoration: none;
+    }
+
+    .isFSA_AdvRSPViewWrp a#IS_FSA_RSP_ViewBox {
+        background: url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) no-repeat scroll 16px -35px transparent;
+        margin: 0;
+    }
+
+    .isFSA_AdvRSPViewWrp a#IS_FSA_RSP_ViewList {
+        background: url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) repeat scroll -238px -35px transparent;
+        margin: 0;
+    }
+
+    .isFSA_AdvRSPViewWrp a#IS_FSA_RSP_ViewBox.selected {
+        background: url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) repeat scroll 13px -81px #005a8b;
+    }
+
+    .isFSA_AdvRSPViewWrp a#IS_FSA_RSP_ViewList.selected {
+        background: url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) repeat scroll -287px -35px #005a8b;
+    }
+
+    .isFSA_AdvCounter #IS_FSA_ADV_RSP_MainPrint {
+        display: inline-block;
+        background: url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) no-repeat scroll 13px -262px transparent;
+        height: 40px;
+        width: 40px;
+        padding: 0 0 0 25px;
+        float:right;
+    }
+
+    .isFSA_AdvCounter #IS_FSA_RSP_EmailSelected {
+        display: inline-block;
+        background: url(/cs/hrvihprd/cache_85915/IS_ED_SPRITE_1.png) no-repeat scroll -229px -674px transparent;
+        height: 40px;
+        width: 40px;
+        padding: 0 0 0 25px;
+        float:right;
+    }
+
+    .isFSA_AdvCounter > a.isFSA_AdvRSP_Search {
+        background-position: -248px -756px;
+    }
+    .isFSA_AdvCounter > a.isFSA_AdvRSP_Sort {
+        background-position: -394px -756px;
+    }
+    .sorting .isFSA_AdvCounter > a.isFSA_AdvRSP_Sort {
+        background-position: -431px -756px;
+        -moz-box-shadow: inset 0 0 2px #000000;
+        -webkit-box-shadow: inset 0 0 2px #000000;
+        box-shadow: 0 0 2px #000000 inset;
+    }
+    .isFSA_AdvCounter > a.isFSA_AdvRSP_Facet {
+        background-position: -467px -756px;
+    }
+    .faceting .isFSA_AdvCounter > a.isFSA_AdvRSP_Facet {
+        background-position: -503px -756px;
+        -moz-box-shadow: inset 0 0 2px #000000;
+        -webkit-box-shadow: inset 0 0 2px #000000;
+        box-shadow: 0 0 2px #000000 inset;
+    }
+
+    .isFSA_AdvResultItem:first-child, .isFSA_AdvResultItem:first-child:hover {
+        padding: 40px 10px 10px;
+    }
+    .isFSA_AdvResult .isFSA_AdvFacetWrp {
+        width: 100%;
+    }
+    .isFSA_AdvResult:not(.faceting) .isFSA_AdvFacetWrp {
+        background: #f3f3f1 none repeat scroll 0 0;
+        border: 1px solid #cccccc;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 0 10px;
+        position: absolute;
+        top: 40px;
+        white-space: nowrap;
+        min-height: 30px;
+    }
+    .isFSA_AdvResult:not(.faceting) .isFSA_AdvFacetBox > h3 {
+        display: none;
+    }
+    .isFSA_AdvResult:not(.faceting) .isFSA_AdvFacetBox > a, .isFSA_AdvResult:not(.faceting) .isFSA_AdvFacetBox.open > a {
+        color: #a23339;
+        display: none;
+        font-size: 0.75em;
+        padding: 10px 25px 10px 0;
+    }
+    .isFSA_AdvResult:not(.faceting) .isFSA_AdvFacetBox > a.Selected > span {
+        left: auto;
+        background-position: -402px -729px;
+    }
+    .isFSA_AdvResult:not(.faceting) .isFSA_AdvFacetBox > a.Selected {
+        display: inline-block;
+    }
+    .isFSA_AdvResult:not(.faceting) .isFSA_AdvFacetBox {
+        background: transparent none repeat scroll 0 0;
+        border: medium none;
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+    .faceting .isFSA_AdvFacetBox {
+        margin: 0;
+        padding: 5px 5px 5px 10px;
+    }
+    .faceting .isFSA_AdvFacetBox > a {
+        padding: 10px 0 10px 37px;
+    }
+    .faceting .isFSA_AdvFacetBox > h3 {
+        display: block;
+    }
+    .faceting.isFSA_AdvResult .isFSA_AdvFacetWrp {
+        display: block;
+    }
+    .faceting #IS_FSA_ADV_ResultsPlaceholder, .faceting #IS_FSA_ADV_PaginationPlaceholder {
+        display: none;
+    }
+
+    .isFSA_AdvSort {
+        width: 100%;
+        padding: 0;
+        display: none;
+    }
+    .isFSA_AdvSort h4 {
+        background: #efefef none repeat scroll 0 0;
+        display: block;
+        font-size: 1.5em;
+        padding: 5px;
+        text-align: center;
+    }
+    .isFSA_AdvSort > a {
+        border: 1px solid #ccc;
+        color: #000000;
+        display: block;
+        font-size: 2em;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+    }
+    .isFSA_AdvSort > a.selected {
+        color: #ffffff;
+    }
+    .sorting .isFSA_AdvSort {
+        display: block;
+        height: auto;
+    }
+    .sorting #IS_FSA_ADV_ResultsPlaceholder, .sorting #IS_FSA_ADV_PaginationPlaceholder, .sorting #IS_FSA_ADV_FacetPlaceholder {
+        display: none;
+    }
+    .isFSA_AdvResultItem:hover::before {
+        display: none;
+    }
+    .isFSA_AdvResultItem > div {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 10px) {
+
+    
+    #IS_FSA_SearchResultWrp.isFSA_SrListView .isFSA_Advisee > div, #IS_FSA_SearchResultWrp.isFSA_SrListView .isFSA_Advisee > a {
+        width: 30%;
+    }
+
+    #IS_FSA_SearchResultWrp.isFSA_SrListView .isFSA_Advisee {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult .isFSA_SrPhoto {
+        left: 35px;
+        top: 6px;
+        height: 40px;
+        width: 40px;
+    }
+
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult .isFSA_SrName {width: 32% !important;}
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult .isFSA_SrName > span {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 20px;
+    }
+
+    #IS_FSA_SearchResultWrp.isFSA_SrListView .isFSA_Advisee .isFSA_SrProgram_NW {width: 20%;}
+    #IS_FSA_SearchResultWrp.isFSA_SrListView .isFSA_Advisee .isFSA_SrPlan_NW {width: 30%;}
+    #IS_FSA_SearchResultWrp.isFSA_SrListView .isFSA_Advisee .isFSA_SrPhoneEmail_NW {width: 50%}
+    #IS_FSA_SearchResultWrp.isFSA_SrListView .isFSA_Advisee .isFSA_SrYearHouse_NW {
+        width: 40%;
+        padding-left: 40px;
+    }
+    #IS_FSA_SearchResultWrp.isFSA_SrListView .isFSA_Advisee > div.isFSA_SrIndicator {width: 30px}
+
+    
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult.isFSA_DSP_ADV .isFSA_Advisee > div,
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult.isFSA_DSP_ADV  .isFSA_Advisee > a {
+        width: 15%;
+    }
+
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult.isFSA_DSP_ADV  .isFSA_Advisee {
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult.isFSA_DSP_ADV  .isFSA_SrPhoto {
+        left: 35px;
+        top: 6px;
+        height: 40px;
+        width: 40px !important;
+    }
+
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult.isFSA_DSP_ADV .isFSA_SrName {width: 32%;}
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult.isFSA_DSP_ADV .isFSA_Advisee .isFSA_SrProgram_NW {width: 37%;}
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult.isFSA_DSP_ADV .isFSA_Advisee .isFSA_SrPlan_NW {
+        width: 30%;
+        margin-left: 35px;}
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult.isFSA_DSP_ADV .isFSA_Advisee .isFSA_SrPhoneEmail_NW {
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult.isFSA_DSP_ADV .isFSA_SrYearHouse_NW {
+        width: 12%;
+        padding-left: 40px;
+    }
+    #IS_FSA_SearchResultWrp.isFSA_SrListView.isFSA_AdvResult.isFSA_DSP_ADV .isFSA_Advisee > div.isFSA_SrIndicator {width: 30px}
+}
+
+@media only screen and (max-width: 768px) {
+    #IS_FSA_AdvResultsPlaceholder, .isFSA_AdvLBWrp {
+        font-size: 125%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #IS_FSA_AdvResultsPlaceholder, .isFSA_AdvLBWrp {
+        font-size: 115%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #IS_FSA_AdvResultsPlaceholder, .isFSA_AdvLBWrp {
+        font-size: 100%;
+    }
+}

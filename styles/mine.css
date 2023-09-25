@@ -1,0 +1,13 @@
+#error_message {
+    padding-left: 10px;
+    padding-top: 20px;
+    line-height: 2;
+    visibility: hidden;
+}
+
+#loading_gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -42;
+}

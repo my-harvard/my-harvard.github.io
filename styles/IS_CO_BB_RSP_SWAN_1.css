@@ -1,0 +1,2110 @@
+
+
+
+#IS_CO_BB_LIGHTBOX_RSP_CSS{}
+
+
+
+.container-fluid #lbContainer:not(.iAutoSize),
+.container-fluid #lbContainer:not(.iAutoSize) #lbHeader,
+.container-fluid #lbContainer:not(.iAutoSize) #lbWorking,
+.container-fluid #lbContainer:not(.iAutoSize) #lbContent,
+.container-fluid #lbContainer:not(.iAutoSize) #lbWrapper,
+.container-fluid #lbContainer:not(.iAutoSize) #lbWrapperInner
+{}
+
+.container-fluid #lbContainer:not(.iAutoSize) #lbWrapper,
+.container-fluid #lbContainer:not(.iAutoSize) #lbWrapperInner
+{
+    width: 100% !important;
+}
+
+
+
+.container-fluid #lbContainerWarning:not(.iAutoSize) #lbWrapperWarning {
+    width: 100% !important;
+}
+
+
+.container-fluid #lbContainer,
+.container-fluid #lbHeader,
+.container-fluid #lbWorking,
+.container-fluid #lbContent,
+.container-fluid #lbWrapperInner
+{}
+
+
+
+.container-fluid #lbContainer.IS_LB
+{}
+
+.container-fluid #lbWrapper,
+.container-fluid #lbWrapperWarning
+{width:100% !important;}
+
+.container-fluid .IS_LB_CONTENT .cMain,
+.container-fluid .IS_LB_CONTENT2 .cMain
+{width:100% !important;}
+
+
+@media only screen and (min-width : 1024px) {
+    body .container-fluid {
+        min-width: 568px;
+        max-width: 900px;
+        width: 100%;
+    }
+}
+@media (max-width: 1023px) {
+    .container-fluid {width: 100%;}
+}
+
+@media (min-width: 991px) {
+    
+    .container-fluid #lbContainer:not(.iAutoSize),
+    .container-fluid #lbContainer:not(.iAutoSize) #lbHeader,
+    .container-fluid #lbContainer:not(.iAutoSize) #lbWorking,
+    .container-fluid #lbContainer:not(.iAutoSize) #lbContent,
+    .container-fluid #lbContainer:not(.iAutoSize) #lbWrapper,
+    .container-fluid #lbContainer:not(.iAutoSize) #lbWrapperInner
+    {}
+
+    .container-fluid.iRSPComponentLoading #lbContainer:not(.iAutoSize) #lbWrapper,
+    .container-fluid.iRSPComponentLoading #lbContainer:not(.iAutoSize) #lbWrapperInner
+    {width:100% !important;}
+}
+
+
+@media only screen and (max-width : 991px) {
+    
+        
+        .container-fluid #lbContainer.IS_LB
+        {width:100% !important;left:0 !important;margin-left:0 !important;top:0 !important;}
+
+        
+        .container-fluid .IS_LB_SHADOW
+        {box-shadow: none;border-radius: 0em;}
+
+        
+        .container-fluid .IS_LB_BG
+        {background-color: #FFFFFF;opacity: 1;}
+
+        
+        
+        #lbContent.IS_LB_OVERFLOW_HIDE_XY {overflow:visible;}
+    }
+
+.IS_CO_BB_PSCOMP_RSP_CSS{}
+
+#IS_RSP_PS_COMPONENTS_CSS{height:100%;}
+
+
+.container-fluid.iRSPComponent #lbContainer th[id="thCO_ADDR_SMRY$0#5"] table {margin:auto !important;}
+
+.container-fluid.iRSPComponent #lbContainer #l1CO_ADDR_SMRY\$0 {display:none;}
+
+.container-fluid.iRSPComponent #lbContainer div#divgbrCO_ADDR_SMRY\$0 {height:auto !important;}
+
+.container-fluid.iRSPComponent #lbContainer .mrktGBL.pageW3EB_BRTH_ADPT_EVT label.PSRADIOBUTTON {margin:10px;display:inline-block;}
+
+.container-fluid.iRSPComponent #lbContainer .blueHeader, #content-bg .blueHeader {padding-top:5px;}
+
+#content-bg .PSLEVEL1GRIDCOLUMNHDRTXT {padding:0 3px;}
+
+#content-bg .IS_NEWS_CONTAINER {padding-top:17px;}
+.sidebar {padding-top:17px;}
+.footerLinkBar {height:45px;}
+.container-fluid.iRSPComponent #lbContainer .PSPAGECONTAINER {width:auto;}
+
+
+
+
+
+
+.container-fluid.iRSPComponent #lbContainer #tdgbrCO_ADDR_SMRY\$0 td:first-child,
+.container-fluid.iRSPComponent #lbContainer #tdgbrPERSONAL_PHONE\$0 td:first-child,
+.container-fluid.iRSPComponent #lbContainer #tdgbrEMERGENCY_CNTCT\$0 td:first-child,
+.container-fluid.iRSPComponent #lbContainer #tdgbrEMAIL\$0 td:first-child,
+.container-fluid.iRSPComponent #lbContainer #tdgbrDIVERS_ETHNIC\$0 td:first-child
+{}
+
+
+
+
+@media only screen and (min-width:992px) {
+    .IS_RSP_LABEL, .IS_RSP_ICON	{display:none;}
+
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row, 
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row, 
+    .container-fluid .flyoutTable tr.accordion-row,
+    .container-fluid .teamSummary tr.accordion-row,
+    .container-fluid .mss-accordion tr.accordion-row
+    {height:auto !important;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer div#divgbrSINGLE_SELECT_GRID\$0,
+    .container-fluid.iRSPComponent #lbContainer table#tdgbrSINGLE_SELECT_GRID\$0,
+    .container-fluid.iRSPComponent #lbContainer div#divgbrMULTI_SELECT_GRID\$0,
+    .container-fluid.iRSPComponent #lbContainer table#tdgbrMULTI_SELECT_GRID\$0
+    {width:100% !important;}
+
+}
+
+
+
+@media only screen and (max-width:991px)
+{
+    .container-fluid.iRSPComponentLoading #lbContainer div#lbContentMain {visibility:hidden;}
+    .container-fluid.iRSPComponent #lbContainerWarning #win_iPopdivSEARCHBELOW {clear:both;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer div,
+    .container-fluid.iRSPComponent #lbContainer table,
+    .container-fluid.iRSPComponent #lbContainer th,
+    .container-fluid.iRSPComponent #lbContainer td,
+    .container-fluid.iRSPComponent #lbContainerWarning table,
+    .container-fluid.iRSPComponent #lbContainerWarning th,
+    .container-fluid.iRSPComponent #lbContainerWarning td,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL2GRIDODDROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL2GRIDEVENROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data,
+    .container-fluid .flyoutTable,
+    .container-fluid .flyoutTable div,
+    .container-fluid .flyoutTable td,
+    .container-fluid .teamSummary,
+    .container-fluid .teamSummary div,
+    .container-fluid .teamSummary td,
+    .container-fluid .mss-accordion,
+    .container-fluid .mss-accordion div,
+    .container-fluid .mss-accordion td
+    {height:auto !important;empty-cells:hide;float:left;text-align:left;overflow:visible !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER span.PAPAGETITLE,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER span.PALEVEL0PRIMARY
+    {padding:0px 0px ! important;display:block;white-space:normal;}
+
+    
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head a.PSSRCHRESULTSODDROW,
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head a.PSSRCHRESULTSEVENROW
+    {
+        padding: 10px 0 5px 15px !important;
+    }
+    td.PSSRCHRESULTSODDROW.accordion-data,
+    td.PSSRCHRESULTSEVENROW.accordion-data
+    {
+        padding: 5px 0 5px 15px !important;
+    }
+    span[id^=RESULT2]
+    {
+        padding-left:15px !important;
+    }
+    
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span:nth-child(5)
+    {
+        padding: 10px 0 10px 10px !important;
+    }
+    
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span:nth-child(3)
+    {
+        padding: 20px 10px 10px 10px !important;
+    }
+
+
+
+
+    
+    
+    .compSSR_SSENRL_EDIT td.PSLEVEL1GRIDEVENROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSSR_SSENRL_EDIT td.PSLEVEL1GRIDODDROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSSR_SSENRL_SWAP td.PSLEVEL1GRIDEVENROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSSR_SSENRL_SWAP td.PSLEVEL1GRIDODDROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSSR_SSENRL_DROP td.PSLEVEL1GRIDEVENROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSSR_SSENRL_DROP td.PSLEVEL1GRIDODDROW.PSGRIDFIRSTCOLUMN.special-accordion-head,
+    .compSS_FACULTY td.PSLEVEL1GRIDODDROW.PSGRIDFIRSTCOLUMN special-accordion-head, 
+    .compSS_FACULTY td.PSLEVEL1GRIDEVENROW.PSGRIDFIRSTCOLUMN.special-accordion-head 
+    {
+        border-left: 1px solid #dad9d7 !important;
+        border-right: 1px solid #dad9d7 !important;
+
+    }
+
+
+
+    
+    .container-fluid.iRSPComponent #lbContainer table td .PSLEVEL1GRIDODDROW,
+    .container-fluid.iRSPComponent #lbContainer table td .PSLEVEL1GRIDEVENROW,
+    .container-fluid.iRSPComponent #lbContainer table td .PSLEVEL2GRIDODDROW,
+    .container-fluid.iRSPComponent #lbContainer table td .PSLEVEL2GRIDEVENROW,
+    .container-fluid.iRSPComponent #lbContainerWarning table td .PSSRCHRESULTSODDROW,
+    .container-fluid.iRSPComponent #lbContainerWarning table td .PSSRCHRESULTSEVENROW
+    {background:none !important;
+        
+    }
+
+    
+    
+    .container-fluid.iRSPComponent #lbContainer table .hidden-accordion-row,
+    .container-fluid.iRSPComponent #lbContainer table .hidden-accordion-cell,
+    .container-fluid.iRSPComponent #lbContainerWarning table .hidden-accordion-row,
+    .container-fluid.iRSPComponent #lbContainerWarning table .hidden-accordion-cell,
+    .container-fluid .flyoutTable .hidden-accordion-row,
+    .container-fluid .teamSummary .hidden-accordion-row,
+    .container-fluid .mss-accordion .hidden-accordion-row
+    {display:none !important;height:0 !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDWBO,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRID
+    {border:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer .PORTLET-MSG-ALERT,
+    .container-fluid.iRSPComponent #lbContainer .PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer .PAEXAMPLE,
+    .container-fluid.iRSPComponent #lbContainer .PORTLET-MSG-SUCCESS,
+    .container-fluid.iRSPComponent #lbContainer .PAHEADERTOOLBARTEXTSMALL,
+    .container-fluid.iRSPComponent #lbContainer .PT_MCFADDITIONALINSTRUCTIONS
+    {display:inline-block;white-space:normal;}
+
+    .container-fluid.iRSPComponent #lbContainer #DERIVED_ADDRESS_EXAMPLE_DATE_TEXT.PAEXAMPLE{margin:0;display:block;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect td:nth-child(2),
+    .container-fluid .flyoutTable tr.accordion-row-closed td:nth-child(1),
+    .container-fluid .teamSummary tr.accordion-row-closed td:nth-child(1),
+    .container-fluid .mss-accordion tr.accordion-row-closed td:nth-child(1)
+    {box-sizing:border-box;cursor:pointer;background:url(/cs/hrvihprd/cache_85915/IS_RSP_CHEVRON_DOWN_1.png) no-repeat right center #f0f0f0 !important;border-top:1px solid #DAD9D7 !important;border-left:1px solid #DAD9D7 !important;border-right:1px solid #DAD9D7 !important;}
+
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect td:nth-child(2),
+    .container-fluid .flyoutTable tr.accordion-row-open td:nth-child(1),
+    .container-fluid .teamSummary tr.accordion-row-open td:nth-child(1),
+    .container-fluid .mss-accordion tr.accordion-row-open td:nth-child(1)
+    {box-sizing:border-box;cursor:pointer;background:url(/cs/hrvihprd/cache_85915/IS_RSP_CHEVRON_UP_1.png) no-repeat right center #f0f0f0 !important;border-top:1px solid #DAD9D7 !important;border-left:1px solid #DAD9D7 !important;border-right:1px solid #DAD9D7 !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed:first-child td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed:first-child td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect:first-child td:nth-child(2),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open:first-child td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open:first-child td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect:first-child td:nth-child(2),
+    .container-fluid .flyoutTable tr.accordion-row-closed:first-child td:nth-child(1),
+    .container-fluid .flyoutTable tr.accordion-row-open:first-child td:nth-child(1),
+    .container-fluid .teamSummary tr.accordion-row-closed:first-child td:nth-child(1),
+    .container-fluid .teamSummary tr.accordion-row-open:first-child td:nth-child(1),
+    .container-fluid .mss-accordion tr.accordion-row-closed:first-child td:nth-child(1),
+    .container-fluid .mss-accordion tr.accordion-row-open:first-child td:nth-child(1)
+    {border-top:none !important;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row td:nth-child(1),
+    {border:1px solid #DAD9D7 !important;border-bottom:none !important;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect td:nth-child(n+3),
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed td:nth-child(n+2),
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect td:nth-child(n+3),
+    .container-fluid .flyoutTable tr.accordion-row-open td:nth-child(n+2),
+    .container-fluid .flyoutTable tr.accordion-row-closed td:nth-child(n+2),
+    .container-fluid .teamSummary tr.accordion-row-open td:nth-child(n+2),
+    .container-fluid .teamSummary tr.accordion-row-closed td:nth-child(n+2),
+    .container-fluid .mss-accordion tr.accordion-row-open td:nth-child(n+2),
+    .container-fluid .mss-accordion tr.accordion-row-closed td:nth-child(n+2)
+    {border-left:1px solid #DAD9D7 !important;border-right:1px solid #DAD9D7 !important;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open:last-child td:last-child,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open:last-child td:last-child,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect:last-child td:last-child,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row:last-child td:last-child,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row:last-child td:last-child,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row td:last-child,
+    .container-fluid .flyoutTable tr.accordion-row-open:last-child td:last-child,
+    .container-fluid .teamSummary tr.accordion-row-open:last-child td:last-child,
+    .container-fluid .mss-accordion tr.accordion-row-open:last-child td:last-child
+    {border-bottom:1px solid #DAD9D7 !important;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td table td.accordion-head div span,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td table td.accordion-data div span
+    {border-bottom:none !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDWBO table:first-child td table:first-child td:last-child
+    {border-bottom:1px solid #dad9d7;}
+
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row td:last-child
+    {border-bottom:1px solid #DAD9D7 !important;box-sizing:border-box;}
+
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open:first-child td:first-child,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open:first-child td:first-child,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect:first-child td:first-child,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row:first-child td:first-child,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row:first-child td:first-child
+    {border-top:none !important;box-sizing:border-box;}
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id*="DEP_BENEF_WRK"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divlblDEP_BEN_BIRTHDATE"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divDEP_BEN_BIRTHDATE"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divDEP_BEN_SAME_PHONE_EMPL"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id*="DERIVED_W3EB_FMT"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divDERIVED_ADDR_ADDRESSLONG"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divlblDERIVED_ADDR_ADDRESSLONG"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divlblDERIVED_ADDR_DESCR"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divDERIVED_ADDR_DESCR"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divPERSONAL_PHONE_PHONE"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divlblPERSONAL_PHONE_PHONE"],
+    .container-fluid.iRSPComponent #lbContainer .DOM_ORDER_ISSUE_FIXED #PAGECONTAINER table.PSPAGECONTAINER #win10divPSPAGECONTAINER #ACE_width.PSPAGECONTAINER td div[id="win10divPERSONAL_PHONE_PHONE_TYPE"]
+    {border-left:1px solid #DAD9D7 !important;border-right:1px solid #DAD9D7 !important;}
+
+
+    .PSLEVEL1SCROLLAREABODY, .PSLEVEL1SCROLLAREABODYWBO, .PSLEVEL2SCROLLAREABODY, .PSLEVEL2SCROLLAREABODYWBO, .PSLEVEL3SCROLLAREABODY, .PSLEVEL3SCROLLAREABODYWBO
+    {border-color:#DAD9D7;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table[id="l1PERSONAL_PHONE$0"],
+    .container-fluid.iRSPComponent #lbContainer table[id="l1EMERGENCY_CNTCT$0"],
+    .container-fluid.iRSPComponent #lbContainer table[id="l1PY_IC_DED_VW$0"]
+    {display:none;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning .PSSRCHRESULTSODDROW,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSSRCHRESULTSEVENROW,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row
+    {box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.PSLEFTCORNER,
+    .container-fluid.iRSPComponent #lbContainer table.PSRIGHTCORNER
+    {background-image:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-data span.PSLONGEDITBOX,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDODDROW.accordion-head span.PSLONGEDITBOX,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-data span.PSLONGEDITBOX
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PSLEVEL1GRIDEVENROW.accordion-head span.PSLONGEDITBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data span.PSLONGEDITBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-head span.PSLONGEDITBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data span.PSLONGEDITBOX
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-head span.PSLONGEDITBOX
+    {padding-left:10px !important;border-left:none !important;border-right:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer label.PSCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer label.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSLONGEDITLABEL,
+    .container-fluid.iRSPComponent #lbContainer span.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSLONGEDITLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning span.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PABOLDTEXT
+    {vertical-align:middle;padding:10px 0 0 5px;white-space:normal;width:auto !important;max-width:200px;display:inline-block;color:#999999;}
+
+    .container-fluid.iRSPComponent #lbContainer PSEDITBOXLABEL.IS_RSP_LABEL {padding:0 5px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer label.PSCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer label.PSDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSLONGEDITLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSRADIOBUTTON,
+    .container-fluid.iRSPComponent #lbContainer label.PSSRCHCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer label.PSSRCHDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PSSRCHEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer label.PT_MCFCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer label.PSPSMALLTEXT,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSLONGEDITLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSRADIOBUTTON,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSSRCHCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSSRCHDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSSRCHEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PT_MCFCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainerWarning label.PSPSMALLTEXT
+    {color:#999999;padding:10px 0 0 5px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer label#DERIVED_ADDRESS_EFFDT_LBL,
+    .container-fluid.iRSPComponent #lbContainer #win10divHRS_WRK_START_DT span,
+    .container-fluid.iRSPComponent #lbContainer #win10divHRS_WRK_END_DT span,
+    .container-fluid.iRSPComponent #lbContainer #win10divDERIVED_HR_ACTION_DT_SS span,
+    .container-fluid.iRSPComponent #lbContainer #DEP_BEN_BIRTHDATE_LBL,
+    .container-fluid.iRSPComponent #lbContainer #DERIVED_HR_EFFDT_LBL\$0,
+    .container-fluid.iRSPComponent #lbContainer #PY_IC_DED_VW_DEDUCTION_END_DT_LBL\$0
+    {display:block;}
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer input.IS_DATE,
+    .container-fluid.iRSPComponent #lbContainerWarning input.IS_DATE
+    {display:inline-block !important;}
+
+    
+    
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE td,
+    table.PSLEVEL1GRIDWBO table:first-child td table:first-child td
+    {border-left:1px solid #dad9d7;border-right:1px solid #dad9d7;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDWBO table:first-child td table:first-child td table td.accordion-head,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDWBO table:first-child td table:first-child td table td.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td table td.accordion-head,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td table td.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table table.PSGROUPBOXLABEL td,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table td,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE table.PABACKGROUNDINVISIBLE td
+    {border-left:none !important;border-right:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO > table#ACE_DERIVED_W3EB_GRPB_LABEL2 tr:last-child td:last-child
+    {border-left:none;border-right:none;}
+
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSDROPDOWNLIST_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSDROPDOWNLISTDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSHYPERLINK,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSHYPERLINKDISABLED,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer td.PABACKGROUNDINVISIBLENBO table.PABACKGROUNDINVISIBLE span.PSLONGEDITBOX
+    {padding-left:20px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id*="DEP_BENEF_WRK"] td
+    {padding-left:20px;border-left:1px solid #dad9d7;border-right:1px solid #dad9d7;}
+
+    .container-fluid.iRSPComponent #lbContainer #win10divEP_BTN_LINK_WRK_EP_HTMLITEM\$1 div {padding:5px;}
+
+
+    
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divPERSONAL_PHONE_PHONE_TYPE"] span,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id*="DEP_BEN"] span,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id*="DERIVED_W3EB_FMT_NATIONAL_ID"] span,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divDERIVED_ADDR_DESCR"] span,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divDERIVED_ADDR_ADDRESSLONG"] span,
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divPERSONAL_PHONE_PHONE"] span
+    {padding-left:20px !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divDERIVED_W3EB_DESCR50"] {margin:0 !important;}
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divDERIVED_W3EB_DESCR50"] span.PSEDITBOX_DISPONLY {display:none;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divDERIVED_NAME_NAME_DEFAULT_FMT"],
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divW3EB_HLTHBON_VW_EXTENSION$0"],
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER div[id="win10divW3EB_VCNTCT_VW_EXTENSION$0"]
+    {display:none;}
+
+    .container-fluid.iRSPComponent #lbContainer div[id="win10divPERSONAL_PHONE_PHONE"] span
+    {border-bottom:1px solid #DAD9D7 !important;}
+
+    
+
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOX,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL1,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL1WBO,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL2,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL2WBO,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL3,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLEVEL3WBO,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPDIVIDERBODY,
+    .container-fluid.iRSPComponent #lbContainer .PSGROUPBOX,
+    .container-fluid.iRSPComponent #lbContainer .PSGROUPBOXWBO
+    {}
+
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL1GRIDLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL2GRIDLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL3GRIDLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL1GRIDLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL2GRIDLABEL,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL3GRIDLABEL
+    {background-color:#005a8b;}
+
+    
+    #PAGECONTAINER {padding:5px;}
+    
+
+    
+    #win_iPopdivCOUNTRY_TBL_COUNTRY {float:left;}
+
+    .container-fluid.iRSPComponent #lbContainer a[name="#ICAdvSearch"],
+    .container-fluid.iRSPComponent #lbContainerWarning a[name="#ICAdvSearch"]
+    {margin:10px 0 0 10px;display:block;}
+
+    .container-fluid.iRSPComponent #lbContainer th,
+    .container-fluid.iRSPComponent #lbContainerWarning th,
+    .container-fluid.iRSPComponent #lbContainer td,
+    .container-fluid.iRSPComponent #lbContainerWarning td,
+    .container-fluid .flyoutTable td,
+    .container-fluid .teamSummary td,
+    .container-fluid .mss-accordion td
+    {width:100% !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #comp_isEssComp {margin:0 10px !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #comp_iPSComp {
+        margin: 0 !important;
+        padding: 0 10px !important;
+        width: 100% !important;
+    }
+
+    #lbContentMain #comp_iPSComp #win10divPAGECONTAINER {
+        margin: 0;
+    }
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer table,
+    .container-fluid .flyoutTable,
+    .container-fluid .teamSummary,
+    .container-fluid .mss-accordion
+    {width:100% !important;text-align:left;}
+
+    .container-fluid.iRSPComponent #lbContainer div,
+    .container-fluid .flyoutTable div,
+    .container-fluid .teamSummary div,
+    .container-fluid .mss-accordion div
+    {width:100% !important;text-align:left;word-wrap: break-word !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table td a:before,
+    .container-fluid.iRSPComponent #lbContainer table td:before,
+    .container-fluid.iRSPComponent #lbContainer table div:before,
+    .container-fluid.iRSPComponent #lbContainerWarning table td:before,
+    .container-fluid.iRSPComponent #lbContainerWarning table td a:before,
+    .container-fluid.iRSPComponent #lbContainerWarning table div:before,
+    .container-fluid .flyoutTable td:before,
+    .container-fluid .teamSummary td:before,
+    .container-fluid .mss-accordion td:before
+    {font-size:8pt;padding:0;top:8px;left:8px;color:#999999;content:attr(data-label);border-style:none;font-family:Arial, sans-serif;text-transform:uppercase;font-weight:bold;overflow:hidden;position:relative;display:block;}
+
+    .container-fluid.iRSPComponent #lbContainer #tdgbrCO_ADDR_SMRY\$0 td:first-child,
+    .container-fluid.iRSPComponent #lbContainer #tdgbrPERSONAL_PHONE\$0 td:first-child,
+    .container-fluid.iRSPComponent #lbContainer #tdgbrEMERGENCY_CNTCT\$0 td:first-child,
+    .container-fluid.iRSPComponent #lbContainer #tdgbrEMAIL\$0 td:first-child,
+    .container-fluid.iRSPComponent #lbContainer #tdgbrDIVERS_ETHNIC\$0 td:first-child
+    {padding-left:0px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PSPAGECONTAINER td.PSLEVEL1GRIDLABEL
+    {padding:12 !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #win_iPopdivSEARCHBELOW span,
+    .container-fluid.iRSPComponent #lbContainerWarning #win_iPopdivSEARCHBELOW span {
+        width:auto !important;
+    }
+
+    
+    .container-fluid.iRSPComponent #lbContainer span,
+    .container-fluid.iRSPComponent #lbContainerWarning span
+    {width:100% !important;border-collapse:separate;empty-cells:hide;display:inline-block;padding:5px;}
+
+
+
+    .container-fluid.iRSPComponent #lbContainer a span,
+    .container-fluid.iRSPComponent #lbContainerWarning a span
+    {padding:0;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer div[id="win10divHR_LBL_WRK_HTMLAREA"] div
+    {width:100% !important;border-collapse:separate;empty-cells:hide;display:block;padding:5px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.accordion-head div,
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head div
+    {padding:10px 0 5px 5px;}
+
+    .container-fluid .flyoutTable td.accordion-head div,
+    .container-fluid .flyoutTable td.accordion-data div,
+    .container-fluid .teamSummary td.accordion-head div,
+    .container-fluid .teamSummary td.accordion-data div,
+    .container-fluid .mss-accordion td.accordion-head div,
+    .container-fluid .mss-accordion td.accordion-data div
+    {padding:10px 0 8px 15px}
+
+    .flyoutTable td {padding:0px;}
+
+    
+    .container-fluid .flyoutTable tr {background-color:#FFFFFF;height:54px;}
+    .container-fluid .teamSummary tr {background-color:#FFFFFF;height:60px;}
+    .container-fluid .mss-accordion tr {background-color:#FFFFFF;height:60px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPDIVIDER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PAGRIDHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLABELLEVEL1 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLABELLEVEL2 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PAGROUPBOXLABELLEVEL3 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSGROUPBOXLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL1GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL2GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL3GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSSRCHRESULTSHDR .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL1SCROLLAREAHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL2SCROLLAREAHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainer .PSLEVEL3SCROLLAREAHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGROUPDIVIDER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGRIDHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGROUPBOXLABELLEVEL1 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGROUPBOXLABELLEVEL2 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGROUPBOXLABELLEVEL3 .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSGROUPBOXLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL1GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL2GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL3GRIDLABEL .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSSRCHRESULTSHDR .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL1SCROLLAREAHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL2SCROLLAREAHEADER .PSRIGHTCORNER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSLEVEL3SCROLLAREAHEADER .PSRIGHTCORNER
+    {
+        padding:12px;
+        background-color:#005a8b;
+        background-image:none !important;
+        color:#ffffff;
+        font-family:Arial,sans-serif;
+        font-size:14px;
+        font-weight:700;
+        height:14px;
+        line-height:14px;
+        white-space:nowrap;
+        width:10%;
+    }
+
+    
+    .container-fluid.iRSPComponent #lbContainer label.PSRADIOBUTTON {position:relative;top:-3px;}
+    .container-fluid.iRSPComponent #lbContainer input[type="radio"] {margin:10px 5px 0;height:20px;width:20px;}
+
+    .container-fluid.iRSPComponent #lbContainer hr.PSSRCHTITLE,
+    .container-fluid.iRSPComponent lbContainerWarning hr.PSSRCHTITLE
+    {width:100% !important;}
+
+    
+    .IS_DESKTOP_LABEL, .IS_DESKTOP_ICON	{display:none !important;}
+    .IS_RSP_ICON {display:inline-block;}
+    
+    #main-bg.iHideBodyContent {display:none !important;}
+    #lbFrame.iHideLBFrame {display:none !important;}
+    #lbBg.iHideLBBG {display:none !important;}
+    .container-fluid.iRSPComponent #lbContainer3 {display:none !important;}
+    html.iFixScrollbars {overflow-x:hidden;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #tdgbrW3EB_EVNT_STEPS\$0 {width:100% !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #win10divDERIVED_W3EB_INFO1 div {margin:10px 5px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer .mrktGBL span.STRONG, .container-fluid.iRSPComponent #lbContainer .mrktGBL span.PSTEXT,
+    .container-fluid.iRSPComponent #lbContainerWarning .mrktGBL span.STRONG,
+    .container-fluid.iRSPComponent #lbContainerWarning .mrktGBL span.PSTEXT
+    {display:block;margin:10px 0px;}
+
+    .container-fluid.iRSPComponent #lbContainer .mrktGBL label.PSRADIOBUTTON,	.container-fluid.iRSPComponent #lbContainerWarning .mrktGBL label.PSRADIOBUTTON
+    {margin:10px;display:inline-block;}
+    
+    .container-fluid.iRSPComponent #lbContainer #win10divDERIVED_W3EB_INFO3 {margin:5px 0;font-size:12px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer div[id*="win10divPSACTIVITYGUIDE_ACTIVITYNAME"] td.PSGROUPBOXWBO
+    {display:none;}
+
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer #win10divPSACTIVITYGUIDE_ACTIVITYNAME\$9\$ {display:none;}
+    
+
+    * {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    *:before, *:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer input[type="text"],
+    .container-fluid.iRSPComponent #lbContainer input[type="password"],
+    .container-fluid.iRSPComponent #lbContainer input[type="checkbox"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="text"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="password"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="checkbox"]
+    {height:32px;vertical-align:middle;}
+
+    .container-fluid.iRSPComponent #lbContainer select,
+    .container-fluid.iRSPComponent #lbContainerWarning select
+    {}
+
+    .container-fluid.iRSPComponent #lbContainer input[type="checkbox"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="checkbox"]
+    {width:36px;}
+
+    .container-fluid.iRSPComponent #lbContainer input[type='text'],
+    .container-fluid.iRSPComponent #lbContainer input[type='password'],
+    .container-fluid.iRSPComponent #lbContainer select,
+    .container-fluid.iRSPComponent #lbContainer textarea,
+    .container-fluid.iRSPComponent #lbContainerWarning input[type='text'],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type='password'],
+    .container-fluid.iRSPComponent #lbContainerWarning select,
+    .container-fluid.iRSPComponent #lbContainerWarning textarea
+    {margin:5px 10px;font-size: 14px;width:85% !important;min-width:200px !important;display:block;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer img[title="Collapse section"],
+    .container-fluid.iRSPComponent #lbContainer img[title="Expand section"]
+    {}
+
+    .container-fluid.iRSPComponent #lbContainerWarning div[id="win10divDERIVED_ADDRESS_SELF_SERVE"] {height:40px;}
+
+
+    #lbContainerWarning #Left.PSPUSHBUTTON,
+    #lbContainerWarning #Left.PSPUSHBUTTONTB,
+    #lbContainerWarning #Left.PSPUSHBUTTONDISABLED,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBABORT,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBADD,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBADDMODE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBAPPLY,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBCANCEL,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBCLEAR,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBCONTINUE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBCORRECTMODE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBDELETE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBIGNORE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBLOOKUP,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBNEXTINLIST,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBNEXTINWORKLIST,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBNEXTTAB,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBNO,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBOK,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBPOPUP,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBPREVIEW,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBPREVINLIST,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBPREVINWORKLIST,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBPREVTAB,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBREFRESH,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBREFRESH2,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBRETRY,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBRETURN,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBSAVE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBSEARCH,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBSENDNOTIFY,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBSPELLCHECK,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBUPDATEALLMODE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBUPDATEMODE,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBVIEWWORKLIST,
+    #lbContainerWarning #Left.PSPUSHBUTTONTBYES,
+    #lbContainerWarning #Left.PSPUSHBUTTONRETURN
+    {background-image:none !important;height:40px;padding-left:0;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer a[id*="delete"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EDIT"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="DELETE"],
+    .container-fluid.iRSPComponent #lbContainer input[type="button"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="button"],
+    .container-fluid.iRSPComponent #lbContainer input[type="button"]:disabled,
+    .container-fluid.iRSPComponent #lbContainer input[type="button"]:disabled:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_NOTIFY_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_PRINTABLE_LINK"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RETURN_DOC_LNK"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RATING_DTL_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_OVER_RATING_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_CALC_RATING_PB"]
+    {display:inline-block !important;vertical-align:middle;color:#FFFFFF !important;margin:5px;height:35px !important;padding:7px 14px !important;width:auto !important;border-radius:8px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer div[id="win10divHR_LINK_WRK_ADD_PB"] {top:0;}
+    #lbContainer .PAGROUPBOX, #lbContainer .PAGROUPBOXLEVEL1, #lbContainer .PAGROUPBOXLEVEL1WBO, #lbContainer .PAGROUPBOXLEVEL2, #lbContainer .PAGROUPBOXLEVEL2WBO, #lbContainer .PAGROUPBOXLEVEL3, #lbContainer .PAGROUPBOXLEVEL3WBO, #lbContainer .PAGROUPDIVIDERBODY, #lbContainer .PSGROUPBOX, #lbContainer .PSGROUPBOXWBO, #lbContainer .PSSRCHGROUPBOXWBO
+    {padding:0px;}
+
+
+    
+    .container-fluid.iRSPComponent #lbContainer a[id*="delete"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EDIT"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="DELETE"],
+    .container-fluid.iRSPComponent #lbContainer input[type="button"],
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="button"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_NOTIFY_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_PRINTABLE_LINK"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RETURN_DOC_LNK"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RATING_DTL_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_OVER_RATING_PB"],
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_CALC_RATING_PB"]
+    {background:url(/cs/hrvihprd/cache_85915/IS_RSP_BLUE_BUTTON_BACKGROUND_1.png) repeat-x transparent;background-position:0 0 !important;}
+
+    .container-fluid.iRSPComponent #lbContainer input[type="button"]:disabled,
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="button"]:disabled
+    {color:#888888 !important;background:url(/cs/hrvihprd/cache_85915/IS_RSP_GREY_BUTTON_BACKGROUND_1.png) repeat-x transparent !important;background-position:0 0 !important;}
+
+    .container-fluid.iRSPComponent #lbContainer a[id*="DELETE"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EDIT"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="DELETE"]:hover,
+    .container-fluid.iRSPComponent #lbContainer input[type="button"]:hover,
+    .container-fluid.iRSPComponent #lbContainerWarning input[type="button"]:hover,
+    .container-fluid.iRSPComponent #lbContainer input[type="button"]:disabled:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_NOTIFY_PB"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_PRINTABLE_LINK"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RETURN_DOC_LNK"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RATING_DTL_PB"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_OVER_RATING_PB"]:hover,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_CALC_RATING_PB"]:hover
+    {background-position:0 -35px !important;}
+
+    
+    
+    
+    .container-fluid.iRSPComponent #lbContainer a[id*="DELETE"]:after {text-align:center;margin:0;color:#ffffff;content:" ";display:block;height:21px;line-height:21px;text-decoration:none;vertical-align:middle;}
+    
+    
+
+    .container-fluid.iRSPComponent #lbContainer a[id*="delete"] {height:35px !important;width:68px !important;display:block;font:bold 12px/21px Arial,sans-serif;height:21px;margin:10px 8px;text-decoration:none;}
+    #HR_CP_MENTOR\$delete\$0\$\$0 {margin:10px 0;}
+    .container-fluid.iRSPComponent #lbContainer div#win10divDERIVED_ADDRESS_OK_PB\$23\$, .container-fluid.iRSPComponent #lbContainer div#win10divDERIVED_ADDRESS_CANCEL_PB\$24\$ {width:auto !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTON,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTB,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONDISABLED,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBABORT,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBADD,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBADDMODE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBAPPLY,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBCANCEL,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBCLEAR,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBCONTINUE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBCORRECTMODE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBDELETE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBIGNORE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBLOOKUP,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBNEXTINLIST,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBNEXTINWORKLIST,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBNEXTTAB,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBNO,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBOK,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBPOPUP,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBPREVIEW,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBPREVINLIST,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBPREVINWORKLIST,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBPREVTAB,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBREFRESH,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBREFRESH2,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBRETRY,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBRETURN,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBSAVE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBSEARCH,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBSENDNOTIFY,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBSPELLCHECK,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBUPDATEALLMODE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBUPDATEMODE,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBVIEWWORKLIST,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONTBYES,
+    .container-fluid.iRSPComponent #lbContainer #Left.PSPUSHBUTTONRETURN
+    {height:auto;margin:0;}
+
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_NOTIFY_PB"]:after,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_PRINTABLE_LINK"]:after,
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_RETURN_DOC_LNK"]:after
+    {margin:0;}
+
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTON span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTB span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONDISABLED span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTON span:hover,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBABORT span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBADD span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBADDMODE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBAPPLY span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBCANCEL span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBCLEAR span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBCONTINUE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBCORRECTMODE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBDELETE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBIGNORE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBLOOKUP span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBNEXTINLIST span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBNEXTINWORKLIST span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBNEXTTAB span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBNO span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBOK span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBPOPUP span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBPREVIEW span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBPREVINLIST span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBPREVINWORKLIST span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBPREVTAB span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBREFRESH span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBREFRESH2 span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBRETRY span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBRETURN span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBSAVE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBSEARCH span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBSENDNOTIFY span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBSPELLCHECK span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBUPDATEALLMODE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBUPDATEMODE span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBVIEWWORKLIST span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONTBYES span,
+    .container-fluid.iRSPComponent #lbContainer .PSPUSHBUTTONRETURN span
+    {margin-left:0;}
+    
+
+    .container-fluid.iRSPComponent #lbContainerWarning {overflow:visible;}
+    .container-fluid.iRSPComponent #lbContainerWarning {left:0 !important;top:0 !important;}
+    #lbWrapperInnerWarning {left:0;}
+
+    
+    .container-fluid.iRSPComponent #lbWrapperInner #lbHeader,
+    .container-fluid.iRSPComponent #lbWrapperInnerWarning #lbHeaderWarning
+    {}
+
+    .container-fluid.iRSPComponent #lbWrapperInner #lbHeader,
+    .container-fluid.iRSPComponent #lbWrapperInnerWarning #lbHeaderWarning
+    {color:#ffffff;height:44px;left:0;outline:medium none;padding:0;position:relative;top:0;}
+
+    .container-fluid.iRSPComponent #lbContainer #lbCloseWindowButtonWarning,
+    .container-fluid.iRSPComponent #lbContainerWarning #lbCloseWindowButtonWarning
+        
+        
+    {float:right !important;left:-5px !important;}
+
+    .container-fluid.iRSPComponent .IS_LB_WRAPPER_INNER #lbHeaderWarning
+    {background:none no-repeat scroll right center #000000;color:#ffffff;left:0;outline:medium none;padding:0;position:relative;top:0;display:block;position:relative !important;}
+
+    .container-fluid.iRSPComponent #win_iPopdivSEARCHADV table.PSPAGECONTAINER td
+    {width:100%;float:left;}
+
+    .container-fluid.iRSPComponent #win_iPopdivSEARCHADV table.PSPAGECONTAINER {width:90%;float:left;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB:first-child table {300px !important;display:block;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning #msgTitle {color:#0084ce;font-family:Arial;font-size:20px !important;font-style:normal;font-weight:400;line-height:28px;margin:10px;white-space:nowrap;width:100%;}
+
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER span,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER div
+    {width:auto !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER img[title="Zoom - Development Documents"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER img[title="Zoom - My Compensation Activities"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER img[title="Zoom - Select Year End Form"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER img[title^="Zoom"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER img[title="Zoom - Degrees"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a[id^="SINGLE_SELECT_GRID"]
+    {display:none;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td img[src*="PT_PREVIOUSROW"],
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td img[src*="PT_NEXTROW"],
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE span,
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE span.PSSRCHRESULTSHYPERLINKD
+    {float:left !important;width:auto !important;color:#ffffff;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE span.PSSRCHRESULTSHYPERLINK a.PSSRCHRESULTSHYPERLINK:link
+    {color:#FFFFFF !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span:nth-child(1)
+    {padding:10px 0 10px 10px;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span:nth-child(3)
+    {padding-top:12px;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span:nth-child(5)
+    {padding:6px 0;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td:nth-child(2) span.PSSRCHRESULTSHYPERLINK
+    {padding:2px 0;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td {line-height:0;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td img[src*="PT_PREVIOUSROW"],
+    .container-fluid.iRSPComponent #lbContainerWarning table.PSSRCHRESULTSTITLE td img[src*="PT_NEXTROW"]
+    {margin:0 5px;width:24px !important;}
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td img[src*="PT_PREVIOUSROW"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td img[src*="PT_NEXTROW"]
+    {width:24px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td span.PSHEADERHYPERLINKD,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$htop\$0,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td span.PSGRIDCOUNTER,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$hend\$0
+    {}
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer textarea.PSLONGEDITBOX {height:100px;}
+
+
+    
+    .container-fluid.iRSPComponent #lbContainer div#win10div\$ICField0 span.PATRANSACTIONTITLE {display:none;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer .PORTLET-MSG-INFO, .container-fluid.iRSPComponent #lbContainer .PABOLDBLUETEXT {color:#0084ce;}
+    .container-fluid.iRSPComponent #lbContainer .PORTLET-MSG-INFO:hover, .container-fluid.iRSPComponent #lbContainer .PABOLDBLUETEXT:hover {color:#2a6496;}
+    .container-fluid.iRSPComponent #lbContainer span#HRS_APPL_WRK_HRS_PAGE_TITLE {margin:20px 0 0 5px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer .PATRANSACTIONTITLE {height:auto;color:#0084ce;display:inline-block;font-family:Arial;font-size:20px !important;font-style:normal;font-weight:400;width:100%;}
+
+
+    
+    .container-fluid.iRSPComponent #lbContainer h1.PSSRCHTITLE,
+    .container-fluid.iRSPComponent #lbContainerWarning h1.PSSRCHACTION
+    {}
+
+    .container-fluid.iRSPComponent #lbContainer span.PSSRCHSUBTITLE,
+    .container-fluid.iRSPComponent #lbContainerWarning span.PSSRCHSUBTITLE,
+    .container-fluid.iRSPComponent #lbContainer h2.PSSRCHSUBTITLE,
+    .container-fluid.iRSPComponent #lbContainerWarning h2.PSSRCHSUBTITLE
+    {color:#0084ce;}
+
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainer table#ACE_HRS_APP_APL_DRV_HRS_PROFILE_SEQ tr:nth-child(5){position:relative;left:0;top:0;}
+    .container-fluid.iRSPComponent #lbContainer table#ACE_HRS_APP_APL_DRV_HRS_PROFILE_SEQ tr:nth-child(6){position:relative;left:20px;top:10px;}
+    .container-fluid.iRSPComponent #lbContainer table#ACE_HRS_APP_APL_DRV_HRS_PROFILE_SEQ tr:nth-child(6) td{width:auto !important;float:left;}
+
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_FRST_LIST span,
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_LST_PREV span,
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_LST_NEXT span,
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_LAST_LIST span
+    {width:auto !important;position:relative;top:-20px;left:20px;}
+
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_ARM_SEP\$83\$ img,
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_ARM_SEP\$87\$ img,
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_ARM_SEP\$89\$ img
+    {width:20px;height:20px;position:relative;top:-20px;left:20px;}
+
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_ARM_SEP img {width:20px;height:20px;}
+
+    .container-fluid.iRSPComponent #lbContainer div#win10divHRS_APP_APL_DRV_HRS_ARM_SEP\$85\$ img
+    {height:20px;position:relative;top:-20px;left:20px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #win10divEP_BTN_LINK_WRK_EP_PAGETITLE1 span.PAPAGETITLE {margin:30px 0 0;}
+    
+    .container-fluid.iRSPComponent #lbContainer a[id^="EP_BTN_LINK_WRK_EP_ADD_PARTIC"] img {width:30px;height:30px;}
+
+    
+    .PAGROUPBOX, .PAGROUPBOXLEVEL1, .PAGROUPBOXLEVEL1WBO, .PAGROUPBOXLEVEL2, .PAGROUPBOXLEVEL2WBO, .PAGROUPBOXLEVEL3, .PAGROUPBOXLEVEL3WBO, .PAGROUPDIVIDERBODY, .PSGROUPBOX, .PSGROUPBOXWBO, .PSSRCHGROUPBOXWBO
+    {border-color:#dad9d7;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #win10divHR_LBL_WRK_EMPLOYEE_INFO_LBL table table.PSGROUPBOX span.PSEDITBOX_DISPONLY,
+    .container-fluid.iRSPComponent #lbContainer #win10divHR_LBL_WRK_STATUS_LBL table table.PSGROUPBOX span.PSEDITBOX_DISPONLY
+    {padding-left:20px;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer #win10divHR_LBL_WRK_EMPLOYEE_INFO_LBL table table.PSGROUPBOX,
+    .container-fluid.iRSPComponent #lbContainer #win10divHR_LBL_WRK_STATUS_LBL table table.PSGROUPBOX
+    {border:1px solid #DAD9D7 !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.not-accordion-row .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.not-accordion-row .accordion-data div
+    {box-sizing:border-box;padding:5px !important;width:100% !important;height:auto !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed .accordion-data div,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed.shiftInEffect .accordion-data div
+    {padding:5px;box-sizing:border-box;}
+
+    
+    #lbContainer #win10divPSPAGECONTAINER table tr{}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr,
+    .container-fluid.iRSPComponent #lbContainerWarning tr,
+    .container-fluid .flyoutTable tr,
+    .container-fluid .teamSummary tr,
+    .container-fluid .mss-accordion tr
+    {box-sizing:border-box;-webkit-transition-property:height;transition-property:height;-webkit-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease-in-out;-webkit-transition-delay:0s;transition-timing-function:ease-in-out;transition-delay:0s;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed.shiftInEffect .accordion-data,
+    .container-fluid .flyoutTable tr.accordion-row-open .accordion-data,
+    .container-fluid .flyoutTable tr.accordion-row-closed .accordion-data,
+    .container-fluid .teamSummary tr.accordion-row-open .accordion-data,
+    .container-fluid .teamSummary tr.accordion-row-closed .accordion-data,
+    .container-fluid .mss-accordion tr.accordion-row-open .accordion-data,
+    .container-fluid .mss-accordion tr.accordion-row-closed .accordion-data
+    {box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer td.accordion-data,
+    .container-fluid.iRSPComponent #lbContainer td.accordion-head,
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head,
+    .container-fluid .flyoutTable td.accordion-data,
+    .container-fluid .flyoutTable td.accordion-head,
+    .container-fluid .teamSummary td.accordion-data,
+    .container-fluid .teamSummary td.accordion-head,
+    .container-fluid .mss-accordion td.accordion-data,
+    .container-fluid .mss-accordion td.accordion-head
+    {width:100% !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed .accordion-data,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed.shiftInEffect .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed .accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed.shiftInEffect .accordion-data,
+    .container-fluid .flyoutTable tr.accordion-row-open .accordion-data,
+    .container-fluid .flyoutTable tr.accordion-row-closed .accordion-data,
+    .container-fluid .teamSummary tr.accordion-row-open .accordion-data,
+    .container-fluid .teamSummary tr.accordion-row-closed .accordion-data,
+    .container-fluid .mss-accordion tr.accordion-row-open .accordion-data,
+    .container-fluid .mss-accordion tr.accordion-row-closed .accordion-data
+    {padding:5px 0;box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open,
+    .container-fluid .flyoutTable tr.accordion-row-closed,
+    .container-fluid .flyoutTable tr.accordion-row-open,
+    .container-fluid .teamSummary tr.accordion-row-closed,
+    .container-fluid .teamSummary tr.accordion-row-open,
+    .container-fluid .mss-accordion tr.accordion-row-closed,
+    .container-fluid .mss-accordion tr.accordion-row-open
+    {box-sizing:border-box;overflow:hidden !important;display:block !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-open,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-open,
+    .container-fluid .flyoutTable tr.accordion-row-open,
+    .container-fluid .flyoutTable tr.accordion-row-open,
+    .container-fluid .teamSummary tr.accordion-row-open,
+    .container-fluid .teamSummary tr.accordion-row-open,
+    .container-fluid .mss-accordion tr.accordion-row-open,
+    .container-fluid .mss-accordion tr.accordion-row-open,
+    .container-fluid.iRSPComponent #lbContainer tr.accordion-row-closed,
+    .container-fluid.iRSPComponent #lbContainerWarning tr.accordion-row-closed,
+    .container-fluid .flyoutTable tr.accordion-row-closed,
+    .container-fluid .teamSummary tr.accordion-row-closed,
+    .container-fluid .mss-accordion tr.accordion-row-closed
+    {box-sizing:border-box;}
+
+    
+    .container-fluid.iRSPComponent #lbHeader,
+    .container-fluid.iRSPComponent #lbWrapper,
+    .container-fluid.iRSPComponent #lbWorking,
+    .container-fluid.iRSPComponent #lbContent,
+    .container-fluid.iRSPComponent #lbContainer,
+    .container-fluid.iRSPComponent #lbContainer1,
+    .container-fluid.iRSPComponent #lbWrapperInner,
+    .container-fluid.iRSPComponent #lbHeaderWarning,
+    .container-fluid.iRSPComponent #lbWrapperWarning,
+    .container-fluid.iRSPComponent #lbWorkingWarning,
+    .container-fluid.iRSPComponent #lbContentWarning,
+    .container-fluid.iRSPComponent #lbContainerWarning,
+    .container-fluid.iRSPComponent #lbWrapperInnerWarning
+    {width:100% !important;padding:0 !important;margin:0px !important;overflow:visible;}
+
+    .container-fluid.iRSPComponent #win10divPSPAGECONTAINER
+    {width:100% !important;padding:0 !important;margin:0px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer .IS_LB_HEADER,
+    .container-fluid.iRSPComponent #lbContainerWarning .IS_LB_HEADER
+    {width:100% !important;padding:0 !important;margin:0px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #PAGECONTAINER,
+    .container-fluid.iRSPComponent #lbContainer .PAGECONTAINER,
+    .container-fluid.iRSPComponent #lbContainerWarning #PAGECONTAINER,
+    .container-fluid.iRSPComponent #lbContainerWarning .PAGECONTAINER
+    {width:100% !important;padding:0 !important;margin:0 !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PABACKGROUNDINVISIBLE td div input,
+    .container-fluid.iRSPComponent #lbContainer table.PABACKGROUNDINVISIBLE td div label,
+    .container-fluid.iRSPComponent #lbContainer table.PABACKGROUNDINVISIBLE td div select,
+    .container-fluid.iRSPComponent #lbContainer table.PABACKGROUNDINVISIBLE td div a.PSPUSHBUTTON span input[disabled="disabled"]
+    {}
+
+    .container-fluid.iRSPComponent #lbContainer #comp_isEssComp {width:100% !important;padding:0 10px !important;margin:0px !important;}
+
+    
+
+    
+    .container-fluid.iRSPComponent #lbContainerWarning div#win_iPopdivSEARCHRESULT
+    {}
+
+    .container-fluid.iRSPComponent #lbContainerWarning #lbContentWarning {padding:0 10px !important;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning form br{line-height:0 !important;}
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer .PSSRCHRESULTSTITLE,
+    .container-fluid.iRSPComponent #lbContainerWarning .PSSRCHRESULTSTITLE
+    {background-color:#005a8b;color:#FFFFFF;font-family:Arial,sans-serif;font-size:9pt;font-style:normal;font-weight:normal;}
+
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head a.PSSRCHRESULTSODDROW,
+    .container-fluid.iRSPComponent #lbContainerWarning td.accordion-head a.PSSRCHRESULTSEVENROW
+    {padding:22px 0 15px 15px;width:auto !important;display:inline-block !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSODDROW.accordion-data:hover,
+    .container-fluid.iRSPComponent #lbContainerWarning td.PSSRCHRESULTSEVENROW.accordion-data:hover
+    {padding:22px 0 15px 15px;text-decoration:none;color:#3c3c3c;}
+
+
+    .container-fluid.iRSPComponent #lbContainerWarning table td a:before,
+    .container-fluid.iRSPComponent #lbContainerWarning table td:before
+    {padding:0;top:-8px;left:-8px;}
+    
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td,
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td
+    {float:none !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td:nth-child(1),
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td:nth-child(1)
+    {width:30px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td:nth-child(2),
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td:nth-child(2)
+    {width:auto !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td:nth-child(3),
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td:nth-child(3)
+    {width:30px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td span,
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td span
+    {padding:5px 0;}
+
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrSINGLE_SELECT_GRID$0"] td input[type="radio"],
+    .container-fluid.iRSPComponent #lbContainer table[id="tdgbrMULTI_SELECT_GRID$0"] td input[type="checkbox"]
+    {margin:5px;}
+
+    .container-fluid.iRSPComponent #lbContainer div#PSTAB table td {float:none;}
+    .container-fluid.iRSPComponent #lbContainer div#PSTAB table {width:auto !important;}
+    .container-fluid.iRSPComponent #lbContainer div#PSTAB table td img.PSBOTTOMLINE {display:none;}
+    .container-fluid.iRSPComponent #lbContainer div#PSTAB #selected a span, #PSTABNBO #selected a span {}
+    .container-fluid.iRSPComponent #lbContainer div#PSTAB #selected a span,
+    .container-fluid.iRSPComponent #lbContainer div#PTGRIDTAB #selected a span,
+    .container-fluid.iRSPComponent #lbContainer div#PSTABNBO #selected a span,
+    .container-fluid.iRSPComponent #lbContainer div#PTGRIDTABNBO #selected a span
+    {    -moz-user-select:none;
+        color:#FFFFFF;
+        cursor:default;
+        font-family:Arial,sans-serif;
+        font-style:normal;
+        font-weight:bold;
+        text-decoration:none;}
+
+    .container-fluid.iRSPComponent #lbContainer .PSCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer .PSDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSLONGEDITLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSRADIOBUTTON,
+    .container-fluid.iRSPComponent #lbContainer .PSSRCHCHECKBOX,
+    .container-fluid.iRSPComponent #lbContainer .PSSRCHDROPDOWNLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PSSRCHEDITBOXLABEL,
+    .container-fluid.iRSPComponent #lbContainer .PT_MCFCHECKBOX
+    {color:#999999;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB a,
+    .container-fluid.iRSPComponent #lbContainer #PSTABNBO a,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTAB a,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTABNBO a
+    {background-position:0 0 !important;background:url(/cs/hrvihprd/cache_85915/IS_RSP_BLUE_BUTTON_BACKGROUND_1.png) repeat-x transparent !important;border-bottom:none !important;border-top-left-radius:8px;border-top-right-radius:8px;}
+
+    
+    
+    .container-fluid.iRSPComponent #lbContainer a img[src*="PT_PROMPT_LOOKUP"],
+    .container-fluid.iRSPComponent #lbContainer a img[src*="PT_PROMPT_LOOKUP"],
+    .container-fluid.iRSPComponent #lbContainer a img[src*="PT_PROMPT_LOOKUP"],
+    .container-fluid.iRSPComponent #lbContainer a img[src*="PT_PROMPT_LOOKUP"]
+    {margin:5px;padding:5px;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB a:hover,
+    .container-fluid.iRSPComponent #lbContainer #PSTABNBO a:hover,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTAB a:hover,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTABNBO a:hover
+    {background-position:0 -35px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB #selected a span,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTAB #selected a span,
+    .container-fluid.iRSPComponent #lbContainer #PSTABNBO #selected a span,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTABNBO #selected a span
+    {padding:10px;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB a span,
+    #PSTABNBO a span
+    {background-image:none !important;color:#FFFFFF;padding:10px !important;}
+
+    .container-fluid.iRSPComponent #lbContainer #PSTAB #selected a,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTAB #selected a,
+    .container-fluid.iRSPComponent #lbContainer #PSTABNBO #selected a,
+    .container-fluid.iRSPComponent #lbContainer #PTGRIDTABNBO #selected a
+    {border-bottom:0 solid #809eba !important;background-position:0 -35px !important;}
+
+    .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {background-color:#FFFFFF !important;}
+
+    .container-fluid.iRSPComponent #lbContainer div[id="win10divPY_IC_PI_LST_VWGP$0"] table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td:first-child
+    {color:#005a8b !important;}
+
+    .container-fluid.iRSPComponent #lbContainer img[src*="PT_PIXEL_1"]{display:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer a[id*="PY_IC_PI_LST_VW$hpers"],
+    .container-fluid.iRSPComponent #lbContainer a[id*="PY_IC_PI_LST_VW$hfind"],
+    .container-fluid.iRSPComponent #lbContainer a[id*="PY_IC_PI_LST_VW$hexcel"],
+    .container-fluid.iRSPComponent #lbContainer a[id*="PY_IC_PI_LST_VW$hmodal"]
+    {display:none !important;}
+
+    
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td span.PSHEADERHYPERLINKD,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$htop\$0,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$hdown\$0,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$hup\$0,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td img[src*="PT_PREVIOUSROW"],
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td  span.PSGRIDCOUNTER,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td img[src*="PT_NEXTROW"],
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$hend\$0
+    {float:left;margin: 0 3px;}
+
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$hend\$0,
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$htop\$0
+    {padding-top:5px;}
+
+    .container-fluid.iRSPComponent #lbContainer a#PY_IC_PI_LST_VW\$htop\$0,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td span.PSHEADERHYPERLINKD
+    {clear:left;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td img + span.PSHEADERHYPERLINKD
+    {clear:none;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER td  span.PSGRIDCOUNTER
+    {}
+
+    .container-fluid.iRSPComponent #lbContainer a[id*="PY_IC_PI_LST_VW$hviewall"] {float:left;margin-bottom: 10px !important;}
+
+    
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a.PSLEVEL1GRIDLABEL:link,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a.PSLEVEL1GRIDLABEL:visited,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a.PSLEVEL1GRIDLABEL:active,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER .PSHEADERHYPERLINKD,
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a[id*="hexcel"]
+    {background-color:#005a8b;color:#ffffff;display:inline-block;font-size:12px;font-weight:400;height:12px;line-height:12px;margin:1px;vertical-align:middle;}
+
+    .container-fluid.iRSPComponent #lbContainer table.PSLEVEL1GRIDLABEL.PSRIGHTCORNER a[id*="hexcel"] img
+    {width:24px;position:relative;top:-8px;}
+}
+
+.IS_CO_BB_PSCOMP_RSP_CSS{}
+.IS_CO_BB_PS92_RSP_BEGIN {}
+
+
+@media only screen and (max-width: 991px) {
+	
+	body.iLightboxOpen {
+		overflow-y: auto;
+	}
+
+	
+	.container-fluid.iRSPComponent #lbContentMain .PSPUSHBUTTON[type="button"],
+	.container-fluid.iRSPComponent #lbContentMain a[id^="EDIT"],
+	.container-fluid.iRSPComponent #lbContentMain a[id^="DELETE"] { 
+
+		float: left;
+	}
+}
+
+
+.IS_CO_BB_PS92_RSP_END {}
+
+.IS_CO_BB_MAIN_RSP_CSS_BEGIN {}
+
+
+
+
+
+.iDisplayBlock {display:block !important;}
+
+@media only screen and (min-width:992px) {
+
+	ul.headerNavUL {width: auto;float:right;}
+
+	
+	.megaMenuFavorites {
+		left: inherit !important;
+		top: 80px !important;
+		float: right;
+	}
+
+	
+	#IS_BB_HEADER .isRspToggleMenuIcon {display: none;}
+	#IS_BB_HEADER .isRspToggleMenuIconX {display: none;}
+
+	
+	
+	.IS_MP_FLYOUT_TAB_CONTAINER {background-color:transparent !important;}
+
+    .IS_BB_LINKS_MENU_RSPV,
+	.IS_BB_MEGA_MENU_RSPV {display:none !important;}
+}
+
+
+
+@media only screen and (max-width:991px) {
+	.megaSubMenuListItem {background-color: #ffffff;}
+	.megaSubMenuListItem li:hover,
+	.megaSubMenu li:hover {background-color: #e4e4e4 !important;}
+}
+@media only screen and (max-width:991px) {
+
+	
+	body.PSPAGE:not(.container-fluid) #IS_BB_HEADER .isRspToggleMenuIcon, body.PSPAGE:not(.container-fluid) #IS_BB_HEADER .isRspToggleMenuIconX{display: none;}
+	body.PSPAGE:not(.container-fluid) .IS_BB_LINKS_MENU_RSPV, body.PSPAGE:not(.container-fluid) .IS_BB_MEGA_MENU_RSPV{display: none !important;}
+	body.PSPAGE:not(.container-fluid) .IS_BB_LINKS_MENU_DESKTOP, body.PSPAGE:not(.container-fluid) .IS_BB_MEGA_MENU_DESKTOP{display: inline-block !important;width:auto;}
+	body.PSPAGE:not(.container-fluid) #MENU_ID_FAVORITES, body.PSPAGE:not(.container-fluid) .IS_BB_MEGA_MENU_RSPV {font-size: inherit;font-weight: inherit;}
+	body.PSPAGE:not(.container-fluid) #ptcol1 {margin-top: 0;}
+	body.PSPAGE:not(.container-fluid) .headerNav {width: auto;}
+	
+
+	
+	.IS_BB_LINKS_MENU_DESKTOP,
+	.IS_BB_MEGA_MENU_DESKTOP {display:none !important;}
+
+	
+	#MENU_ID_FAVORITES,	.IS_BB_MEGA_MENU_RSPV {font-size: 16px;font-weight: 700;}
+
+	
+	#IS_MSS_TABS_PAGELET.ivzPTPAGELET {width:auto !important;}
+
+	
+
+	
+	.container-fluid .headerNav,
+	.container-fluid .headerSearch,
+	.container-fluid #IS_BB_HEADER_MENU
+	{display:none;}
+
+
+	
+	.IS_BB_LINKS_MENU_RSPV {cursor:pointer;}
+	.container-fluid.openHeader .headerNav li {float: left;padding:10px 5px;}
+	.container-fluid.openHeader .headerNav ul.headerNav {float:right;}
+	.container-fluid.openHeader .headerNav {top: -20px;display: block;float: left;position: relative;right: -100%;padding: 0 10px;width:100%;height:auto;}
+	.container-fluid.openHeader .headerNav h5 {}
+	.container-fluid.openHeader ul.headerNavUL {width: 100%;float:left;}
+	
+	.container-fluid.openHeader .headerNavUL.IS_BB_RSPV_HEADER_LINK_OPEN {}
+	.container-fluid.openHeader .headerNavUL {;margin:0px;width:100%;}
+	.container-fluid.openHeader .IS_BB_RSPV_HEADER_LINK {display:none;}
+	.container-fluid.openHeader ul.IS_BB_RSPV_HEADER_LINK_OPEN .IS_BB_RSPV_HEADER_LINK {display:block;clear:both;}
+	
+	.container-fluid.openHeader ul.headerNavUL.IS_BB_RSPV_HEADER_LINK_OPEN li span, 
+	.container-fluid.openHeader ul.headerNavUL li span
+	{width:23px;height:23px;display:inline-block;} 
+	.container-fluid.openHeader ul.headerNavUL.IS_BB_RSPV_HEADER_LINK_OPEN li span {background: url(/cs/hrvihprd/cache_85915/IS_CO_BB_UP_ARROW_1.PNG) no-repeat scroll center center transparent;}
+	.container-fluid.openHeader ul.headerNavUL li span {background: url(/cs/hrvihprd/cache_85915/IS_CO_BB_DOWN_ARROW_1.PNG) no-repeat scroll center center transparent;}
+	
+	.container-fluid.openHeader .headerSearch {top: -10px;height:45px;padding: 0 10px;display: block;float: left;position: relative;right: -100%;width:100%;}
+	.container-fluid.openHeader .headerSearch #is_sr_criteria {right: 0;width: 100%;padding:0;position:relative;padding: 0 20px !important;}
+	.container-fluid.openHeader .is_sr_input {width:100%;}
+	.container-fluid.openHeader .headerSearch #is_sr_exec_btn {right:10px;}
+
+	
+	.container-fluid.openHeader #IS_BB_HEADER_MENU {display: block;float: left;position: relative;padding: 0 10px;right: -100%;width:100%;height:auto !important;}
+
+	
+	.megaMenu {width: 100%;}
+	.megaMenu li {width: 100%;}
+	.megaMenu ul {width:100% !important;display:block;}
+	.megaMenu li.megaMenuSelected {float:left;clear:both;color:#FFFFFF;background-color: #005a8b !important;}
+	.megaMenu li.megaMenuItem.IS_BB_MEGA_MENU_RSPV:hover {background-color: #2c3e50 !important;color:#FFFFFF;}
+	
+	
+	.container-fluid.openHeader .megaMenuFavorites {clear:both;position:relative;top:unset !important;left:unset !important;}
+	.container-fluid.openHeader #SUBMENU_ID_FAVORITES {height:auto;width: auto;}
+	
+	.container-fluid.openHeader .megaMenuFavorites li.megaMenuSelected:hover {background-color: #FFFFFF ;color:#FFFFFF;}
+	.container-fluid.openHeader .megaMenuFavorites li:hover {float:left;clear:both;color:#FFFFFF;background-color: #FFFFFF !important;}
+	.container-fluid.openHeader .megaMenuFavorites .megaMenuSelected{ background-color: #FFFFFF !important;}
+    #MENU_ID_FAVORITES, .IS_BB_MEGA_MENU_RSPV {
+        font-size: 14px; 
+        color: #005A8B;
+        border-bottom: 1px solid #E1E1E1;
+        padding: 14px 20px;
+
+    }
+	.megaMenuFavorites { top:0 !important;	}
+    .container-fluid.openHeader .megaMenuFavorites li:hover:before ,
+	.container-fluid.openHeader .megaMenuFavorites li.megaMenuSelected:hover:before{
+        background: url(/cs/hrvihprd/cache_85915/IS_CO_HEART_CLOSED_1.PNG) no-repeat scroll center rgba(0, 0, 0, 0) !important;
+    }
+    .container-fluid.openHeader .megaMenuFavorites li:hover{    background-color: #ffffff; }
+	.container-fluid.openHeader .megaMenuFavorites li.megaMenuSelected { background-color:#FFFFFF; }
+	
+	.container-fluid.openHeader .megaMenuFavorites li {width: 100%;}
+	.container-fluid.openHeader .megaMenuFavorites .megaSubMenu li div {clear:both;}
+	.container-fluid.openHeader .megaSubMenuListItem li, .megaSubMenu li {width:100% !important;}
+	.container-fluid.openHeader .megaMenuFavorites li:hover:before {background: url(/cs/hrvihprd/cache_85915/IS_CO_BB_HEART_SMALL_WHITE_1.png) no-repeat scroll center center rgba(0, 0, 0, 0);}
+	.container-fluid.openHeader .megaMenuFavorites li.megaMenuSelected:hover:before {background: url(/cs/hrvihprd/cache_85915/IS_CO_BB_HEART_SMALL_WHITE_1.png) no-repeat scroll center center rgba(0, 0, 0, 0);}
+	.container-fluid.openHeader .megaSubMenu.openHeader {display: inline-block;top:-5px;}	
+	.container-fluid.openHeader .megaMenuFavorites li {width: 100%;}
+
+
+	
+	
+	
+	
+	.container-fluid .IS_BB_HEADER_CLASS {float: left;left: 0;position: relative;transition: left 0.9s ease-in-out 0s;width: 100%;}
+	.container-fluid.openHeader .IS_BB_HEADER_CLASS {left: -100%;height:80px;}
+	
+
+	
+	.container-fluid.openHeader .IS_BB_HEADER_CLASS,
+	.container-fluid.openHeader .IS_BB_RESP_HEAD
+	{height:80px;}
+
+	.container-fluid #IS_BB_RESP_WRAP {}
+
+	
+	.container-fluid .wrapper,
+	.container-fluid .IS_BB_RESP_HEAD
+	{float: left;left: 0;position: relative;transition: left 0.9s ease-in-out 0s;width: 100%;}
+
+	
+	
+
+	.container-fluid.openHeader .wrapper
+	{left: -100%;}
+	
+    
+
+	
+	#ptcol1 {float:none;}
+
+	.container-fluid #PTSF_GLOBAL_SEARCH #win0divPAGECONTAINER.ps_pagecontainer {margin:0 20px;}
+	.container-fluid #PTSF_GLOBAL_SEARCH table {width:auto !important;}
+	.container-fluid #PTSF_GLOBAL_SEARCH td {width:auto !important;display:block;}
+	.container-fluid #PTSF_GLOBAL_SEARCH div {width:auto !important;}
+	.container-fluid #PTSF_GLOBAL_SEARCH span {width:auto !important;}
+
+	.container-fluid #win0divPTUS_PAGING_WRK_PTUS_GROUP_BOX td {display:table-cell;}
+
+	.container-fluid #win0divPTUS_PAGING_WRK_PTUS_GROUP_BOX {margin:20px 0;}	
+
+	.container-fluid img[id*="relatedActionsImg"] {display:none;}
+
+	.container-fluid #win0divPTSF_GSRCH_INP_PTUS_LABEL,
+	.container-fluid #win0divPTSF_GSRCH_INP_PTSF_SRCH_KEY
+	{display:inline-block;float:right;}
+
+	.PTPAGENAVLINK, .PTPAGENAVLINK:link, .PTPAGENAVLINK:visited {vertical-align: baseline !important;}
+
+	.container-fluid #win0divPTSF_GSRCH_INP_PTSF_SRCH_KEY {float:left;}
+	
+	.container-fluid #win0divPTUS_FTREE_WRK_PTUS_FACETGROUPBOX,
+	.container-fluid #win0divPTSF_GSRCH_INP_PTUS_GROUP_BOX,
+	.container-fluid #win0divPTUS_PAGING_WRK_PTUS_GROUP_BOX,
+	.container-fluid #ACE_PTSF_GSRCH_INP_PTUS_GROUP_BOX
+	{float:left;}
+
+
+	
+	#Header_Container {width: 100%;}
+
+	
+	.IS_BB_HEADER_CONTAINER{}
+
+	
+	#IS_BB_HEADER .isRspToggleMenuIcon {width: 36px;height: 30px;background: url(/cs/hrvihprd/cache_85915/IS_RSP_MENUICONCLOSED_BLUE_1.png) no-repeat scroll left top transparent;right: 20px;top: 20px;}
+	#IS_BB_HEADER .isRspToggleMenuIconX	{width: 36px;height: 30px;background: url(/cs/hrvihprd/cache_85915/IS_RSP_MENUICONCLOSED_BLUE_1.png) no-repeat scroll left top transparent;right: -50px;top: 20px;}
+	#IS_BB_HEADER .isRspToggleMenuIcon, 
+	#IS_BB_HEADER .isRspToggleMenuIconX {cursor: pointer;float: right;font-size: 0;position: absolute;}
+
+	
+	.bb_header {width: auto;}
+
+	
+	.logo {margin-left:20px;}
+
+	
+	#IS_BB_HEADER .isRspToggleMenuIcon {display: block;}
+	#IS_BB_HEADER .isRspToggleMenuIconX {display: block;}
+
+	.container-fluid.openHeader #IS_BB_MENU_ROW
+	{}
+
+
+	
+    
+    
+
+	
+	.footer {width:100%;}
+
+	
+
+	
+	.IS_NEWS_LB .IS_NEWS_TOPSTORY_TITLE {width:auto;}
+	.IS_NEWS_DETAIL {clear:left;width:auto;}
+
+	
+	.IS_NEWS_LB .IS_AT_BOX {margin:0 10px 10px 10px;}
+	.IS_NEWS_LB {float:left;width:100% !important;margin-top: 0 !important;}
+
+	
+	#lbContainer.IS_LB_TRANS {top:0px !important;}
+
+	#lbHeader.IS_LB_HEADER {width:auto !important;}
+
+	.IS_LB_WRAPPER_INNER .IS_LB_HEADER {left:0 !important;}
+
+	
+	.is_bb_LinkContainer {
+		width: 100%;
+	}
+	.is_bb_LinkColumn {
+		width: 100%;
+	}
+
+	
+	.is_bb_LinkContainer ul {
+	    padding-bottom: 0;
+	}
+	
+
+	#ptcol2 { left: 0 !important;margin: 0 20px !important;width:auto !important;}
+	#lbContentMain a[id^="EDIT"]:after {color:#FFFFFF;}
+
+	
+	.container-fluid.iLightboxOpen #ptbr_header_container,
+	.container-fluid.iLightboxOpen #wrapper.wrapper
+	{display:none;}
+	
+
+	.container-fluid.iLightboxOpen #lbFrame {display:none !important;}
+
+	.IS_BB_LINKS_MENU_RSPV, .IS_BB_MEGA_MENU_RSPV{
+		display: inline-block !important;
+	}
+
+	
+	#lbContentMain video {
+		width: 100%;
+	}
+
+	
+    .container-fluid #ptifrmcontent {
+        float: left;
+        left: 0;
+        position: relative;
+        transition: left 0.9s ease-in-out 0s;
+    }
+    .container-fluid.openHeader #ptifrmcontent {
+        left: -100%;
+    }
+	
+}
+
+.IS_CO_BB_MAIN_RSP_CSS_END {}
+
+
+
+@media only screen and (max-width:991px) {
+
+.IS_BB_HeaderBar_dropbtn {
+	cursor: default !important;
+}
+#IS_BB_Header_Bar_Section_Container {width:100%}
+#IS_BB_Header_Bar_Section_Container:before {width:100%}
+
+	#IS_CO_BB_HeaderBar_content ul li, #IS_CO_BB_HeaderBar_content ul {
+	    white-space: nowrap;
+	}
+	.IS_CO_BB_HeaderBar_content, .IS_BB_HeaderBar_Section_Open {
+        left: 0;
+		position:relative;
+		width: 100%;
+	}
+
+	
+	#IS_CO_BB_HeaderBar_content span {
+		background-image:none;
+		width:auto;
+	}
+
+	#IS_CO_BB_HeaderBar_content ul li{ width:100% }
+	 #IS_CO_BB_HeaderBar_content ul { width:100%;}
+
+
+	.IS_BB_LINKS_MENU_RSPV:before{ width:100%}
+	.IS_BB_LINKS_MENU_RSPV {
+		background-color: #005a8b;
+		width: 100%;
+	}
+
+	.IS_BB_LINKS_MENU_RSPV h5 {
+		color: white;
+		padding:0px 0px 0px 5px;
+	}
+
+	.IS_BB_HeaderBar_Section_Open { display:block; }
+
+	.IS_BB_RSPV_HEADER_LINK { width:100% }
+
+	.headerNavUL {
+		background-color:white;
+	}
+
+	.headerNavUL.IS_BB_RSPV_HEADER_LINK_OPEN .IS_BB_LINKS_MENU_ICON_DOWN
+	{
+		
+		background: url(/cs/hrvihprd/cache_85915/IS_CO_BB_UP_ARROW_WHITE_1.PNG) no-repeat scroll left center transparent !important;
+	}
+
+	.IS_BB_LINKS_MENU_ICON_DOWN
+	
+	{
+		
+		background: url(/cs/hrvihprd/cache_85915/IS_CO_BB_DOWN_ARROW_WHITE_1.PNG) no-repeat scroll left center transparent !important;
+		float:right !important;
+		poistion: relative !important;
+		width: 10px !important;
+		top: -12px !important;
+		display:block !important;
+	}
+
+
+
+	
+	.IS_BB_HeaderBar_Dropdown_label,
+	.IS_BB_HeaderBar_Dropdown_Icon
+	 {
+		display:none;
+     }
+	.headerNavUL,
+	.IS_BB_HeaderBar_Dropdown_label 
+	{
+		display:block !important;
+	}
+	.IS_BB_HeaderBar_Settings_Icon {
+		float:left;
+		position:relative;
+	}
+	.IS_BB_HeaderBar_Dropdown_label {
+		display:block !important;
+		position: relative;
+		float:left;
+		color:black;
+		padding-left: 10px;
+		background:none !important;
+	}
+
+	.IS_BB_HeaderBar_Section_Open  {
+		padding-top:0px !important;
+	}
+	.IS_BB_Header_Bar_Section_ul , 
+	.IS_BB_Header_Bar_Section_ul li {
+		border-bottom:none !important;
+	}
+
+
+	.headerNavUL  li {
+		border-bottom:1px solid  #E1E1E1;
+	}
+
+	h5 {}
+
+	.headerNav h5 {}
+
+	.megaSubMenu .megaMenuItem ,
+	.megaMenu .megaMenuItem {
+		color: #005A8B ;
+		background-color:#F7F7F7;
+		border-bottom: 1px solid  #E1E1E1;
+		font-weight:bold !important;
+		
+	}
+
+	.megaSubMenu .megaMenuItem {
+		background-color:#ffffff;
+		padding: 10px;
+		border-bottom:none;
+	}
+	.megaSubMenu li.megaMenuSelected,
+	.megaMenu li.megaMenuSelected {
+		background-color: #FFFFFF !important;
+		color: #005A8B !important;
+	}
+
+}
+
+
+
+@media only screen and (max-width:991px) {
+    
+    .container-fluid.openHeader ul.IS_BB_RSPV_HEADER_LINK_OPEN .IS_BB_RSPV_HEADER_LINK {
+        background: #ffffff; 
+    }
+    
+
+	span.IS_BB_HeaderBars_Dropdown_Icon {
+		display:none !important;
+	}
+
+	span.IS_BB_HeaderBars_Settings_Icon	{
+		background: url() no-repeat scroll left center transparent !important;
+		width:16px !important;
+	} 
+
+	IS_BB_Header_Bar_Section_Container + 
+	.container-fluid.openHeader ul.headerNavUL li span{
+		width:16px !important;
+	}
+
+	.IS_BB_Header_Bar_Section_Container span	{
+		
+	}
+    .headerNav h5 {
+        font-weight: 600; 
+    }
+    
+    
+    .headerNav h5 a {
+        font-weight: 600;
+    }
+
+    .container-fluid.openHeader .headerNav li {
+        padding: 20px 20px; 
+    }
+  
+    .container-fluid.openHeader .headerNav .IS_BB_LINKS_MENU_RSPV, .container-fluid.openHeader .headerNav li:nth-child(n+4) {
+    	padding: 11px 20px; 
+	}
+
+    .IS_BB_LINKS_MENU_RSPV h5 {
+        padding: 0px 0px 0px 0px; 
+    }
+
+    .IS_BB_HeaderBar_Settings_Icon {
+        top: 2px; 
+    }
+    .container-fluid.openHeader .headerNav .IS_BB_Header_Bar_Section_ul li {
+        float: left;padding: 10px 10px; 
+    }
+
+	.IS_BB_Header_Bar_group_left, .IS_BB_Header_Bar_group_right {
+		width:unset !important;
+	}
+
+    
+    .megaMenu li {
+        padding: 16px 20px;
+    }
+
+
+
+    
+	.IS_BB_MEGA_MENU_RSPV {
+        background-color: #F7F7F7;
+	}
+    #MENU_ID_FAVORITES .megaMenuSelected  {
+        background-color: #FFFFFF !important; 
+	}
+	#MENU_ID_FAVORITES  {
+        background-color: #F7F7F7;
+	}
+
+
+	
+
+    .container-fluid.openHeader .headerSearch #is_sr_criteria.is_sr_text_plain {
+        height: 40px;
+    }
+	.container-fluid.openHeader .headerSearch .is_sr_input {
+		padding-left:20px !important;
+	}
+        
+    
+    .headerSearch #is_sr_exec_btn {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .container-fluid.openHeader .headerNavUL  {
+        margin-top: 10px; 
+    }
+        
+    .container-fluid.openHeader .headerSearch {
+         
+    }
+        
+    
+    
+    .container-fluid.openHeader .headerNav {
+    	padding: 0 20px; 
+    }
+    .container-fluid.openHeader .headerSearch .is_sr_input {
+         
+    }
+    .container-fluid.openHeader .headerSearch #is_sr_exec_btn {
+        right: 20px;
+    }
+    .container-fluid.openHeader #IS_BB_HEADER_MENU {
+        padding: 0 20px;
+    }
+    #IS_BB_HEADER .isRspToggleMenuIconX {
+        right: -55px;
+    }
+    
+    
+    
+    input#IS_SSO_BB_toggle + label {
+        display: block;
+        border-radius: 10px;
+        float: right;
+        height: 20px;
+        position: relative;
+        text-indent: -5000px;
+        width: 40px;
+        background: #A1A4A5;
+    }
+
+    input#IS_SSO_BB_toggle + label:before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+        background: rgba(26, 80, 25, 0);
+        -moz-transition: .25s ease-in-out;
+        -webkit-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    input#IS_SSO_BB_toggle + label:after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 16px;
+        width: 16px;
+        top: 2px;
+        left: 2px;
+        border-radius: 10px;
+        background: white;
+        -moz-transition: .25s ease-in-out;
+        -webkit-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    input#IS_SSO_BB_toggle:checked + label:before {
+        width: 40px;
+        background: #16A085;
+    }
+
+    input#IS_SSO_BB_toggle:checked + label:after {
+        left: 22px;
+        
+    }
+	
+	.container-fluid.openHeader ul.headerNavUL.IS_BB_RSPV_HEADER_LINK_OPEN li span, .container-fluid.openHeader ul.headerNavUL li span
+	{
+		height:unset !important; 
+	}
+
+}
