@@ -6,7 +6,7 @@ function breakshit() {
             logError();
             document.getElementById("loading_gif").style.visibility = "hidden";
             var time = 0;
-            if (Math.random() < 0.9) {
+            if (Math.random() < 0.9686) {
                 document.getElementById("error_message").style.visibility = "visible";
                 time = 800;
             } else {
