@@ -1,27 +1,27 @@
 function breakshit() {
     logMessage();
     setTimeout(function(){
+        if (!clicked) {
             setTimeout(function() { 
             logError();
             document.getElementById("loading_gif").style.visibility = "hidden";
-            document.getElementById("error_message").style.visibility = "visible";
-            setTimeout(function() { location.reload() }, 800)
-        })
-        }, Math.floor(Math.random() * 1000));
+            var time = 0;
+            if (Math.random() < 0.9) {
+                document.getElementById("error_message").style.visibility = "visible";
+                time = 800;
+            } else {
+                let fnaf = document.getElementById("fnaf");
+                fnaf.style.background = "url(fnaf/FNAF" + Math.floor(Math.random() * 4) + ".gif)";
+                fnaf.style.width = "100%";
+                fnaf.style.backgroundSize = "cover";
+                fnaf.style.backgroundPosition = "center";
+                time = 1000;
+            }
+            setTimeout(function() { location.reload() }, time)
+            });
+        }
+    }, Math.floor(Math.random() * 1000));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

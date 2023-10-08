@@ -11,3 +11,12 @@
     margin-right: auto;
     margin-top: -42;
 }
+
+#fnaf {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
