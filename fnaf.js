@@ -11,7 +11,7 @@ function lights_out() {
             fnaf.style.backgroundSize = "cover";
             fnaf.style.backgroundPosition = "center";
             setTimeout(function() { location.reload() }, 10000);
-        }, 15000)
+        }, 15300)
 
     }
 }
